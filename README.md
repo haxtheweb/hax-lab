@@ -4,6 +4,7 @@ The commits here also help associate github user names to past contributors
 
 # HAX Lab past contributors
 
+- [Josh Owen-Guenther](https://github.com/jno-de) - Portfolio Theme - Spring 2025
 - [Winston White](https://github.com/winstonwumbo) - Theme CLI workflow Spring 2025
 - [Skyler Koba](https://github.com/SkylerKoba88) - Start Journey Screen - Spring 2025
 - [Isabella Masso](https://github.com/izzabizz5) - Start Journey Screen - Spring 2025
