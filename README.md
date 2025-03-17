@@ -4,4 +4,4 @@ The commits here also help associate github user names to past contributors
 
 # HAX Lab past contributors
 
-Zach Dodson - AI Chat Agent - 2024
+Zach Dodson - AI Chat Agent - Summer 2024
