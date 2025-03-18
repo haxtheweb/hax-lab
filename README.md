@@ -11,5 +11,7 @@ The commits here also help associate github user names to past contributors
 - [Winston White](https://github.com/winstonwumbo) - Polaris Themes, Flex Map Menu - Fall 2024
 - [Zach Dodson](https://github.com/zdodson21) - AI Chat Agent - Summer 2024
 - [Collin Kleest](https://github.com/collinkleest) - Bootstrap Theme - Spring 2021
+- [Dave Fusco](https://github.com/djfusco) - xAPI and AI Integration - Fall 2016
+
 - Past students to come..
 
