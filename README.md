@@ -1,8 +1,10 @@
-Stand alone version of the information about HAX lab provided on https://haxtheweb.org/hax-lab
+# Standalone Version of HAX Lab Information
+
+Information about HAX lab is provided on [HAX Lab Website](https://haxtheweb.org/hax-lab).
 
 The commits here also help associate github user names to past contributors
 
-# HAX Lab past contributors
+## HAX Lab past contributors
 
 - [Josh Owen-Guenther](https://github.com/jno-de) - Portfolio Theme - Spring 2025
 - [Winston White](https://github.com/winstonwumbo) - Theme CLI workflow - Spring 2025
@@ -17,4 +19,3 @@ The commits here also help associate github user names to past contributors
 - [Dave Fusco](https://github.com/djfusco) - xAPI and AI Integration - Fall 2016
 
 - Past students to come..
-
