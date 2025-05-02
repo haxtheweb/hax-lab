@@ -6,6 +6,16 @@ The commits here also help associate github user names to past contributors
 
 ## HAX Lab past contributors
 
+- CCSO - 2025 HAX Pentest - Spring 2025
+  - [Jonathan Skeete](https://indigosec.dev/) - Lead, Discovery, Reporting
+  - [Liam Geyer](https://lfgberg.org) - Lead, Discovery, Reporting
+  - [Asa Reynolds](https://asareynolds.com/) - Discovery, Reporting
+  - [Robert Roderick](https://github.com/userRPR) - Discovery, Reporting
+  - [Maguire Younes](https://maguireyounes.com/) - Discovery, Reporting
+  - [Owen Dransfield](https://www.linkedin.com/in/owendransfield/) - Reporting
+  - [Nicholas Thomas](https://www.linkedin.com/in/nicholas-thomas485/) - Reporting
+  - [Kekoa Merez](https://www.linkedin.com/in/kekoa-merez/) - Reporting
+  - [Miles Handelman](https://www.linkedin.com/in/mileshandelman) - Reporting
 - [Josh Owen-Guenther](https://github.com/jno-de) - Portfolio Theme - Spring 2025
 - [Winston White](https://github.com/winstonwumbo) - Theme CLI workflow - Spring 2025
 - [Skyler Koba](https://github.com/SkylerKoba88) - Start Journey Screen - Spring 2025
