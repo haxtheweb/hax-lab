@@ -6,6 +6,8 @@ The commits here also help associate github user names to past contributors
 
 ## HAX Lab past contributors
 
+- [Aarya Awasthy](https://www.linkedin.com/in/aarya-awasthy/) - 2 Portfolio themes for HAXcms, Summer 2025
+- [Nazman Rosman](https://www.linkedin.com/in/nazman-rosman/) - Glossy Portfolio theme for HAXcms, Summer 2025
 - CCSO - 2025 HAX Pentest - Spring 2025
   - [Jonathan Skeete](https://indigosec.dev/) - Lead, Discovery, Reporting
   - [Liam Geyer](https://lfgberg.org) - Lead, Discovery, Reporting
@@ -34,3 +36,4 @@ The commits here also help associate github user names to past contributors
 - [Shiju "Tom" Varughese](https://www.linkedin.com/in/shiju-tom-varughese/) - HAX Multimedia production, HAX Camp Duke planning committee, social media - 2019
 - [Mark Milutinović](https://www.linkedin.com/in/mmilutinovic013/) - Original ELMS:LN / Drupal student contributor - 2017
 - [Dave Fusco](https://github.com/djfusco) - xAPI and AI Integration - Fall 2016
+
