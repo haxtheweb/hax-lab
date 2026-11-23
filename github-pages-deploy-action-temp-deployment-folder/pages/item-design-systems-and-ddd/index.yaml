@@ -1,0 +1,176 @@
+id: item-design-systems-and-ddd
+indent: 2
+location: pages/item-design-systems-and-ddd/index.yaml
+slug: design-systems-and-ddd
+order: 10
+parent: item-design-systems
+title: Design systems and DDD
+description: ''
+metadata:
+  published: true
+  created: 1795456220
+  updated: 1795456220
+content: >-
+  <p>Every color, gap and font size in HAX comes from a <strong>token</strong>:
+  a named CSS variable like <code>--ddd-spacing-4</code>. Change what a token
+  means and every element that uses it changes with it, the same trick as your
+  <code>--card-radius</code>, at the scale of thousands of elements.</p>
+
+  <stop-note status="info" title="At a glance"><div slot="message"><ul>
+
+  <li><strong>Read and watch:</strong> about 20 minutes</li>
+
+  <li><strong>Do:</strong> about 1 hour</li>
+
+  <li><strong>You make:</strong> your second card restyled with DDD tokens</li>
+
+  <li><strong>You need:</strong> your Project 1b pen</li>
+
+  <li><strong>Support level:</strong> medium</li>
+
+  </ul></div></stop-note>
+
+  <h2>Read and look</h2>
+
+  <ul>
+
+  <li><a href="https://haxtheweb.org/documentation/ddd" rel="noopener
+  noreferrer">DDD documentation</a>: open the color, spacing and typography
+  sections and skim. DDD stands for Design, Develop, Deliver. It began as a
+  student independent study and now styles all of HAX.</li>
+
+  <li><a href="https://m3.material.io/foundations/design-tokens/overview"
+  rel="noopener noreferrer">Design tokens (Material Design)</a>: another big
+  system explaining the same idea.</li>
+
+  </ul>
+
+  <h2>One page, three systems</h2>
+
+  <p>HAX themes can swap which design system their tokens point to. These are
+  the same quiz and checklist from this course, with nothing changed but the
+  design system. Look at heading color and weight, spacing, and accents.</p>
+
+  <a11y-tabs aria-label="The same page in three design systems">
+
+  <a11y-tab label="DDD"><img src="files/ds-ddd.png" alt="A quiz question and
+  checklist from this course in DDD: navy headings, bold type, round radio
+  buttons" loading="lazy"></a11y-tab>
+
+  <a11y-tab label="PatternFly"><img src="files/ds-patternfly.png" alt="The same
+  quiz and checklist in PatternFly: lighter heading weight, more padding, blue
+  headings" loading="lazy"></a11y-tab>
+
+  <a11y-tab label="Material 3"><img src="files/ds-material.png" alt="The same
+  quiz and checklist in Material 3: purple headings, tinted footer, purple
+  accents" loading="lazy"></a11y-tab>
+
+  </a11y-tabs>
+
+  <p>HAX also bridges Carbon, Fluent, Primer, Spectrum, USWDS, Tailwind,
+  shadcn/ui, Bootstrap and Web Awesome. You don't need them now. You need to
+  know the idea: content stays the same, decisions swap.</p>
+
+  <h2>Play: the token quest</h2>
+
+  <p>Each idea will find you and ask a question. Answer right to unlock its
+  house.</p>
+
+  <concept-quest-game quest-title="Token quest" quest="Unlock every house to see
+  how a design system's decisions travel from one token to thousands of
+  elements."
+  nodes="[{&quot;label&quot;:&quot;Token&quot;,&quot;link&quot;:&quot;a named
+  decision&quot;,&quot;text&quot;:&quot;A CSS variable with a meaningful name,
+  like --ddd-spacing-4. Elements use the name, never the raw
+  value.&quot;,&quot;question&quot;:&quot;Which of these is a design
+  token?&quot;,&quot;choices&quot;:&quot;--ddd-spacing-4\npadding:
+  13px\n#3e98d3\nstyle=\&quot;color:red\&quot;&quot;,&quot;hint&quot;:&quot;Look
+  for a name, not a
+  number.&quot;},{&quot;label&quot;:&quot;Scale&quot;,&quot;link&quot;:&quot;steps,
+  not guesses&quot;,&quot;text&quot;:&quot;Spacing and type come in steps (4, 8,
+  16...). Things line up because everyone picks from the same
+  steps.&quot;,&quot;question&quot;:&quot;Why use a spacing scale instead of any
+  number you like?&quot;,&quot;choices&quot;:&quot;So everything lines up and
+  feels related\nIt makes files smaller\nBrowsers require it\nIt hides the
+  CSS&quot;,&quot;hint&quot;:&quot;Think about your two
+  cards.&quot;},{&quot;label&quot;:&quot;Theme&quot;,&quot;link&quot;:&quot;what
+  a token means&quot;,&quot;text&quot;:&quot;A theme or palette decides what a
+  token resolves to. Change the theme and every element
+  follows.&quot;,&quot;question&quot;:&quot;The brand color changes. What do you
+  edit?&quot;,&quot;choices&quot;:&quot;The token's value, once\nEvery element's
+  CSS\nThe HTML of each page\nNothing can change
+  it&quot;,&quot;hint&quot;:&quot;One
+  place.&quot;},{&quot;label&quot;:&quot;light-dark()&quot;,&quot;link&quot;:&quot;both
+  modes, one rule&quot;,&quot;text&quot;:&quot;light-dark(a, b) picks a in light
+  mode and b in dark mode, so one token covers
+  both.&quot;,&quot;question&quot;:&quot;What does light-dark(white, black) give
+  in dark
+  mode?&quot;,&quot;choices&quot;:&quot;black\nwhite\ngray\nnothing&quot;,&quot;hint&quot;:&quot;Second
+  value, second
+  mode.&quot;},{&quot;label&quot;:&quot;Bridge&quot;,&quot;link&quot;:&quot;another
+  system's look&quot;,&quot;text&quot;:&quot;HAX can point DDD's tokens at
+  another design system, like PatternFly or Material, without changing
+  content.&quot;,&quot;question&quot;:&quot;What changes when HAX swaps to a
+  bridged design system?&quot;,&quot;choices&quot;:&quot;The look, not the
+  content\nThe content, not the look\nThe page addresses\nThe
+  database&quot;,&quot;hint&quot;:&quot;Look at the three screenshots
+  again.&quot;}]"></concept-quest-game>
+
+  <h2>Do</h2>
+
+  <ddd-steps-list><ddd-steps-list-item step="1" title="Borrow DDD's
+  tokens"><p>In the DDD docs, find the spacing scale, the corner radius sizes
+  and two colors you like. Copy their token names and values into your pen's
+  <code>:root</code>, for example <code>--ddd-spacing-4: 16px;</code>. In
+  chapter 4 you'll get the real thing from npm; this is practice with the same
+  names.</p></ddd-steps-list-item><ddd-steps-list-item step="2" title="Swap your
+  variables for tokens"><p>Replace your own spacing, radius and color values
+  with DDD tokens. Your variables can point at tokens: <code>--card-radius:
+  var(--ddd-radius-md);</code></p></ddd-steps-list-item><ddd-steps-list-item
+  step="3" title="Check dark mode"><p>Turn on dark mode on your computer. Does
+  your card still read? DDD colors are written with <code>light-dark()</code> so
+  one rule covers both. Fix anything you can't
+  read.</p></ddd-steps-list-item><ddd-steps-list-item step="4" title="Compare
+  with a neighbor"><p>Open two other design systems, for example <a
+  href="https://www.patternfly.org" rel="noopener noreferrer">PatternFly</a> and
+  <a href="https://carbondesignsystem.com" rel="noopener noreferrer">Carbon</a>.
+  Find their card. What do they decide that DDD also
+  decides?</p></ddd-steps-list-item></ddd-steps-list>
+
+  <h2>Stuck? Ask your study buddy</h2>
+
+  <p>Use AI to explain, not to do the work for you. Paste your own code or error
+  with the prompt, read the answer, then close the chat and type the fix
+  yourself. If you can't explain the fix out loud, you don't own it yet.</p>
+
+  <a11y-collapse heading="Prompts for this page" heading-button=""><div
+  slot="content"><code-sample copy-clipboard-button=""
+  type="markdown"><template>Explain design tokens to a beginner using my card's
+  CSS: [paste]. Which of my values should be
+  tokens?</template></code-sample><code-sample copy-clipboard-button=""
+  type="markdown"><template>I'm using the DDD design system from HAX. Which DDD
+  tokens would replace these values: [paste CSS]? Show me the before and after
+  for two of them and let me do the rest.</template></code-sample><code-sample
+  copy-clipboard-button="" type="markdown"><template>Why does a design system
+  make dark mode easier? Use light-dark() in the
+  example.</template></code-sample></div></a11y-collapse>
+
+  <multiple-choice question="Your brand changes from blue to green. With a
+  design system, what do you change?" single-option="" randomize=""><input
+  type="checkbox" value="The token, once" data-correct="true"><input
+  type="checkbox" value="Every card's CSS by hand"><input type="checkbox"
+  value="The HTML of every page"><input type="checkbox" value="Nothing, colors
+  can't change"></multiple-choice>
+
+  <h2>You're done when</h2><bullet-check-list storage-id="onboard-ddd"
+  title="Design systems" items="[{&quot;label&quot;:&quot;I skimmed DDD's color,
+  spacing and type docs&quot;},{&quot;label&quot;:&quot;I spotted three
+  differences across the three screenshots&quot;},{&quot;label&quot;:&quot;I
+  unlocked every house in the token quest&quot;},{&quot;label&quot;:&quot;My
+  card uses DDD tokens instead of raw values&quot;},{&quot;label&quot;:&quot;It
+  reads in dark mode&quot;}]"></bullet-check-list>
+
+  <h2>Journal it</h2><p>Add a heading for this page to your dev journal (the
+  public Gist you made in Start here) and answer in Markdown:</p><ul><li>Before
+  and after: paste three lines of CSS you changed to tokens.</li><li>What did
+  PatternFly or Carbon decide that surprised you?</li></ul>

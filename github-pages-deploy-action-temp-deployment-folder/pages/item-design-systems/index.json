@@ -1,0 +1,16 @@
+{
+  "id": "item-design-systems",
+  "indent": 1,
+  "location": "pages/item-design-systems/index.json",
+  "slug": "design-systems",
+  "order": 9,
+  "parent": "item-onboarding",
+  "title": "3. Design systems",
+  "description": "",
+  "metadata": {
+    "published": true,
+    "created": 1795456220,
+    "updated": 1795456220
+  },
+  "content": "<p>A design system is a set of decisions made once, so nobody has to make them again: colors, spacing, type, corner radius, how a button looks when you hover it. You built a tiny one with three CSS variables. HAX runs on a big one called DDD, and it can wear other systems too.</p>\n<grid-plate layout=\"1-1\"><ddd-card slot=\"col-1\" title=\"Design systems and DDD\" href=\"design-systems-and-ddd\"><p>Tokens, DDD, and the same page in three systems.</p></ddd-card></grid-plate>"
+}
