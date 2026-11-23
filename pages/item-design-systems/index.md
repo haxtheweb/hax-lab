@@ -1,0 +1,3 @@
+A design system is a set of decisions made once, so nobody has to make them again: colors, spacing, type, corner radius, how a button looks when you hover it. You built a tiny one with three CSS variables. HAX runs on a big one called DDD, and it can wear other systems too.
+
+<grid-plate layout="1-1"><ddd-card slot="col-1" title="Design systems and DDD" href="design-systems-and-ddd"><p>Tokens, DDD, and the same page in three systems.</p></ddd-card></grid-plate>
