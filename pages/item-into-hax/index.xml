@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item>
+<id>item-into-hax</id>
+<indent>1</indent>
+<location>pages/item-into-hax/index.xml</location>
+<slug>into-hax</slug>
+<order>19</order>
+<parent>item-onboarding</parent>
+<title>6. Into HAX</title>
+<description></description>
+<metadata>
+<published>true</published>
+<created>1795456221</created>
+<updated>1795456221</updated>
+</metadata>
+<content><![CDATA[<p>You can now do what new HAX contributors do in their first weeks: read code, build an element, ship it, and change data with confidence. This chapter shows you how HAX fits together, where the work is, and has you publish a HAX site of your own.</p>
+<grid-plate layout="1-1"><ddd-card slot="col-1" title="What HAX is and how it works" href="what-is-hax"><p>Sites as folders of files, elements as blocks, and why that matters.</p></ddd-card><ddd-card slot="col-2" title="Hack this course" href="hack-this-course"><p>Fork this site, add HAX blocks, publish your copy and send a fix back.</p></ddd-card><ddd-card slot="col-1" title="Find your first issue" href="first-issue"><p>How the issue queue works and how to pick something you can finish.</p></ddd-card><ddd-card slot="col-2" title="Capstone: your own HAX site" href="capstone"><p>Make it in the browser, edit it on your computer, publish it from GitHub.</p></ddd-card><ddd-card slot="col-1" title="Next: join HAX Lab" href="next-steps"><p>Where contributors go from here.</p></ddd-card></grid-plate>]]></content>
+</item>

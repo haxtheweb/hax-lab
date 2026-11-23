@@ -1,0 +1,928 @@
+{
+  "id": "c86d2cc7-528a-46c5-a19f-4c50caa3394f",
+  "title": "hax-lab",
+  "author": "",
+  "description": "HAX Lab: learn web development by shipping real HAX work, from onboarding to your first contribution",
+  "license": "by-sa",
+  "metadata": {
+    "author": {},
+    "site": {
+      "name": "hax-lab",
+      "license": "by-sa",
+      "logo": "assets/banner.jpg",
+      "settings": {
+        "lang": "en-US",
+        "publishPagesOn": true,
+        "canonical": true,
+        "pathauto": true
+      },
+      "created": 1795456222,
+      "updated": 1795456222,
+      "git": {
+        "vendor": "github",
+        "branch": "gh-pages"
+      }
+    },
+    "theme": {
+      "element": "clean-two",
+      "path": "@haxtheweb/clean-two/clean-two.js",
+      "name": "Clean Two",
+      "thumbnail": "@haxtheweb/haxcms-elements/lib/theme-screenshots/theme-clean-two-thumb.jpg",
+      "description": "Start with a blank site using the Clean Two",
+      "category": [
+        "Course"
+      ],
+      "hidden": false,
+      "priority": 0,
+      "terrible": false,
+      "supportedPalettes": null,
+      "variables": {
+        "icon": "icons:record-voice-over",
+        "hexCode": "#3f51b5",
+        "cssVariable": "--simple-colors-default-theme-light-blue-7"
+      }
+    },
+    "node": {
+      "fields": {}
+    },
+    "platform": {
+      "audience": "expert",
+      "features": {},
+      "allowedBlocks": []
+    },
+    "build": {
+      "version": "26.8.0",
+      "structure": "from-skeleton",
+      "type": "skeleton",
+      "items": [
+        {
+          "id": "item-home",
+          "title": "HAX Lab",
+          "slug": "home",
+          "parent": null,
+          "indent": 0,
+          "order": 0,
+          "content": "<p>HAX Lab is where students and junior developers learn web development by shipping real work in HAX, the open source web publishing platform built at Penn State. Interns spend a term in the College of Arts and Architecture, and each one owns one real project: a theme, the command line, the design system, the dashboard. What they build ships to everyone who uses HAX.</p>\n<hax-stat-strip>\n<hax-stat end=\"31\" label=\"people on the HAX Lab roster, from 2016 to today\" story=\"hax-lab\"></hax-stat>\n<hax-stat end=\"640\" suffix=\"+\" label=\"open web components in HAX, each one a block you can drop on a page\" story=\"hax-blocks\"></hax-stat>\n<hax-stat end=\"30\" label=\"security fixes found with the student cyber security club\" story=\"stories/5f55a05d\"></hax-stat>\n<hax-stat value=\"18 of 24\" label=\"UX findings from one class, fixed the same term\" story=\"stories/49e8b828\"></hax-stat>\n</hax-stat-strip>\n<h2>Find your way in</h2>\n<grid-plate layout=\"1-1\"><ddd-card slot=\"col-1\" title=\"Onboarding\" href=\"onboarding\"><p>New to web development? Go from nothing to your first HAX contribution, one page at a time.</p></ddd-card><ddd-card slot=\"col-2\" title=\"How HAX Lab works\" href=\"how-hax-lab-works\"><p>Class, clubs, the lab, faculty grants and industry, and how to join.</p></ddd-card><ddd-card slot=\"col-1\" title=\"SIIP\" href=\"siip\"><p>The Sustainable Impact and Innovation Pipeline: how a course becomes a contributor pipeline.</p></ddd-card><ddd-card slot=\"col-2\" title=\"Graduates\" href=\"graduates\"><p>Everyone the lab credits, and where they landed.</p></ddd-card><ddd-card slot=\"col-1\" title=\"Faculty and funding\" href=\"faculty-and-funding\"><p>Faculty who have secured funding for lab work, and how to bring the lab a problem.</p></ddd-card><ddd-card slot=\"col-2\" title=\"Outcomes\" href=\"outcomes\"><p>What the lab built for HAX, and what it did for the students.</p></ddd-card></grid-plate>\n<h2>HAX Lab in the HAX network</h2>\n<p>The lab is one stop in a network of HAX sites. You'll use all of them in onboarding.</p>\n<ul>\n<li><a href=\"https://haxtheweb.org\" target=\"_blank\" rel=\"noopener noreferrer\">HAXTheWeb</a>: what HAX is for and every way to get it.</li>\n<li><a href=\"https://hax.cloud/hax-lab\" target=\"_blank\" rel=\"noopener noreferrer\">PRAW (hax.cloud)</a>: the stories behind the lab and the people in it. <hax-story-link story=\"hax-lab\" about=\"HAX Lab\" named=\"\" compact=\"\"></hax-story-link></li>\n<li><a href=\"https://browser.hax.cloud\" target=\"_blank\" rel=\"noopener noreferrer\">Build now</a>: make a HAX site in your browser tab, nothing to install.</li>\n<li><a href=\"https://learn.hax.cloud\" target=\"_blank\" rel=\"noopener noreferrer\">Learn</a>: tutorials for using HAX one flow at a time.</li>\n<li><a href=\"https://webcomponents.hax.cloud\" target=\"_blank\" rel=\"noopener noreferrer\">Web components</a>: every HAX element with a live demo, including ones lab students built.</li>\n<li><a href=\"https://github.com/haxtheweb/issues/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22HAX%20Lab%20%E2%99%8E%2B%F0%9F%83%8F%2B%F0%9F%94%A5%20%3E%20%F0%9F%92%B8%22\" target=\"_blank\" rel=\"noopener noreferrer\">The issue queue</a>: work tagged for the lab.</li>\n</ul>\n<h2>Talk to us</h2>\n<p>Want to intern, send a class, or bring the lab a problem? Contact <a href=\"https://www.linkedin.com/in/bill-rose-401b9a50/\" target=\"_blank\" rel=\"noopener noreferrer\">Product Owner Bill Rose</a> or <a href=\"https://www.linkedin.com/in/btopro/\" target=\"_blank\" rel=\"noopener noreferrer\">Project Lead Bryan Ollendyke</a>.</p>\n<simple-cta label=\"Start onboarding\" link=\"onboarding\"></simple-cta>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-how-hax-lab-works",
+          "title": "How HAX Lab works",
+          "slug": "how-hax-lab-works",
+          "parent": null,
+          "indent": 0,
+          "order": 1,
+          "content": "<p>HAX Lab is one part of a loop. A course teaches web development on real HAX problems, student clubs bring their own passions, the lab gives a few students a full term on one project, faculty fund work that solves their own problems, and graduates come back as mentors. Each part feeds the next.</p>\n<video-player source=\"https://www.youtube.com/watch?v=TNF0uzYi9Kk\" media-title=\"The SIIP talk, Apereo microconference, May 2026\"></video-player>\n<h2>The loop</h2>\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"Class\"><p>IST 256 at Penn State teaches modern front-end development, using HAX as the backdrop rather than the subject. Class projects often become HAX blocks. In one term, 36 students filed 24 UX findings and 18 were fixed before the term ended.</p><p><hax-story-link story=\"stories/49e8b828\" about=\"36 students, 18 fixes\" named=\"\" compact=\"\"></hax-story-link> <hax-story-link story=\"stories/cd712547\" about=\"the SIIP talk\" named=\"\" compact=\"\"></hax-story-link></p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Clubs\"><p>Student clubs bring what they care about. The cyber security club ran two long audits and helped fix 30 vulnerabilities. Members of the UX club applied their training to the editor.</p><p><hax-story-link story=\"stories/8cc0139e\" about=\"the cyber security club\" named=\"\" compact=\"\"></hax-story-link> <hax-story-link story=\"stories/5f55a05d\" about=\"30 security fixes\" named=\"\" compact=\"\"></hax-story-link> <hax-story-link story=\"stories/b7a2acc2\" about=\"the UX club\" named=\"\" compact=\"\"></hax-story-link></p></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"HAX Lab\"><p>One-term internships in Arts and Architecture. Each student owns one real project from start to release, with code review from the maintainers.</p><p><hax-story-link story=\"hax-lab\" about=\"HAX Lab\" named=\"\" compact=\"\"></hax-story-link> <hax-story-link story=\"stories/e927ca96\" about=\"students built the design system\" named=\"\" compact=\"\"></hax-story-link> <hax-story-link story=\"stories/6f003362\" about=\"three generations of the dashboard\" named=\"\" compact=\"\"></hax-story-link></p></ddd-steps-list-item><ddd-steps-list-item step=\"4\" title=\"Faculty grants\"><p>Faculty fund student work that solves their own problems, and HAX gains the capability. See <a href=\"faculty-and-funding\" target=\"_blank\" rel=\"noopener noreferrer\">Faculty and funding</a>.</p><p><hax-story-link story=\"stories/93ad3348\" about=\"faculty grants\" named=\"\" compact=\"\"></hax-story-link> <hax-story-link story=\"stories/71927480\" about=\"what the grants paid for\" named=\"\" compact=\"\"></hax-story-link></p></ddd-steps-list-item><ddd-steps-list-item step=\"5\" title=\"Industry, then back\"><p>Students leave with shipped work, not just a grade. Some come back as teaching assistants and mentors for the next group. See <a href=\"graduates\" target=\"_blank\" rel=\"noopener noreferrer\">Graduates</a>.</p><p><hax-story-link story=\"stories/07be0f04\" about=\"from HAX Lab to industry\" named=\"\" compact=\"\"></hax-story-link> <hax-story-link story=\"stories/b5f8b52b\" about=\"from student to trainer\" named=\"\" compact=\"\"></hax-story-link></p></ddd-steps-list-item></ddd-steps-list>\n<h2>A term in the lab</h2>\n<ul>\n<li><strong>One project you own.</strong> You pick it with the team from real needs in the <a href=\"https://github.com/haxtheweb/issues\" target=\"_blank\" rel=\"noopener noreferrer\">unified issue queue</a> and see it through to a release.</li>\n<li><strong>Real review.</strong> Your pull requests are reviewed like anyone else's. Feedback is the point.</li>\n<li><strong>Open office hours, three times a week.</strong> They're open to anyone, and they now draw contributors who were never in the lab.</li>\n<li><strong>Public credit.</strong> With your permission, your work is posted on LinkedIn with you tagged, so employers see what you shipped.</li>\n</ul>\n<h2>Ways in</h2>\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"Finish onboarding\"><p><a href=\"onboarding\" target=\"_blank\" rel=\"noopener noreferrer\">Onboarding</a> takes you from nothing to a pull request. It's the same path the class follows.</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Show up\"><p>Come to office hours, or comment on an issue you want to try. Clubs are welcome to bring a group.</p></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"Ask about an internship\"><p>Contact <a href=\"https://www.linkedin.com/in/bill-rose-401b9a50/\" target=\"_blank\" rel=\"noopener noreferrer\">Product Owner Bill Rose</a> or <a href=\"https://www.linkedin.com/in/btopro/\" target=\"_blank\" rel=\"noopener noreferrer\">Project Lead Bryan Ollendyke</a>. Bring a link to something you've built.</p></ddd-steps-list-item></ddd-steps-list>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-siip",
+          "title": "SIIP: how a course becomes a pipeline",
+          "slug": "siip",
+          "parent": null,
+          "indent": 0,
+          "order": 3,
+          "content": "<p>SIIP, the Sustainable Impact and Innovation Pipeline, turns a course into a contributor pipeline for an open source project without turning the course into \"the project class\". Students learn the discipline. The project supplies real problems. It's how HAX kept shipping with one full-time developer, and it works at other schools and for other projects.</p>\n<h2>Why it exists</h2>\n<p>HAX went from a note card in 2015 to four full-time people at its peak, then lost developers to industry after the pandemic until one remained in 2023. Feature output still climbed sharply from 2024, because the classroom became a contributor pipeline. HAX 26 shipped the day before the talk that introduced SIIP.</p>\n<p><hax-story-link story=\"stories/6ec1599d\" about=\"one maintainer, more rockets\" named=\"\" compact=\"\"></hax-story-link></p>\n<h2>How a term is shaped</h2>\n<p>A SIIP course spends its time in four parts. The onboarding on this site follows the same shape.</p>\n<editable-table bordered striped condensed><table>\n<caption>The SIIP term and where onboarding matches it</caption>\n<thead><tr><th scope=\"col\">Share</th><th scope=\"col\">What students do</th><th scope=\"col\">In onboarding</th></tr></thead>\n<tbody>\n<tr><td>About 40%</td><td>Skill up to contributor level, with heavy scaffolding and live demos on the real codebase</td><td>Chapters 1 to 5</td></tr>\n<tr><td>About 20%</td><td>A simple project that isn't for the community, to practice the whole workflow safely</td><td>Your card, from CodePen to Vercel</td></tr>\n<tr><td>About 20%</td><td>A larger project tied to the project's needs, with less scaffolding</td><td>Hack this course</td></tr>\n<tr><td>About 20%</td><td>An unscaffolded, internship-like contribution</td><td>Your first issue and the capstone</td></tr>\n</tbody></table></editable-table>\n<h2>Make thinking visible</h2>\n<p>The teaching method is cognitive apprenticeship: the way a trade is learned, adapted for work you can't see someone doing.</p>\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"Model\"><p>The instructor works on the real codebase out loud, narrating decisions and not only steps.</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Scaffold\"><p>Students do the same work with support: starter code, checklists, recorded walkthroughs.</p></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"Fade\"><p>Support drops away as skill grows, until students work from an issue alone.</p></ddd-steps-list-item><ddd-steps-list-item step=\"4\" title=\"Coach\"><p>Task choice, hints, feedback and rising challenge, in class and in code review.</p></ddd-steps-list-item></ddd-steps-list>\n<h2>What it has taught us</h2>\n<ul>\n<li>The biggest gains come six to twelve months after students take the class.</li>\n<li>The top 5 to 10% of a class often choose to go further.</li>\n<li>HAX is the backdrop, not the subject. A gap in the docs becomes a contribution, so fixing docs is part of onboarding.</li>\n<li>Visible credit matters. Students' work is posted publicly, with their permission.</li>\n<li>Never make contributing to one project a grade students can't opt out of. Offer another path.</li>\n</ul>\n<h2>The pipeline over time</h2>\n<editable-table bordered striped condensed><table>\n<caption>HAX by year (2021 and 2022 site counts are estimates; 2025 class counts are projections)</caption>\n<thead><tr><th scope=\"col\">Year</th><th scope=\"col\">Web components</th><th scope=\"col\">Sites</th><th scope=\"col\">Full-time staff</th><th scope=\"col\">Student interns</th><th scope=\"col\">Students in classes</th></tr></thead>\n<tbody>\n<tr><td>2017</td><td>1</td><td></td><td>3.5</td><td>1</td><td></td></tr>\n<tr><td>2019</td><td>198</td><td>1</td><td>3.5</td><td></td><td>39</td></tr>\n<tr><td>2020</td><td>582</td><td>11</td><td>3.5</td><td>2</td><td>79</td></tr>\n<tr><td>2021</td><td>664</td><td>106</td><td>3.5</td><td>3</td><td>78</td></tr>\n<tr><td>2022</td><td>829</td><td>154</td><td>2.5</td><td>8</td><td>36</td></tr>\n<tr><td>2023</td><td>844</td><td>202</td><td>2.5</td><td>1</td><td>112</td></tr>\n<tr><td>2024</td><td>657</td><td>213</td><td>2.5</td><td>8</td><td>114</td></tr>\n<tr><td>2025</td><td>675</td><td>247</td><td>2</td><td>5</td><td>109</td></tr>\n</tbody></table></editable-table>\n<h2>Watch and use it</h2>\n<video-player source=\"https://www.youtube.com/watch?v=TNF0uzYi9Kk\" media-title=\"The SIIP talk, Apereo microconference, May 2026\"></video-player>\n<ul>\n<li><a href=\"https://btopro.com/hax/sustainable-impact-and-innovation-pipeline\" target=\"_blank\" rel=\"noopener noreferrer\">Sustainable Impact and Innovation Pipeline</a>: the write-up.</li>\n<li><a href=\"https://github.com/haxtheweb/praw/tree/main/skills/siip-course-alignment\" target=\"_blank\" rel=\"noopener noreferrer\">The SIIP course alignment skill</a>: give an AI agent your course and an open source project, and get a SIIP plan back.</li>\n</ul>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-graduates",
+          "title": "Graduates",
+          "slug": "graduates",
+          "parent": null,
+          "indent": 0,
+          "order": 4,
+          "content": "<p>Everyone the HAX Lab roster credits, newest first, each drawn as the character HAX would give them. Former lab students and contributors now work at places like Red Hat, Adobe, IBM, Ford and PennDOT.</p>\n<h2>Where they landed</h2>\n<hax-contributors show=\"landed\"></hax-contributors>\n<p><hax-story-link story=\"stories/07be0f04\" about=\"from HAX Lab to industry\" named=\"\" compact=\"\"></hax-story-link> <hax-story-link story=\"stories/325e6281\" about=\"Winston White\" named=\"\" compact=\"\"></hax-story-link> <hax-story-link story=\"stories/ee450a19\" about=\"Jimmy Kane\" named=\"\" compact=\"\"></hax-story-link></p>\n<h2>In their words</h2>\n<ul>\n<li><strong>Jimmy Kane</strong> led the team that built the first HAX dashboard in 2022. He's now an iOS engineer at Ford Motor Credit, and says the mobile-first habits from the lab still apply in Swift.</li>\n<li><strong>Winston White</strong> took the class in 2024, then built themes, much of the HAX command line and the skeleton system, and came back as a teaching assistant. He interned at Comcast and NASA before a site reliability role at IBM, and calls HAX \"one of the single most impactful things for my career.\"</li>\n</ul>\n<h2>The roster</h2>\n<hax-contributors show=\"lab\"></hax-contributors>\n<h2>Everyone with a commit</h2>\n<a11y-collapse heading=\"Everyone with code in the HAX web components\" heading-button><div slot=\"content\"><hax-contributors show=\"code\"></hax-contributors></div></a11y-collapse>\n<p>The roster is kept in this site's own repository, <a href=\"https://github.com/haxtheweb/hax-lab\" target=\"_blank\" rel=\"noopener noreferrer\">haxtheweb/hax-lab</a>. When you finish lab work, you're added to it.</p>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-faculty-and-funding",
+          "title": "Faculty and funding",
+          "slug": "faculty-and-funding",
+          "parent": null,
+          "indent": 0,
+          "order": 5,
+          "content": "<p>Faculty fund student work that solves their own problems, and HAX gains the capability for everyone. The faculty get what they need, the students get real, funded work, and the result ships in HAX. Grant sizes aren't listed here on purpose: it isn't a competition, and this work doesn't need much money.</p>\n<p><hax-story-link story=\"stories/93ad3348\" about=\"faculty grants\" named=\"\" compact=\"\"></hax-story-link> <hax-story-link story=\"stories/71927480\" about=\"what the grants paid for\" named=\"\" compact=\"\"></hax-story-link></p>\n<h2>Faculty who have secured funding for the lab</h2>\n<ul>\n<li><strong>Bryan Ollendyke, College of Information Sciences and Technology.</strong> HAX's project lead teaches the web development course the lab grew out of, and has secured funding for lab work.</li>\n<li><strong>Dr. Blake Colaianne, Human Development and Family Studies.</strong> Director of the Learn to Flourish Hub, whose public site runs on HAX at <a href=\"https://flourish.hhd.psu.edu\" target=\"_blank\" rel=\"noopener noreferrer\">flourish.hhd.psu.edu</a>, and has secured funding for lab work. <hax-story-link story=\"stories/3ad1bc90\" about=\"Learn to Flourish\" named=\"\" compact=\"\"></hax-story-link></li>\n<li><strong>Dr. Jennifer Frank: the International Student Portfolio.</strong> She funded portfolios international students build and take with them. HAX grew portfolio support from it, and site skeletons came straight from its needs. Because students build it for other students, she says, she never has to argue that it matters.</li>\n<li><strong>Dr. David Fusco: Canvas AI analysis.</strong> Seven or eight students, through his grant and internships, built a HAX command line tool that pulls a Canvas course through its API, reports how ready its assignments are for AI and how easily AI could be used to cheat on them, then launches a live HAX site from the result.</li>\n</ul>\n<h2>Bring the lab a problem</h2>\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"Describe the problem, not the solution\"><p>What do your students or your unit need that HAX can't do yet? Real problems make the best lab projects.</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Fund student time\"><p>A grant or an internship pays students to build it. They learn on real work, and you get a result you can keep using.</p></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"Align your own course\"><p>Teaching web or software development? <a href=\"siip\" target=\"_blank\" rel=\"noopener noreferrer\">SIIP</a> shows how to point a course at an open source project, and <a href=\"https://github.com/haxtheweb/praw/blob/main/FACULTY_RESOURCES.md\" target=\"_blank\" rel=\"noopener noreferrer\">faculty resources in PRAW</a> collect the rest.</p></ddd-steps-list-item><ddd-steps-list-item step=\"4\" title=\"Get in touch\"><p>Contact <a href=\"https://www.linkedin.com/in/bill-rose-401b9a50/\" target=\"_blank\" rel=\"noopener noreferrer\">Product Owner Bill Rose</a> or <a href=\"https://www.linkedin.com/in/btopro/\" target=\"_blank\" rel=\"noopener noreferrer\">Project Lead Bryan Ollendyke</a>.</p></ddd-steps-list-item></ddd-steps-list>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-outcomes",
+          "title": "Outcomes",
+          "slug": "outcomes",
+          "parent": null,
+          "indent": 0,
+          "order": 6,
+          "content": "<p>Lab work counts twice: once in what HAX can do for everyone, and again in what the students can do next.</p>\n<h2>For HAX</h2>\n<hax-stat-strip>\n<hax-stat end=\"60\" suffix=\"+\" label=\"elements restyled with DDD, the design system a student built\" story=\"stories/e927ca96\"></hax-stat>\n<hax-stat end=\"3\" label=\"generations of the site dashboard, each built by students\" story=\"stories/6f003362\"></hax-stat>\n<hax-stat end=\"30\" label=\"security vulnerabilities found and fixed with the cyber security club\" story=\"stories/5f55a05d\"></hax-stat>\n</hax-stat-strip>\n<ul>\n<li><strong>The DDD design system.</strong> Keith Charlton Jr turned a class exercise in cloning Penn State designs into DDD and applied it across 60+ elements. Zach Dodson then added a DDD compliance audit to the HAX command line on his own time, and it was part of the class within weeks.</li>\n<li><strong>The site dashboard, three times.</strong> Jimmy Kane's team of four built the first one in one semester in 2022; the 8-bit characters HAX still uses came from it. Ashley Santana prototyped the second, Skyler Koba and Isabella Masso built it for HAX 25, and Chloe Martin, Alyssa Foran and Winston White built the third.</li>\n<li><strong>The HAX command line and skeletons.</strong> Winston White built much of the CLI and the skeleton templating system, one semester each.</li>\n<li><strong>Security.</strong> The cyber security club ran two long audits over two years and helped fix 30 vulnerabilities.</li>\n<li><strong>Themes and portfolio work</strong>, from the Bootstrap theme in 2021 to portfolio themes in 2025. The full list is on <a href=\"graduates\" target=\"_blank\" rel=\"noopener noreferrer\">Graduates</a>.</li>\n</ul>\n<h2>For students</h2>\n<ul>\n<li><strong>Jobs where the skills are used daily</strong>, at places including Red Hat, Adobe, IBM, Ford and PennDOT.</li>\n<li><strong>Confidence.</strong> Ashley Santana came in with almost no coding experience and described herself as drowning on day one. She left able to turn her own designs into code.</li>\n<li><strong>Mentors, not just contributors.</strong> Winston White went from student to teaching assistant to trainer, and saw his own tools change how the next students started.</li>\n<li><strong>A portfolio of shipped work</strong> with public credit, instead of a grade on an assignment nobody else sees.</li>\n</ul>\n<p><hax-story-link story=\"stories/07be0f04\" about=\"from HAX Lab to industry\" named=\"\" compact=\"\"></hax-story-link> <hax-story-link story=\"stories/b5f8b52b\" about=\"from student to trainer\" named=\"\" compact=\"\"></hax-story-link> <hax-story-link story=\"stories/02c0ccfc\" about=\"the wins\" named=\"\" compact=\"\"></hax-story-link></p>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-onboarding",
+          "title": "Onboarding",
+          "slug": "onboarding",
+          "parent": null,
+          "indent": 0,
+          "order": 2,
+          "content": "<p>HAX Lab onboarding is for students and junior developers. It takes you from knowing nothing about how websites are built to opening your first contribution to HAX, an open source web publishing project used across Penn State and beyond. You don't need any experience. You need a computer you can install software on, about two hours per page, and the willingness to break things on purpose.</p>\n<h2>What you'll be able to do at the end</h2>\n<ul>\n<li>Explain what happens between typing an address and seeing a page.</li>\n<li>Build a card in HTML and CSS, then turn it into a reusable web component.</li>\n<li>Style it with a design system instead of one-off colors.</li>\n<li>Ship it: push code to GitHub and have Vercel publish it every time you push.</li>\n<li>Feed it JSON data, render a list of cards, and control them with buttons you wire yourself.</li>\n<li>Make a HAX site, edit it on your own computer, publish it, and pick an issue to work on.</li>\n</ul>\n<h2>How it's built</h2>\n<p>It's the opening weeks of Penn State's web development course, the one HAX grew out of, rebuilt so you can do it on your own schedule. It doesn't live in an LMS. You learn the web by using the web: every page sends you out to real tools, real code and real projects, then brings you back to check yourself.</p>\n<p>This site is itself a HAX site, and its source is public at <a href=\"https://github.com/haxtheweb/hax-lab\" target=\"_blank\" rel=\"noopener noreferrer\">github.com/haxtheweb/hax-lab</a>. In chapter 6 you'll fork it, change it with HAX blocks, publish your copy, and send a fix back. The course is part of the assignment.</p>\n<grid-plate layout=\"1-1\"><ddd-card slot=\"col-1\" title=\"1. How the web works\" href=\"how-the-web-works\"><p>What a request is, and the accounts and tools you'll use for the rest of the course.</p></ddd-card><ddd-card slot=\"col-2\" title=\"2. Web components\" href=\"web-components\"><p>Where they came from, then two cards in CodePen.</p></ddd-card><ddd-card slot=\"col-1\" title=\"3. Design systems\" href=\"design-systems\"><p>Why shared decisions beat one-off styles, with DDD and the systems HAX supports.</p></ddd-card><ddd-card slot=\"col-2\" title=\"4. Real development\" href=\"real-development\"><p>npm, a real web component, auditing, GitHub and Vercel.</p></ddd-card><ddd-card slot=\"col-1\" title=\"5. Data-driven cards\" href=\"data-driven-cards\"><p>Model data in JSON, fetch it, render it, and control it without AI.</p></ddd-card><ddd-card slot=\"col-2\" title=\"6. Into HAX\" href=\"into-hax\"><p>How HAX works, hacking this course, the issue queue, and a capstone site you publish yourself.</p></ddd-card></grid-plate>\n<simple-cta label=\"Begin: how this course works\" link=\"how-this-course-works\"></simple-cta>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-how-this-course-works",
+          "title": "How this course works",
+          "slug": "how-this-course-works",
+          "parent": "item-onboarding",
+          "indent": 1,
+          "order": 0,
+          "content": "<p>Every topic is one page. Each page takes about 10 to 20 minutes of reading or watching, then about an hour of doing. Do one page per sitting. Stop when you finish the checklist, not when you run out of energy.</p>\n<stop-note status=\"info\" title=\"At a glance\"><div slot=\"message\"><ul>\n<li><strong>Read and watch:</strong> about 15 minutes</li>\n<li><strong>Do:</strong> about 30 minutes</li>\n<li><strong>You make:</strong> a public dev journal on GitHub Gist</li>\n<li><strong>You need:</strong> nothing yet (you'll make a GitHub account on the accounts page; come back for the journal)</li>\n<li><strong>Support level:</strong> full: every step is spelled out</li>\n</ul></div></stop-note>\n<h2>Every page has the same shape</h2>\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"At a glance\"><p>Time, what you'll make, and what you need before you start. If you don't have what's listed, go back a page.</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Read and watch\"><p>Three resources at most. Short is on purpose: your working memory holds a few new ideas at once, so each page gives you a few.</p></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"Do\"><p>Numbered steps you follow in another window. This is the real lesson. Reading about code teaches you about as much as reading about swimming.</p></ddd-steps-list-item><ddd-steps-list-item step=\"4\" title=\"Stuck? Ask your study buddy\"><p>Prompts you can paste into an AI assistant along with your own code or error message.</p></ddd-steps-list-item><ddd-steps-list-item step=\"5\" title=\"Check yourself and journal\"><p>A quick question, a checklist that remembers your ticks on this computer, and a few journal prompts.</p></ddd-steps-list-item></ddd-steps-list>\n<h2>Support fades as you go</h2>\n<p>The early pages hold your hand. Later pages give you the goal and fewer steps, and the last chapter gives you a real problem with no steps at all. That's by design. It's the same path every HAX contributor has taken: watch someone do it, do it with help, do it alone, then teach the next person. HAX calls this loop SIIP, and it is how a project with one full time developer keeps shipping: students learn real skills, the best work comes back into the project, and the next group starts further ahead.</p>\n<h2>About AI</h2>\n<p>AI is your study buddy, not your ghostwriter. Some pages tell you to use it (filling in data, wiring up a fetch). One page tells you not to (the button controls), because that's where the skill you need to keep is. Claude works well in a browser tab at <a href=\"https://claude.ai\" target=\"_blank\" rel=\"noopener noreferrer\">claude.ai</a>. If you're on a paid plan, the <a href=\"https://claude.com/chrome\" target=\"_blank\" rel=\"noopener noreferrer\">Claude in Chrome</a> extension can read the page you're on, which helps when a tutorial and your code are side by side.</p>\n<h2>Do: start your dev journal</h2>\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"Sign in to GitHub\"><p>If you don't have an account yet, make one now (see <a href=\"accounts\" target=\"_blank\" rel=\"noopener noreferrer\">Accounts you'll need</a>) and come back.</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Create a public Gist\"><p>Go to <a href=\"https://gist.github.com\" target=\"_blank\" rel=\"noopener noreferrer\">gist.github.com</a>. Name the file <code>dev-journal.md</code>, make it public, and write a first heading: <code>## Start here</code>.</p></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"Write three things in Markdown\"><p>Why you're here, what you've built before (nothing is a fine answer), and one thing you want to make. Use <code>##</code> for headings and <code>-</code> for list items. <a href=\"https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub's Markdown guide</a> has the rest.</p></ddd-steps-list-item></ddd-steps-list>\n<multiple-choice question=\"Your code works, but you can&#39;t explain why. What should you do?\" single-option randomize><input type=\"checkbox\" value=\"Ask AI to explain it line by line, then rewrite it yourself\" data-correct=\"true\"><input type=\"checkbox\" value=\"Move on, it works\"><input type=\"checkbox\" value=\"Ask AI to write the next part too\"><input type=\"checkbox\" value=\"Delete it and start over\"></multiple-choice>\n<h2>You're done when</h2><bullet-check-list storage-id=\"onboard-how\" title=\"How this course works\" items=\"[{&quot;label&quot;:&quot;I know each page is about 15 minutes of reading and an hour of doing&quot;},{&quot;label&quot;:&quot;I made a public dev-journal.md Gist&quot;},{&quot;label&quot;:&quot;I wrote my first entry in Markdown&quot;}]\"></bullet-check-list>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-how-the-web-works",
+          "title": "1. How the web works",
+          "slug": "how-the-web-works",
+          "parent": "item-onboarding",
+          "indent": 1,
+          "order": 1,
+          "content": "<p>Before you write any code, you'll see what the web is doing when you click a link, and set up the accounts and tools every other page assumes.</p>\n<grid-plate layout=\"1-1\"><ddd-card slot=\"col-1\" title=\"What happens when you load a page\" href=\"what-happens-when-you-load-a-page\"><p>Browser, network, server, database. Play with a tiny web app and break it.</p></ddd-card><ddd-card slot=\"col-2\" title=\"Accounts you&#39;ll need\" href=\"accounts\"><p>GitHub, CodePen, Vercel and an AI study buddy.</p></ddd-card><ddd-card slot=\"col-1\" title=\"Install your tools\" href=\"install-your-tools\"><p>Node.js, git, VS Code and the HAX command line, for Windows, macOS and Linux.</p></ddd-card></grid-plate>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-what-happens-when-you-load-a-page",
+          "title": "What happens when you load a page",
+          "slug": "what-happens-when-you-load-a-page",
+          "parent": "item-how-the-web-works",
+          "indent": 2,
+          "order": 2,
+          "content": "<p>A website is a conversation. Your browser asks for something, a server somewhere answers with text, and the browser turns that text into what you see. Everything else in this course sits on top of that one idea.</p>\n<stop-note status=\"info\" title=\"At a glance\"><div slot=\"message\"><ul>\n<li><strong>Read and watch:</strong> about 15 minutes</li>\n<li><strong>Do:</strong> about 1 hour</li>\n<li><strong>You make:</strong> notes on a request you watched and a page you \"hacked\"</li>\n<li><strong>You need:</strong> Chrome, Edge or Firefox</li>\n<li><strong>Support level:</strong> full</li>\n</ul></div></stop-note>\n<h2>Read and watch</h2>\n<ul>\n<li><a href=\"https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works\" target=\"_blank\" rel=\"noopener noreferrer\">How the web works (MDN)</a>: clients, servers, DNS, packets. Ten minutes.</li>\n<li><a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview\" target=\"_blank\" rel=\"noopener noreferrer\">An overview of HTTP (MDN)</a>: skim the parts about requests, responses and status codes.</li>\n<li>Watch a real bug get found in a real project. Notice how much of it happens in the browser:</li>\n</ul>\n<video-player source=\"https://www.youtube.com/watch?v=DWvRV9KuTjk\"></video-player>\n<h2>Play: walk the request</h2>\n<p>Walk to each part of a request. Each one tells you what it does. Touch them all.</p>\n<concept-map-game hub-label=\"You\" nodes=\"[{&quot;label&quot;:&quot;Browser&quot;,&quot;link&quot;:&quot;asks and draws&quot;,&quot;text&quot;:&quot;The program on your computer. It sends requests, gets back HTML, CSS and JavaScript, and turns them into the page. It&#39;s also your best debugging tool.&quot;},{&quot;label&quot;:&quot;URL&quot;,&quot;link&quot;:&quot;the address&quot;,&quot;text&quot;:&quot;Protocol (https), domain (example.edu) and path (/db.php). It tells the browser where to send the request and what to ask for.&quot;},{&quot;label&quot;:&quot;DNS&quot;,&quot;link&quot;:&quot;names to numbers&quot;,&quot;text&quot;:&quot;Computers find each other by IP address. DNS is the phone book that turns example.edu into a number like 93.184.215.14.&quot;},{&quot;label&quot;:&quot;HTTP&quot;,&quot;link&quot;:&quot;the conversation&quot;,&quot;text&quot;:&quot;The rules for the request and response: a method like GET or POST, headers, a body, and a status code like 200 or 404.&quot;},{&quot;label&quot;:&quot;Server&quot;,&quot;link&quot;:&quot;answers&quot;,&quot;text&quot;:&quot;A computer that waits for requests and runs code (PHP, Node.js and so on) to build a response.&quot;},{&quot;label&quot;:&quot;Database&quot;,&quot;link&quot;:&quot;remembers&quot;,&quot;text&quot;:&quot;Where the data lives between requests. The server asks it questions in a language like SQL.&quot;},{&quot;label&quot;:&quot;Front end&quot;,&quot;link&quot;:&quot;what you see&quot;,&quot;text&quot;:&quot;HTML, CSS and JavaScript running in your browser. This course lives mostly here.&quot;},{&quot;label&quot;:&quot;Back end&quot;,&quot;link&quot;:&quot;what you don&#39;t&quot;,&quot;text&quot;:&quot;The server and the database. You&#39;ll touch it later through JSON files and Vercel.&quot;}]\"></concept-map-game>\n<h2>Do: break a tiny web app</h2>\n<p>This little app is a front end, a server and a database pretending to live in one box. Everything runs in your browser, so you can't hurt anything. Press Insert and watch the numbered boxes light up in order.</p>\n<web-request-sim title=\"Cast list app\" prepared></web-request-sim>\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"Insert a character\"><p>Type any name, tick Main character, press Insert. Read the five status messages as they go by. Which box was lit when the SQL was built?</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"View source\"><p>Open <em>View source</em> under the browser's table. The browser never saw the database, only that HTML. Front end versus back end, in one line.</p></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"Break it on purpose\"><p>Turn the prepared statement off. Insert <code>Robert'); DROP TABLE Characters; --</code> and then Reload page. Read the SQL the server built. Why did the quote change everything?</p></ddd-steps-list-item><ddd-steps-list-item step=\"4\" title=\"Fix it\"><p>Press Restore database, turn the prepared statement back on and insert the same text. Compare the SQL. That's the whole lesson of SQL injection: data and code must travel separately.</p></ddd-steps-list-item></ddd-steps-list>\n<h2>Do: you are a 1337 hacker (of your own screen)</h2>\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"Open any site\"><p>Open <a href=\"https://www.psu.edu\" target=\"_blank\" rel=\"noopener noreferrer\">psu.edu</a> (or any site) in a new tab, right click the page and pick <strong>Inspect</strong>.</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Find the Console\"><p>Click the <strong>Console</strong> tab. Paste one line at a time and press Enter:</p><code-sample copy-clipboard-button type=\"javascript\"><template preserve-content=\"preserve-content\">// paste one line at a time into the Console tab\ndocument.querySelector('h1').textContent = 'I hacked this (only on my screen)';\ndocument.querySelector('img').src = 'https://github.com/haxtheweb.png';\ndocument.body.style.filter = 'invert(1)';</template></code-sample></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"Watch a real request\"><p>Open the <strong>Network</strong> tab and reload. Click the first row. Find the method, the status code and the response. Compare it with the Network box in the app above.</p></ddd-steps-list-item><ddd-steps-list-item step=\"4\" title=\"Reload\"><p>Your changes vanish. You only changed the copy of the page in your browser. That's the front end.</p></ddd-steps-list-item></ddd-steps-list>\n<h2>Stuck? Ask your study buddy</h2>\n<p>Use AI to explain, not to do the work for you. Paste your own code or error with the prompt, read the answer, then close the chat and type the fix yourself. If you can't explain the fix out loud, you don't own it yet.</p>\n<a11y-collapse heading=\"Prompts for this page\" heading-button><div slot=\"content\"><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">Explain like I&#39;m new to coding: what is the difference between the front end and the back end of a website? Use a restaurant analogy, then tell me where the analogy breaks.</template></code-sample><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">Here is what I saw in the Network tab of my browser&#39;s dev tools: [paste the method, URL, status and headers]. Walk me through what each part means.</template></code-sample><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">Why does putting user input directly into a SQL string let someone run their own commands? Show me the bad version and the prepared statement version side by side.</template></code-sample></div></a11y-collapse>\n<h2>Check yourself</h2>\n<multiple-choice question=\"You changed a heading in the Console, then reloaded. Why did it come back?\" single-option randomize><input type=\"checkbox\" value=\"The browser asked the server again and drew the original HTML\" data-correct=\"true\"><input type=\"checkbox\" value=\"The server noticed and undid it\"><input type=\"checkbox\" value=\"The Console only works for one minute\"><input type=\"checkbox\" value=\"Reloading clears the database\"></multiple-choice>\n<multiple-choice question=\"Which part turns example.edu into an address a computer can connect to?\" single-option randomize><input type=\"checkbox\" value=\"DNS\" data-correct=\"true\"><input type=\"checkbox\" value=\"HTTP\"><input type=\"checkbox\" value=\"The database\"><input type=\"checkbox\" value=\"CSS\"></multiple-choice>\n<h2>You're done when</h2><bullet-check-list storage-id=\"onboard-requests\" title=\"What happens when you load a page\" items=\"[{&quot;label&quot;:&quot;I touched every node in the map game&quot;},{&quot;label&quot;:&quot;I inserted a row and read all five steps&quot;},{&quot;label&quot;:&quot;I broke the app with SQL injection, then fixed it&quot;},{&quot;label&quot;:&quot;I changed a live site in the Console and watched it reset&quot;},{&quot;label&quot;:&quot;I found a request&#39;s status code in the Network tab&quot;}]\"></bullet-check-list>\n<h2>Journal it</h2><p>Add a heading for this page to your dev journal (the public Gist you made in Start here) and answer in Markdown:</p><ul><li>In your own words, what happens between pressing Enter in the address bar and seeing a page?</li><li>What languages did you notice in the bug video? List every one you can.</li><li>What surprised you in the Network tab?</li></ul>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-accounts",
+          "title": "Accounts you'll need",
+          "slug": "accounts",
+          "parent": "item-how-the-web-works",
+          "indent": 2,
+          "order": 3,
+          "content": "<p>Professional web developers live in a handful of free services. Make these accounts now so nothing stops you later. Use the same email and, where you can, sign in with GitHub so everything connects.</p>\n<stop-note status=\"info\" title=\"At a glance\"><div slot=\"message\"><ul>\n<li><strong>Read and watch:</strong> about 10 minutes</li>\n<li><strong>Do:</strong> about 45 minutes</li>\n<li><strong>You make:</strong> five accounts, connected</li>\n<li><strong>You need:</strong> an email address you'll keep (a school address can expire when you graduate)</li>\n<li><strong>Support level:</strong> full</li>\n</ul></div></stop-note>\n<h2>Read</h2>\n<p>Your GitHub profile is your portfolio. Employers read it. Pick a username you'd put on a resume, add a photo or avatar, and fill in your name.</p>\n<h2>Do</h2>\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"GitHub\"><p>Sign up at <a href=\"https://github.com/signup\" target=\"_blank\" rel=\"noopener noreferrer\">github.com/signup</a>. Personalize your profile. If you're a student, apply for the <a href=\"https://education.github.com/pack\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub Student Developer Pack</a>: it includes Copilot and other free tools.</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"CodePen\"><p>Sign up at <a href=\"https://codepen.io\" target=\"_blank\" rel=\"noopener noreferrer\">codepen.io</a> using <strong>Sign up with GitHub</strong>. You'll build your first two cards here.</p></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"Vercel\"><p>Sign up at <a href=\"https://vercel.com/signup\" target=\"_blank\" rel=\"noopener noreferrer\">vercel.com/signup</a> with <strong>Continue with GitHub</strong> and choose the free Hobby plan. If anything about verification gets stuck, contact Vercel support now: they can take a few days to answer, and you need this account in chapter 4.</p></ddd-steps-list-item><ddd-steps-list-item step=\"4\" title=\"Claude\"><p>Make a free account at <a href=\"https://claude.ai\" target=\"_blank\" rel=\"noopener noreferrer\">claude.ai</a> and keep it open in a tab while you work. On a paid plan you can add <a href=\"https://claude.com/chrome\" target=\"_blank\" rel=\"noopener noreferrer\">Claude in Chrome</a> to ask about the page you're looking at.</p></ddd-steps-list-item><ddd-steps-list-item step=\"5\" title=\"HAX\"><p>Open <a href=\"https://browser.hax.cloud\" target=\"_blank\" rel=\"noopener noreferrer\">browser.hax.cloud</a> once and look around. It runs HAX entirely in your browser, with no account. You'll build your capstone there.</p></ddd-steps-list-item></ddd-steps-list>\n<h2>Stuck? Ask your study buddy</h2>\n<p>Use AI to explain, not to do the work for you. Paste your own code or error with the prompt, read the answer, then close the chat and type the fix yourself. If you can't explain the fix out loud, you don't own it yet.</p>\n<a11y-collapse heading=\"Prompts for this page\" heading-button><div slot=\"content\"><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">I&#39;m setting up GitHub for the first time. What should a student developer put on their GitHub profile so it reads well to an employer? Keep it short.</template></code-sample><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">Vercel says [paste the message] when I try to sign up with GitHub. What does it mean and what can I try?</template></code-sample></div></a11y-collapse>\n<h2>You're done when</h2><bullet-check-list storage-id=\"onboard-accounts\" title=\"Accounts\" items=\"[{&quot;label&quot;:&quot;GitHub account with a photo or avatar and my name&quot;},{&quot;label&quot;:&quot;CodePen account connected to GitHub&quot;},{&quot;label&quot;:&quot;Vercel account connected to GitHub&quot;},{&quot;label&quot;:&quot;Claude account open in a tab&quot;},{&quot;label&quot;:&quot;Opened browser.hax.cloud once&quot;}]\"></bullet-check-list>\n<h2>Journal it</h2><p>Add a heading for this page to your dev journal (the public Gist you made in Start here) and answer in Markdown:</p><ul><li>Paste your GitHub profile link.</li><li>Which username did you choose and why?</li></ul>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-install-your-tools",
+          "title": "Install your tools",
+          "slug": "install-your-tools",
+          "parent": "item-how-the-web-works",
+          "indent": 2,
+          "order": 4,
+          "content": "<p>This is the page where most people get stuck, so go slowly. You'll install the same tools working developers use: a runtime for JavaScript, version control, an editor, and the HAX command line. Pick your operating system tab and follow it top to bottom.</p>\n<stop-note status=\"info\" title=\"At a glance\"><div slot=\"message\"><ul>\n<li><strong>Read and watch:</strong> about 15 minutes</li>\n<li><strong>Do:</strong> about 1 hour (installs take time; let them run)</li>\n<li><strong>You make:</strong> a working terminal that prints version numbers</li>\n<li><strong>You need:</strong> a computer where you have admin rights (Chromebooks and locked lab machines won't work)</li>\n<li><strong>Support level:</strong> full</li>\n</ul></div></stop-note>\n<h2>Read and watch</h2>\n<ul>\n<li>Watch this terminal primer first. You'll type commands on every page from now on.</li>\n</ul>\n<video-player source=\"https://www.youtube.com/watch?v=cwTswuFkMH4\"></video-player>\n<ul>\n<li><a href=\"https://github.com/haxtheweb/edtechjoker/blob/master/nodejs-haxtheweb-setup.md\" target=\"_blank\" rel=\"noopener noreferrer\">Node.js and HAX setup guide</a>: the long version of this page, by operating system.</li>\n<li><a href=\"https://github.com/haxtheweb/edtechjoker/blob/master/common-issues.md\" target=\"_blank\" rel=\"noopener noreferrer\">Common issues</a>: read it once now. It answers most problems before you have them.</li>\n</ul>\n<h2>Do: install, in this order</h2>\n<a11y-tabs aria-label=\"Install steps by operating system\">\n<a11y-tab label=\"Windows\" icon=\"hardware:desktop-windows\">\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"Git for Windows\"><p>Install <a href=\"https://git-scm.com/downloads/win\" target=\"_blank\" rel=\"noopener noreferrer\">Git for Windows</a>. Keep the defaults. It gives you <strong>Git Bash</strong>, the terminal to use for this course (PowerShell behaves differently from every example you'll find).</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Node.js LTS\"><p>Download the <strong>LTS</strong> installer from <a href=\"https://nodejs.org/en/download\" target=\"_blank\" rel=\"noopener noreferrer\">nodejs.org</a> and run it. Tick the box to install the extra tools if it asks.</p></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"VS Code\"><p>Install <a href=\"https://code.visualstudio.com\" target=\"_blank\" rel=\"noopener noreferrer\">VS Code</a>. Open Extensions (the four squares on the left) and install <strong>lit-plugin</strong> and <strong>lit-html</strong>. They color the HTML and CSS inside your JavaScript.</p></ddd-steps-list-item><ddd-steps-list-item step=\"4\" title=\"GitHub Desktop\"><p>Install <a href=\"https://desktop.github.com\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub Desktop</a> and sign in. If git is new to you, use it: it shows what changed before you commit.</p></ddd-steps-list-item><ddd-steps-list-item step=\"5\" title=\"Check it\"><p>Close every terminal, open Git Bash, and run:</p><code-sample copy-clipboard-button type=\"bash\"><template preserve-content=\"preserve-content\"># In Git Bash, after installing Git for Windows and Node.js LTS\nnode --version\nnpm --version\ngit --version\nnpm install --global @haxtheweb/create\nhax --version</template></code-sample><p>Every line should print a version number. <code>command not found</code> usually means you need to close and reopen the terminal, or restart.</p></ddd-steps-list-item></ddd-steps-list>\n</a11y-tab>\n<a11y-tab label=\"macOS\" icon=\"hardware:laptop-mac\">\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"Terminal and git\"><p>Open Terminal (press Command and Space, type Terminal). The first command below installs Apple's command line tools, which include git.</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Node.js LTS\"><p>Download the <strong>LTS</strong> installer from <a href=\"https://nodejs.org/en/download\" target=\"_blank\" rel=\"noopener noreferrer\">nodejs.org</a>. If you already use Homebrew, <code>brew install node</code> works too.</p></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"VS Code\"><p>Install <a href=\"https://code.visualstudio.com\" target=\"_blank\" rel=\"noopener noreferrer\">VS Code</a> and drag it into Applications. Open Extensions and install <strong>lit-plugin</strong> and <strong>lit-html</strong>.</p></ddd-steps-list-item><ddd-steps-list-item step=\"4\" title=\"GitHub Desktop\"><p>Install <a href=\"https://desktop.github.com\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub Desktop</a> and sign in.</p></ddd-steps-list-item><ddd-steps-list-item step=\"5\" title=\"Check it\"><code-sample copy-clipboard-button type=\"bash\"><template preserve-content=\"preserve-content\"># 1. Command line tools (git comes with them)\nxcode-select --install\n# 2. After installing Node.js LTS from nodejs.org, check it\nnode --version\nnpm --version\ngit --version\n# 3. The HAX command line\nnpm install --global @haxtheweb/create\nhax --version</template></code-sample><p>If <code>npm install --global</code> says <code>EACCES</code>, see the permissions fix in the setup guide above instead of using sudo.</p></ddd-steps-list-item></ddd-steps-list>\n</a11y-tab>\n<a11y-tab label=\"Linux\" icon=\"hardware:computer\">\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"git\"><p>Install git with your package manager.</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Node.js LTS\"><p>Follow the Linux instructions on <a href=\"https://nodejs.org/en/download\" target=\"_blank\" rel=\"noopener noreferrer\">nodejs.org</a>. Using nvm keeps global installs out of system folders.</p></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"VS Code\"><p>Install <a href=\"https://code.visualstudio.com\" target=\"_blank\" rel=\"noopener noreferrer\">VS Code</a> plus <strong>lit-plugin</strong> and <strong>lit-html</strong>. GitHub Desktop isn't official on Linux; the git command line is fine.</p></ddd-steps-list-item><ddd-steps-list-item step=\"4\" title=\"Check it\"><code-sample copy-clipboard-button type=\"bash\"><template preserve-content=\"preserve-content\"># Ubuntu / Debian. Other distributions: use your package manager or nvm\nsudo apt-get install -y git\n# Node.js LTS: follow the \"Linux\" instructions on nodejs.org/en/download (nvm works well)\nnode --version\nnpm --version\nnpm install --global @haxtheweb/create\nhax --version</template></code-sample></ddd-steps-list-item></ddd-steps-list>\n</a11y-tab>\n</a11y-tabs>\n<h2>Do: browser add-ons</h2>\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"A JSON viewer\"><p>Chrome and Edge: install <a href=\"https://chromewebstore.google.com/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa\" target=\"_blank\" rel=\"noopener noreferrer\">JSON Formatter</a>. Firefox has one built in. Test it: open <a href=\"https://haxtheweb.org/site.json\" target=\"_blank\" rel=\"noopener noreferrer\">haxtheweb.org/site.json</a>. You should see folding, colored data, not a wall of text. You'll read a lot of JSON in chapter 5.</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Your study buddy\"><p>Keep <a href=\"https://claude.ai\" target=\"_blank\" rel=\"noopener noreferrer\">claude.ai</a> pinned as a tab, or add <a href=\"https://claude.com/chrome\" target=\"_blank\" rel=\"noopener noreferrer\">Claude in Chrome</a> if you're on a paid plan.</p></ddd-steps-list-item></ddd-steps-list>\n<h2>Stuck? Ask your study buddy</h2>\n<p>Use AI to explain, not to do the work for you. Paste your own code or error with the prompt, read the answer, then close the chat and type the fix yourself. If you can't explain the fix out loud, you don't own it yet.</p>\n<a11y-collapse heading=\"Prompts for this page\" heading-button><div slot=\"content\"><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">I&#39;m on [Windows / macOS / Linux]. I ran `[command]` and got this error: [paste the whole error]. What does it mean and what&#39;s the safest fix? Don&#39;t suggest sudo unless there&#39;s no other way.</template></code-sample><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">Explain what PATH is in a terminal and why a program I just installed says &#39;command not found&#39;.</template></code-sample><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">What is the difference between Git, GitHub and GitHub Desktop?</template></code-sample></div></a11y-collapse>\n<multiple-choice question=\"You installed Node.js but the terminal says &#39;node: command not found&#39;. What do you try first?\" single-option randomize><input type=\"checkbox\" value=\"Close the terminal and open a new one\" data-correct=\"true\"><input type=\"checkbox\" value=\"Reinstall your operating system\"><input type=\"checkbox\" value=\"Install a different editor\"><input type=\"checkbox\" value=\"Run the command with sudo\"></multiple-choice>\n<h2>You're done when</h2><bullet-check-list storage-id=\"onboard-install\" title=\"Install your tools\" items=\"[{&quot;label&quot;:&quot;node --version prints a number&quot;},{&quot;label&quot;:&quot;git --version prints a number&quot;},{&quot;label&quot;:&quot;hax --version prints a number&quot;},{&quot;label&quot;:&quot;VS Code has lit-plugin and lit-html&quot;},{&quot;label&quot;:&quot;GitHub Desktop is signed in (Windows and macOS)&quot;},{&quot;label&quot;:&quot;JSON shows formatted in my browser&quot;}]\"></bullet-check-list>\n<h2>Journal it</h2><p>Add a heading for this page to your dev journal (the public Gist you made in Start here) and answer in Markdown:</p><ul><li>What broke during install, and how did you fix it? (Future you will thank you.)</li><li>Paste the version numbers you got.</li></ul>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-web-components",
+          "title": "2. Web components",
+          "slug": "web-components",
+          "parent": "item-onboarding",
+          "indent": 1,
+          "order": 5,
+          "content": "<p>Web components let you invent your own HTML tags. They're built into every modern browser, so code you write today keeps working long after the framework of the year is gone. This chapter covers where they came from, then has you build the card you'll carry through the rest of the course.</p>\n<grid-plate layout=\"1-1\"><ddd-card slot=\"col-1\" title=\"What are web components\" href=\"what-are-web-components\"><p>A short history, the four browser features they're made of, and HTML, CSS and JS basics.</p></ddd-card><ddd-card slot=\"col-2\" title=\"Project 1: a card in CodePen\" href=\"codepen-card\"><p>Rebuild a video card you see on YouTube.</p></ddd-card><ddd-card slot=\"col-1\" title=\"Project 1b: a second card\" href=\"second-card\"><p>Make a card that shares the first one's DNA.</p></ddd-card></grid-plate>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-what-are-web-components",
+          "title": "What are web components",
+          "slug": "what-are-web-components",
+          "parent": "item-web-components",
+          "indent": 2,
+          "order": 6,
+          "content": "<p>For years every web framework invented its own idea of a \"component\", and every one of them only worked inside that framework. Web components are the browser's answer: a standard way to make your own tags that work anywhere HTML works, with or without a framework.</p>\n<stop-note status=\"info\" title=\"At a glance\"><div slot=\"message\"><ul>\n<li><strong>Read and watch:</strong> about 20 minutes</li>\n<li><strong>Do:</strong> about 1 hour</li>\n<li><strong>You make:</strong> a list of the web components hiding on sites you use</li>\n<li><strong>You need:</strong> the HTML and CSS basics below if they're new to you</li>\n<li><strong>Support level:</strong> full</li>\n</ul></div></stop-note>\n<h2>Read and watch</h2>\n<p>These are the slide decks from the course. Read them in order. If one doesn't load here, open it in a new tab from the link under it.</p>\n<a11y-tabs aria-label=\"Slide decks\">\n<a11y-tab label=\"What are web components\" icon=\"icons:extension\">\n<iframe-loader source=\"https://docs.google.com/presentation/d/1cvM-4v745oQWcpX4M0ytFLQd_eIyaOJgUEgs4V6UFk0/embed?start=false&amp;loop=false&amp;delayms=3000\" height=\"480px\" width=\"100%\" title=\"What are web components slides\"></iframe-loader>\n<p><a href=\"https://docs.google.com/presentation/d/1cvM-4v745oQWcpX4M0ytFLQd_eIyaOJgUEgs4V6UFk0/edit?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Open the deck</a></p>\n</a11y-tab>\n<a11y-tab label=\"Why they last\" icon=\"icons:history\">\n<iframe-loader source=\"https://docs.google.com/presentation/d/1PBbN6x3wKTa9yuisBDkh80scPfZuR2R8GdvJMuGHLwk/embed?start=false&amp;loop=false&amp;delayms=3000\" height=\"480px\" width=\"100%\" title=\"Why web components slides\"></iframe-loader>\n<p><a href=\"https://docs.google.com/presentation/d/1PBbN6x3wKTa9yuisBDkh80scPfZuR2R8GdvJMuGHLwk/edit?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Open the deck</a></p>\n</a11y-tab>\n<a11y-tab label=\"The JS landscape\" icon=\"icons:language\">\n<iframe-loader source=\"https://docs.google.com/presentation/d/1XC6OuYVe3fOdGmpZ_Q9aGXOPJKjj5VbfR3vMvCUJBdk/embed?start=false&amp;loop=false&amp;delayms=3000\" height=\"480px\" width=\"100%\" title=\"JavaScript ecosystems slides\"></iframe-loader>\n<p><a href=\"https://docs.google.com/presentation/d/1XC6OuYVe3fOdGmpZ_Q9aGXOPJKjj5VbfR3vMvCUJBdk/edit?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Open the deck</a>. The <a href=\"https://www.youtube.com/watch?v=VyWw2JFnCRA\" target=\"_blank\" rel=\"noopener noreferrer\">recorded lecture</a> walks through it.</p>\n</a11y-tab>\n</a11y-tabs>\n<a11y-collapse heading=\"New to HTML, CSS or JavaScript? Start here\" heading-button><div slot=\"content\">\n<p>Do these first if tags and selectors are new. They go fast.</p>\n<ul>\n<li><a href=\"https://www.w3schools.com/html/default.asp\" target=\"_blank\" rel=\"noopener noreferrer\">Learn HTML (W3Schools)</a> and <a href=\"https://www.w3schools.com/css/default.asp\" target=\"_blank\" rel=\"noopener noreferrer\">Learn CSS (W3Schools)</a></li>\n<li><a href=\"https://web.dev/learn/css\" target=\"_blank\" rel=\"noopener noreferrer\">Learn CSS (web.dev)</a> for the box model, flexbox and media queries</li>\n<li><a href=\"https://javascript.info\" target=\"_blank\" rel=\"noopener noreferrer\">javascript.info</a> when you need the why behind JavaScript</li>\n</ul>\n</div></a11y-collapse>\n<h2>The four pieces</h2>\n<p>Every web component is made from the same few browser features: <strong>custom elements</strong> (your own tag names), <strong>shadow DOM</strong> (private markup and styles), <strong>templates</strong> (inert HTML you can stamp out) and <strong>slots</strong> (holes where authors put their own content). <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Web_components\" target=\"_blank\" rel=\"noopener noreferrer\">MDN's web components guide</a> has the details.</p>\n<h2>Play: native or not?</h2>\n<p>Your character runs on its own. Jump to grab what the browser does natively, and leap over what needs a framework or a compiler before a browser can run it.</p>\n<concept-runner-game items=\"[{&quot;label&quot;:&quot;Custom elements&quot;,&quot;kind&quot;:&quot;good&quot;,&quot;text&quot;:&quot;customElements.define connects a tag like my-card to your class. Every modern browser runs it with no library.&quot;},{&quot;label&quot;:&quot;React&quot;,&quot;kind&quot;:&quot;bad&quot;,&quot;text&quot;:&quot;A framework with its own runtime. Its components only work where React is loaded.&quot;},{&quot;label&quot;:&quot;Shadow DOM&quot;,&quot;kind&quot;:&quot;good&quot;,&quot;text&quot;:&quot;Private markup and styles inside your element, so page CSS can&#39;t break it.&quot;},{&quot;label&quot;:&quot;TypeScript&quot;,&quot;kind&quot;:&quot;bad&quot;,&quot;text&quot;:&quot;Adds types, but browsers can&#39;t run it. It must be compiled to JavaScript first.&quot;},{&quot;label&quot;:&quot;Templates&quot;,&quot;kind&quot;:&quot;good&quot;,&quot;text&quot;:&quot;The template tag holds HTML that stays inert until you clone it.&quot;},{&quot;label&quot;:&quot;JSX&quot;,&quot;kind&quot;:&quot;bad&quot;,&quot;text&quot;:&quot;HTML-like syntax inside JavaScript that a build tool must turn into function calls.&quot;},{&quot;label&quot;:&quot;Slots&quot;,&quot;kind&quot;:&quot;good&quot;,&quot;text&quot;:&quot;Holes in your element where authors put their own HTML, like bold text in a description.&quot;},{&quot;label&quot;:&quot;Angular&quot;,&quot;kind&quot;:&quot;bad&quot;,&quot;text&quot;:&quot;A full framework with its own compiler and template language.&quot;}]\"></concept-runner-game>\n<h2>Do: find them in the wild</h2>\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"Inspect YouTube\"><p>Open <a href=\"https://www.youtube.com\" target=\"_blank\" rel=\"noopener noreferrer\">youtube.com</a>, right click a video card and pick Inspect. Look at the tag names in the Elements panel. Any tag with a dash in its name (like <code>ytd-rich-item-renderer</code>) is a custom element.</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Inspect two more sites\"><p>Try GitHub and any news site. Write down every tag with a dash you find, and any <code>#shadow-root</code> you can expand.</p></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"Inspect HAX\"><p>Open <a href=\"https://haxtheweb.org\" target=\"_blank\" rel=\"noopener noreferrer\">haxtheweb.org</a>. Nearly everything on the page is a web component. Pick one and guess what its attributes do.</p></ddd-steps-list-item></ddd-steps-list>\n<h2>Stuck? Ask your study buddy</h2>\n<p>Use AI to explain, not to do the work for you. Paste your own code or error with the prompt, read the answer, then close the chat and type the fix yourself. If you can't explain the fix out loud, you don't own it yet.</p>\n<a11y-collapse heading=\"Prompts for this page\" heading-button><div slot=\"content\"><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">Explain the difference between a web component and a React component to someone who knows a little HTML. Why would a web component still work in ten years?</template></code-sample><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">I found this tag on a website: &lt;[paste the tag and its attributes]&gt;. What do you think each attribute controls? Then tell me how I could check.</template></code-sample></div></a11y-collapse>\n<multiple-choice question=\"Which of these is a valid custom element name?\" single-option randomize><input type=\"checkbox\" value=\"video-card\" data-correct=\"true\"><input type=\"checkbox\" value=\"videocard\"><input type=\"checkbox\" value=\"VideoCard\"><input type=\"checkbox\" value=\"card\"></multiple-choice>\n<h2>You're done when</h2><bullet-check-list storage-id=\"onboard-wc\" title=\"What are web components\" items=\"[{&quot;label&quot;:&quot;I read the three decks&quot;},{&quot;label&quot;:&quot;I finished a run in the native-or-not game&quot;},{&quot;label&quot;:&quot;I found custom elements on three different sites&quot;}]\"></bullet-check-list>\n<h2>Journal it</h2><p>Add a heading for this page to your dev journal (the public Gist you made in Start here) and answer in Markdown:</p><ul><li>List the custom elements you found and where.</li><li>In two sentences, why do web components outlast frameworks?</li><li>What still doesn't make sense? Write the question down; it's useful later.</li></ul>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-codepen-card",
+          "title": "Project 1: a card in CodePen",
+          "slug": "codepen-card",
+          "parent": "item-web-components",
+          "indent": 2,
+          "order": 7,
+          "content": "<p>Your first project is small on purpose: rebuild one video card from YouTube in plain HTML and CSS. A card is the perfect first thing to build. It has an image, a title, some details and a layout, and you'll find it on nearly every website.</p>\n<stop-note status=\"info\" title=\"At a glance\"><div slot=\"message\"><ul>\n<li><strong>Read and watch:</strong> about 15 minutes</li>\n<li><strong>Do:</strong> about 1 to 2 hours</li>\n<li><strong>You make:</strong> a responsive video card in a public CodePen</li>\n<li><strong>You need:</strong> your CodePen account</li>\n<li><strong>Support level:</strong> full, with an example to model</li>\n</ul></div></stop-note>\n<h2>Read and watch</h2>\n<ul>\n<li><a href=\"https://web.dev/learn/css/box-model\" target=\"_blank\" rel=\"noopener noreferrer\">The box model (web.dev)</a>: margin, border, padding. You'll use all three.</li>\n<li><a href=\"https://web.dev/learn/css/media-queries\" target=\"_blank\" rel=\"noopener noreferrer\">Media queries (web.dev)</a>: how one card changes on a phone.</li>\n<li>Fork <a href=\"https://codepen.io/btopro/pen/gOjGpam\" target=\"_blank\" rel=\"noopener noreferrer\">this meme maker pen</a> and change its text and font size to see how HTML, CSS and a pen fit together.</li>\n</ul>\n<h2>Do</h2>\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"Pick a card and take it apart\"><p>Screenshot one video card on YouTube. On paper (or a sticky note), draw boxes around every piece: thumbnail, duration badge, avatar, title, channel, views, date. Label each box with what it is. This is your model.</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"List its properties\"><p>Which parts change from card to card (title, image, views)? Those are its <strong>properties</strong>. Which never change (the layout, the rounded corners)? Write both lists in your journal. You'll need them in chapter 4.</p></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"Build the HTML\"><p>Make a new pen. Use classes, never ids or inline styles. Start from something like this:</p><code-sample copy-clipboard-button type=\"html\"><template preserve-content=\"preserve-content\"><div class=\"wrapper\">\n  <div class=\"card\">\n    <img class=\"card-image\" src=\"https://github.com/haxtheweb.png\" alt=\"HAX logo, a stylized hand\">\n    <div class=\"card-text\">\n      <h3 class=\"card-title\">Video title goes here</h3>\n      <p class=\"card-meta\">Channel name · 12K views · 2 days ago</p>\n    </div>\n  </div>\n</div></template></code-sample></ddd-steps-list-item><ddd-steps-list-item step=\"4\" title=\"Style it\"><p>Keep it no wider than 400px. Space it with padding and margin in steps of 4, 8 or 16 pixels; try 8, then 12, then 16 and keep what looks right. Then add a media query so it fills the width on screens under 500px:</p><code-sample copy-clipboard-button type=\"css\"><template preserve-content=\"preserve-content\">.card {\n  max-width: 400px;\n  border: 1px solid #ccc;\n  border-radius: 12px;\n  padding: 8px;\n}\n.card-image {\n  width: 100%;\n  aspect-ratio: 16 / 9;\n  object-fit: cover;\n  border-radius: 8px;\n}\n@media (max-width: 500px) {\n  .card { max-width: 100%; }\n}</template></code-sample></ddd-steps-list-item><ddd-steps-list-item step=\"5\" title=\"Test it\"><p>Use the editor's layout buttons or drag the window narrow. Check it on your phone. Does the title wrap cleanly? Does the image keep its shape?</p></ddd-steps-list-item></ddd-steps-list>\n<h2>Common mistakes to look for</h2>\n<ul>\n<li><code>class=\"thing\"</code>, never <code>class = \"thing\"</code>. No spaces around the equals sign.</li>\n<li>No <code>&lt;center&gt;</code>, <code>&lt;br&gt;</code> for spacing, or <code>style=\"\"</code> on tags. CSS does that.</li>\n<li>Every <code>alt</code> describes the image for someone who can't see it.</li>\n<li>Every tag you open, you close, in the order you opened it.</li>\n</ul>\n<h2>Stuck? Ask your study buddy</h2>\n<p>Use AI to explain, not to do the work for you. Paste your own code or error with the prompt, read the answer, then close the chat and type the fix yourself. If you can't explain the fix out loud, you don't own it yet.</p>\n<a11y-collapse heading=\"Prompts for this page\" heading-button><div slot=\"content\"><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">Here is my CodePen HTML and CSS: [paste]. The image stretches on small screens. Explain why, then give me a hint, not the full answer.</template></code-sample><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">Explain margin vs padding vs border using my card as the example: [paste CSS].</template></code-sample><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">Review my card&#39;s HTML for accessibility problems a beginner would miss: [paste].</template></code-sample></div></a11y-collapse>\n<multiple-choice question=\"Your card&#39;s title should change for every video, but the rounded corners never should. In component terms, the title is a…\" single-option randomize><input type=\"checkbox\" value=\"Property\" data-correct=\"true\"><input type=\"checkbox\" value=\"Media query\"><input type=\"checkbox\" value=\"Selector\"><input type=\"checkbox\" value=\"Border\"></multiple-choice>\n<h2>You're done when</h2><bullet-check-list storage-id=\"onboard-card1\" title=\"Project 1\" items=\"[{&quot;label&quot;:&quot;I drew and labeled a model of a real card&quot;},{&quot;label&quot;:&quot;I listed what changes (properties) and what doesn&#39;t&quot;},{&quot;label&quot;:&quot;My pen uses classes only, no ids or inline styles&quot;},{&quot;label&quot;:&quot;It&#39;s 400px or narrower and fills the screen under 500px&quot;},{&quot;label&quot;:&quot;The pen is public and saved&quot;}]\"></bullet-check-list>\n<h2>Journal it</h2><p>Add a heading for this page to your dev journal (the public Gist you made in Start here) and answer in Markdown:</p><ul><li>Link your pen and your model sketch.</li><li>Which CSS property took longest to figure out?</li><li>Which websites or videos helped? Share them.</li></ul>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-second-card",
+          "title": "Project 1b: a second card",
+          "slug": "second-card",
+          "parent": "item-web-components",
+          "indent": 2,
+          "order": 8,
+          "content": "<p>Now make a different card that shares the first one's DNA. Maybe it's the channel card that sits next to videos, or a playlist card. Same corners, same spacing, same type, different content and shape. Doing this by copy and paste shows you why the next chapter, design systems, exists.</p>\n<stop-note status=\"info\" title=\"At a glance\"><div slot=\"message\"><ul>\n<li><strong>Read and watch:</strong> about 10 minutes</li>\n<li><strong>Do:</strong> about 1 hour</li>\n<li><strong>You make:</strong> two related cards side by side in one pen</li>\n<li><strong>You need:</strong> your Project 1 pen</li>\n<li><strong>Support level:</strong> medium: fewer steps, same tools</li>\n</ul></div></stop-note>\n<h2>Read</h2>\n<ul>\n<li><a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties\" target=\"_blank\" rel=\"noopener noreferrer\">CSS custom properties (MDN)</a>: variables in CSS.</li>\n<li><a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\" rel=\"noopener noreferrer\">A guide to flexbox (CSS-Tricks)</a>: how to sit cards next to each other.</li>\n</ul>\n<h2>Do</h2>\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"Fork your first pen\"><p>Keep the original untouched. Fork it and work in the copy.</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Pull out the shared decisions\"><p>Move the values both cards share (radius, gap, border, font) into CSS variables at the top. Give each card a shared class plus its own:</p><code-sample copy-clipboard-button type=\"css\"><template preserve-content=\"preserve-content\">/* one set of decisions, used by every card */\n:root {\n  --card-radius: 12px;\n  --card-gap: 16px;\n  --card-border: 1px solid #ccc;\n}\n.wrapper {\n  display: flex;\n  flex-wrap: wrap;\n  gap: var(--card-gap);\n}\n.card {\n  border: var(--card-border);\n  border-radius: var(--card-radius);\n}\n.card.video { max-width: 400px; }\n.card.channel { max-width: 280px; text-align: center; }</template></code-sample></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"Build the second card\"><p>Model it on paper first, like last time. Then build it with the shared class and only the CSS that makes it different.</p></ddd-steps-list-item><ddd-steps-list-item step=\"4\" title=\"Put them side by side\"><p>Wrap both in <code>.wrapper</code> with <code>display: flex</code>. Add a third card. On a phone they should stack.</p></ddd-steps-list-item><ddd-steps-list-item step=\"5\" title=\"Change one variable\"><p>Change <code>--card-radius</code> to 0. Both cards change at once. That's the point.</p></ddd-steps-list-item></ddd-steps-list>\n<h2>Stuck? Ask your study buddy</h2>\n<p>Use AI to explain, not to do the work for you. Paste your own code or error with the prompt, read the answer, then close the chat and type the fix yourself. If you can't explain the fix out loud, you don't own it yet.</p>\n<a11y-collapse heading=\"Prompts for this page\" heading-button><div slot=\"content\"><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">I have two cards that share some styles. Here&#39;s my CSS: [paste]. Which values should become CSS variables, and which should stay specific to each card? Explain your reasoning.</template></code-sample><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">My cards won&#39;t sit side by side: [paste HTML and CSS]. Give me a hint about flexbox, not the answer.</template></code-sample></div></a11y-collapse>\n<multiple-choice question=\"You change --card-radius once and both cards update. What did you just build, in miniature?\" single-option randomize><input type=\"checkbox\" value=\"A design system\" data-correct=\"true\"><input type=\"checkbox\" value=\"A database\"><input type=\"checkbox\" value=\"A framework\"><input type=\"checkbox\" value=\"A media query\"></multiple-choice>\n<h2>You're done when</h2><bullet-check-list storage-id=\"onboard-card2\" title=\"Project 1b\" items=\"[{&quot;label&quot;:&quot;I have a second, different card in a fork&quot;},{&quot;label&quot;:&quot;Shared values live in CSS variables&quot;},{&quot;label&quot;:&quot;Three cards sit side by side and stack on a phone&quot;},{&quot;label&quot;:&quot;Changing one variable changes every card&quot;}]\"></bullet-check-list>\n<h2>Journal it</h2><p>Add a heading for this page to your dev journal (the public Gist you made in Start here) and answer in Markdown:</p><ul><li>Link the forked pen.</li><li>What did both cards share? What made them different?</li><li>How did copying CSS between them feel? What would happen with 40 cards?</li></ul>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-design-systems",
+          "title": "3. Design systems",
+          "slug": "design-systems",
+          "parent": "item-onboarding",
+          "indent": 1,
+          "order": 9,
+          "content": "<p>A design system is a set of decisions made once, so nobody has to make them again: colors, spacing, type, corner radius, how a button looks when you hover it. You built a tiny one with three CSS variables. HAX runs on a big one called DDD, and it can wear other systems too.</p>\n<grid-plate layout=\"1-1\"><ddd-card slot=\"col-1\" title=\"Design systems and DDD\" href=\"design-systems-and-ddd\"><p>Tokens, DDD, and the same page in three systems.</p></ddd-card></grid-plate>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-design-systems-and-ddd",
+          "title": "Design systems and DDD",
+          "slug": "design-systems-and-ddd",
+          "parent": "item-design-systems",
+          "indent": 2,
+          "order": 10,
+          "content": "<p>Every color, gap and font size in HAX comes from a <strong>token</strong>: a named CSS variable like <code>--ddd-spacing-4</code>. Change what a token means and every element that uses it changes with it, the same trick as your <code>--card-radius</code>, at the scale of thousands of elements.</p>\n<stop-note status=\"info\" title=\"At a glance\"><div slot=\"message\"><ul>\n<li><strong>Read and watch:</strong> about 20 minutes</li>\n<li><strong>Do:</strong> about 1 hour</li>\n<li><strong>You make:</strong> your second card restyled with DDD tokens</li>\n<li><strong>You need:</strong> your Project 1b pen</li>\n<li><strong>Support level:</strong> medium</li>\n</ul></div></stop-note>\n<h2>Read and look</h2>\n<ul>\n<li><a href=\"https://haxtheweb.org/documentation/ddd\" target=\"_blank\" rel=\"noopener noreferrer\">DDD documentation</a>: open the color, spacing and typography sections and skim. DDD stands for Design, Develop, Deliver. It began as a student independent study and now styles all of HAX.</li>\n<li><a href=\"https://m3.material.io/foundations/design-tokens/overview\" target=\"_blank\" rel=\"noopener noreferrer\">Design tokens (Material Design)</a>: another big system explaining the same idea.</li>\n</ul>\n<h2>One page, three systems</h2>\n<p>HAX themes can swap which design system their tokens point to. These are the same quiz and checklist from this course, with nothing changed but the design system. Look at heading color and weight, spacing, and accents.</p>\n<a11y-tabs aria-label=\"The same page in three design systems\">\n<a11y-tab label=\"DDD\"><img src=\"files/ds-ddd.png\" alt=\"A quiz question and checklist from this course in DDD: navy headings, bold type, round radio buttons\" loading=\"lazy\"></a11y-tab>\n<a11y-tab label=\"PatternFly\"><img src=\"files/ds-patternfly.png\" alt=\"The same quiz and checklist in PatternFly: lighter heading weight, more padding, blue headings\" loading=\"lazy\"></a11y-tab>\n<a11y-tab label=\"Material 3\"><img src=\"files/ds-material.png\" alt=\"The same quiz and checklist in Material 3: purple headings, tinted footer, purple accents\" loading=\"lazy\"></a11y-tab>\n</a11y-tabs>\n<p>HAX also bridges Carbon, Fluent, Primer, Spectrum, USWDS, Tailwind, shadcn/ui, Bootstrap and Web Awesome. You don't need them now. You need to know the idea: content stays the same, decisions swap.</p>\n<h2>Play: the token quest</h2>\n<p>Each idea will find you and ask a question. Answer right to unlock its house.</p>\n<concept-quest-game quest-title=\"Token quest\" quest=\"Unlock every house to see how a design system's decisions travel from one token to thousands of elements.\" nodes=\"[{&quot;label&quot;:&quot;Token&quot;,&quot;link&quot;:&quot;a named decision&quot;,&quot;text&quot;:&quot;A CSS variable with a meaningful name, like --ddd-spacing-4. Elements use the name, never the raw value.&quot;,&quot;question&quot;:&quot;Which of these is a design token?&quot;,&quot;choices&quot;:&quot;--ddd-spacing-4\\npadding: 13px\\n#3e98d3\\nstyle=\\&quot;color:red\\&quot;&quot;,&quot;hint&quot;:&quot;Look for a name, not a number.&quot;},{&quot;label&quot;:&quot;Scale&quot;,&quot;link&quot;:&quot;steps, not guesses&quot;,&quot;text&quot;:&quot;Spacing and type come in steps (4, 8, 16...). Things line up because everyone picks from the same steps.&quot;,&quot;question&quot;:&quot;Why use a spacing scale instead of any number you like?&quot;,&quot;choices&quot;:&quot;So everything lines up and feels related\\nIt makes files smaller\\nBrowsers require it\\nIt hides the CSS&quot;,&quot;hint&quot;:&quot;Think about your two cards.&quot;},{&quot;label&quot;:&quot;Theme&quot;,&quot;link&quot;:&quot;what a token means&quot;,&quot;text&quot;:&quot;A theme or palette decides what a token resolves to. Change the theme and every element follows.&quot;,&quot;question&quot;:&quot;The brand color changes. What do you edit?&quot;,&quot;choices&quot;:&quot;The token&#39;s value, once\\nEvery element&#39;s CSS\\nThe HTML of each page\\nNothing can change it&quot;,&quot;hint&quot;:&quot;One place.&quot;},{&quot;label&quot;:&quot;light-dark()&quot;,&quot;link&quot;:&quot;both modes, one rule&quot;,&quot;text&quot;:&quot;light-dark(a, b) picks a in light mode and b in dark mode, so one token covers both.&quot;,&quot;question&quot;:&quot;What does light-dark(white, black) give in dark mode?&quot;,&quot;choices&quot;:&quot;black\\nwhite\\ngray\\nnothing&quot;,&quot;hint&quot;:&quot;Second value, second mode.&quot;},{&quot;label&quot;:&quot;Bridge&quot;,&quot;link&quot;:&quot;another system&#39;s look&quot;,&quot;text&quot;:&quot;HAX can point DDD&#39;s tokens at another design system, like PatternFly or Material, without changing content.&quot;,&quot;question&quot;:&quot;What changes when HAX swaps to a bridged design system?&quot;,&quot;choices&quot;:&quot;The look, not the content\\nThe content, not the look\\nThe page addresses\\nThe database&quot;,&quot;hint&quot;:&quot;Look at the three screenshots again.&quot;}]\"></concept-quest-game>\n<h2>Do</h2>\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"Borrow DDD&#39;s tokens\"><p>In the DDD docs, find the spacing scale, the corner radius sizes and two colors you like. Copy their token names and values into your pen's <code>:root</code>, for example <code>--ddd-spacing-4: 16px;</code>. In chapter 4 you'll get the real thing from npm; this is practice with the same names.</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Swap your variables for tokens\"><p>Replace your own spacing, radius and color values with DDD tokens. Your variables can point at tokens: <code>--card-radius: var(--ddd-radius-md);</code></p></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"Check dark mode\"><p>Turn on dark mode on your computer. Does your card still read? DDD colors are written with <code>light-dark()</code> so one rule covers both. Fix anything you can't read.</p></ddd-steps-list-item><ddd-steps-list-item step=\"4\" title=\"Compare with a neighbor\"><p>Open two other design systems, for example <a href=\"https://www.patternfly.org\" target=\"_blank\" rel=\"noopener noreferrer\">PatternFly</a> and <a href=\"https://carbondesignsystem.com\" target=\"_blank\" rel=\"noopener noreferrer\">Carbon</a>. Find their card. What do they decide that DDD also decides?</p></ddd-steps-list-item></ddd-steps-list>\n<h2>Stuck? Ask your study buddy</h2>\n<p>Use AI to explain, not to do the work for you. Paste your own code or error with the prompt, read the answer, then close the chat and type the fix yourself. If you can't explain the fix out loud, you don't own it yet.</p>\n<a11y-collapse heading=\"Prompts for this page\" heading-button><div slot=\"content\"><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">Explain design tokens to a beginner using my card&#39;s CSS: [paste]. Which of my values should be tokens?</template></code-sample><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">I&#39;m using the DDD design system from HAX. Which DDD tokens would replace these values: [paste CSS]? Show me the before and after for two of them and let me do the rest.</template></code-sample><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">Why does a design system make dark mode easier? Use light-dark() in the example.</template></code-sample></div></a11y-collapse>\n<multiple-choice question=\"Your brand changes from blue to green. With a design system, what do you change?\" single-option randomize><input type=\"checkbox\" value=\"The token, once\" data-correct=\"true\"><input type=\"checkbox\" value=\"Every card&#39;s CSS by hand\"><input type=\"checkbox\" value=\"The HTML of every page\"><input type=\"checkbox\" value=\"Nothing, colors can&#39;t change\"></multiple-choice>\n<h2>You're done when</h2><bullet-check-list storage-id=\"onboard-ddd\" title=\"Design systems\" items=\"[{&quot;label&quot;:&quot;I skimmed DDD&#39;s color, spacing and type docs&quot;},{&quot;label&quot;:&quot;I spotted three differences across the three screenshots&quot;},{&quot;label&quot;:&quot;I unlocked every house in the token quest&quot;},{&quot;label&quot;:&quot;My card uses DDD tokens instead of raw values&quot;},{&quot;label&quot;:&quot;It reads in dark mode&quot;}]\"></bullet-check-list>\n<h2>Journal it</h2><p>Add a heading for this page to your dev journal (the public Gist you made in Start here) and answer in Markdown:</p><ul><li>Before and after: paste three lines of CSS you changed to tokens.</li><li>What did PatternFly or Carbon decide that surprised you?</li></ul>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-real-development",
+          "title": "4. Real development",
+          "slug": "real-development",
+          "parent": "item-onboarding",
+          "indent": 1,
+          "order": 11,
+          "content": "<p>CodePen was training wheels. Now your card becomes a real web component in a real project folder on your computer, styled with DDD, checked with audit tools, saved in GitHub and published by Vercel every time you push.</p>\n<grid-plate layout=\"1-1\"><ddd-card slot=\"col-1\" title=\"npm and hax webcomponent\" href=\"npm-and-hax-webcomponent\"><p>Package managers, and scaffolding a component in one command.</p></ddd-card><ddd-card slot=\"col-2\" title=\"Port your card\" href=\"port-your-card\"><p>Properties, slots, DDD and audits.</p></ddd-card><ddd-card slot=\"col-1\" title=\"GitHub and Vercel\" href=\"github-and-vercel\"><p>Version control and a publishing pipeline that runs on every push.</p></ddd-card></grid-plate>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-npm-and-hax-webcomponent",
+          "title": "npm and hax webcomponent",
+          "slug": "npm-and-hax-webcomponent",
+          "parent": "item-real-development",
+          "indent": 2,
+          "order": 12,
+          "content": "<p>Nobody writes everything from scratch. Modern JavaScript projects are built from packages: small pieces of other people's code, downloaded and kept up to date by a package manager. npm is the one that comes with Node.js, and it's how you'll get Lit, DDD and every HAX element.</p>\n<stop-note status=\"info\" title=\"At a glance\"><div slot=\"message\"><ul>\n<li><strong>Read and watch:</strong> about 20 minutes</li>\n<li><strong>Do:</strong> about 1 hour</li>\n<li><strong>You make:</strong> a my-card project running on your computer</li>\n<li><strong>You need:</strong> Node.js, VS Code and the hax command working</li>\n<li><strong>Support level:</strong> full</li>\n</ul></div></stop-note>\n<h2>Read and watch</h2>\n<ul>\n<li><a href=\"https://docs.npmjs.com/about-npm\" target=\"_blank\" rel=\"noopener noreferrer\">About npm</a> and <a href=\"https://docs.npmjs.com/cli/configuring-npm/package-json\" target=\"_blank\" rel=\"noopener noreferrer\">package.json</a>: what a package is and the file that lists them.</li>\n<li><a href=\"https://lit.dev/tutorials/intro-to-lit/\" target=\"_blank\" rel=\"noopener noreferrer\">Intro to Lit tutorial</a>: choose <strong>JS</strong>, not TS, at the top. Lit is the small library on top of web components that HAX uses.</li>\n<li><a href=\"https://playground.hax.cloud\" target=\"_blank\" rel=\"noopener noreferrer\">HAX CLI playground</a>: try the hax command in your browser if your install is still fighting you.</li>\n</ul>\n<h2>Do</h2>\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"Pick a home for your code\"><p>Make one folder for everything you build, like <code>Documents/git/your-github-name</code>. You'll come back to it for years, so make it logical.</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Scaffold the component\"><p>In your terminal:</p><code-sample copy-clipboard-button type=\"bash\"><template preserve-content=\"preserve-content\"># go to where you keep code, for example ~/Documents/git/<your-github-name>\ncd ~/Documents/git\nhax webcomponent my-card\ncd my-card\nnpm install\nnpm start</template></code-sample><p>Answer the questions if it asks. A browser window opens with your element's demo.</p></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"Open it in VS Code\"><p>File, Open Folder, pick <code>my-card</code>. Find <code>package.json</code>, <code>my-card.js</code> and <code>index.html</code>. Leave <code>node_modules</code> alone; npm owns it.</p></ddd-steps-list-item><ddd-steps-list-item step=\"4\" title=\"Read package.json\"><p>Find the <code>dependencies</code> (code your element ships with) and the <code>scripts</code>. Run <code>npm run</code> to list them. <code>start</code> runs the dev server, <code>build</code> makes the files you publish, <code>dddaudit</code> checks your styles.</p></ddd-steps-list-item><ddd-steps-list-item step=\"5\" title=\"Change one word\"><p>In <code>index.html</code>, change the title attribute on <code>&lt;my-card&gt;</code> and save. The browser updates by itself. That's the loop you'll live in.</p></ddd-steps-list-item></ddd-steps-list>\n<h2>Stuck? Ask your study buddy</h2>\n<p>Use AI to explain, not to do the work for you. Paste your own code or error with the prompt, read the answer, then close the chat and type the fix yourself. If you can't explain the fix out loud, you don't own it yet.</p>\n<a11y-collapse heading=\"Prompts for this page\" heading-button><div slot=\"content\"><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">I ran `npm install` and got this: [paste]. Is this an error or just a warning? What should I do?</template></code-sample><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">Explain what each part of this package.json does: [paste]. What&#39;s the difference between dependencies and devDependencies?</template></code-sample><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">What is node_modules and why should I never commit it or edit files in it?</template></code-sample></div></a11y-collapse>\n<multiple-choice question=\"Where does npm write down which packages your project needs?\" single-option randomize><input type=\"checkbox\" value=\"package.json\" data-correct=\"true\"><input type=\"checkbox\" value=\"node_modules\"><input type=\"checkbox\" value=\"index.html\"><input type=\"checkbox\" value=\"README.md\"></multiple-choice>\n<h2>You're done when</h2><bullet-check-list storage-id=\"onboard-npm\" title=\"npm and hax webcomponent\" items=\"[{&quot;label&quot;:&quot;I have one folder for all my code&quot;},{&quot;label&quot;:&quot;hax webcomponent my-card made a project&quot;},{&quot;label&quot;:&quot;npm start shows my element in the browser&quot;},{&quot;label&quot;:&quot;I can name what dependencies and scripts are for&quot;},{&quot;label&quot;:&quot;I finished the Lit intro tutorial in JS&quot;}]\"></bullet-check-list>\n<h2>Journal it</h2><p>Add a heading for this page to your dev journal (the public Gist you made in Start here) and answer in Markdown:</p><ul><li>What did hax webcomponent create? List the files you recognize.</li><li>Lit vs the plain CodePen way: easier or harder so far? Why?</li></ul>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-port-your-card",
+          "title": "Port your card",
+          "slug": "port-your-card",
+          "parent": "item-real-development",
+          "indent": 2,
+          "order": 13,
+          "content": "<p>Move your CodePen card into <code>my-card.js</code>. The parts that changed from card to card become properties. The description becomes a slot so it can hold real HTML. Your colors and spacing become DDD tokens. Then you let tools check your work before a human does.</p>\n<stop-note status=\"info\" title=\"At a glance\"><div slot=\"message\"><ul>\n<li><strong>Read and watch:</strong> about 20 minutes</li>\n<li><strong>Do:</strong> about 1 to 2 hours</li>\n<li><strong>You make:</strong> a my-card element used five different ways in index.html</li>\n<li><strong>You need:</strong> your Project 1 pen and the my-card project</li>\n<li><strong>Support level:</strong> medium</li>\n</ul></div></stop-note>\n<h2>Read and watch</h2>\n<ul>\n<li><a href=\"https://lit.dev/articles/lit-cheat-sheet/\" target=\"_blank\" rel=\"noopener noreferrer\">Lit cheat sheet</a>: properties, reflect, events and slots on one page (use JS).</li>\n<li>Code crit of a past class's cards: what went well and what didn't.</li>\n</ul>\n<video-player source=\"https://www.youtube.com/watch?v=er70EwxF8EU\"></video-player>\n<h2>Do</h2>\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"Move the HTML and CSS\"><p>Paste your card's HTML into <code>render()</code> and its CSS into <code>static get styles()</code>. Leave the imports, <code>haxProperties</code> and the translation code that the generator wrote alone; you'll use them later.</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Make properties\"><p>Every value from your properties list becomes a property: declare it in <code>static get properties()</code>, give it a default in the constructor, use it in <code>render()</code>. Aim for at least three: title, image and one more.</p><code-sample copy-clipboard-button type=\"javascript\"><template preserve-content=\"preserve-content\">import { LitElement, html, css } from \"lit\";\nimport { DDDSuper } from \"@haxtheweb/d-d-d/d-d-d.js\";\n\nexport class MyCard extends DDDSuper(LitElement) {\n  static get tag() {\n    return \"my-card\";\n  }\n  constructor() {\n    super();\n    this.title = \"\";\n    this.image = \"\";\n    this.fancy = false;\n  }\n  static get properties() {\n    return {\n      ...super.properties,\n      title: { type: String },\n      image: { type: String },\n      fancy: { type: Boolean, reflect: true },\n    };\n  }\n  static get styles() {\n    return [super.styles, css`\n      :host {\n        display: block;\n        max-width: 400px;\n        padding: var(--ddd-spacing-2);\n        border: var(--ddd-border-sm);\n        border-radius: var(--ddd-radius-md);\n      }\n      :host([fancy]) {\n        background-color: var(--ddd-theme-accent);\n        box-shadow: var(--ddd-boxShadow-md);\n      }\n      img {\n        width: 100%;\n        border-radius: var(--ddd-radius-sm);\n      }\n    `];\n  }\n  render() {\n    return html`\n      <img src=\"${this.image}\" alt=\"\" />\n      <h3>${this.title}</h3>\n      <slot></slot>\n    `;\n  }\n}\nglobalThis.customElements.define(MyCard.tag, MyCard);</template></code-sample></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"Add a slot and a fancy state\"><p>Put a <code>&lt;slot&gt;&lt;/slot&gt;</code> where the description goes. Add a <code>fancy</code> Boolean with <code>reflect: true</code>, then style it with <code>:host([fancy])</code>.</p></ddd-steps-list-item><ddd-steps-list-item step=\"4\" title=\"Use it five ways\"><p>In <code>index.html</code>, make five different cards with attributes alone. No JavaScript in index.html.</p><code-sample copy-clipboard-button type=\"html\"><template preserve-content=\"preserve-content\"><my-card title=\"Hockey highlights\" image=\"https://github.com/haxtheweb.png\" fancy>\n  <p>Slotted HTML can be <strong>bold</strong>, unlike a property.</p>\n</my-card></template></code-sample></ddd-steps-list-item><ddd-steps-list-item step=\"5\" title=\"Audit it\"><p>Run <code>npm run dddaudit</code> (or <code>hax audit</code>) in the project folder and fix what makes sense: it points at values that should be DDD tokens. Then open your demo, right click, Inspect, and run the <strong>Lighthouse</strong> tab with Accessibility ticked. Fix every red item. Try the <a href=\"https://wave.webaim.org/extension/\" target=\"_blank\" rel=\"noopener noreferrer\">WAVE extension</a> too.</p></ddd-steps-list-item></ddd-steps-list>\n<h2>Before you move on</h2>\n<ul>\n<li>All human-readable text comes from a property or a slot, never typed into <code>render()</code>.</li>\n<li>Selectors use classes. No <code>id</code> lookups.</li>\n<li>Comment each method in plain words. You should be able to explain every line.</li>\n</ul>\n<h2>Stuck? Ask your study buddy</h2>\n<p>Use AI to explain, not to do the work for you. Paste your own code or error with the prompt, read the answer, then close the chat and type the fix yourself. If you can't explain the fix out loud, you don't own it yet.</p>\n<a11y-collapse heading=\"Prompts for this page\" heading-button><div slot=\"content\"><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">Here is my Lit element: [paste]. My title attribute doesn&#39;t show up when I change it in index.html. Ask me questions to help me find the bug instead of fixing it.</template></code-sample><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">I tried to make part of my description property bold and the tags showed up as text. Why does Lit do that, and why does a slot fix it?</template></code-sample><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">hax audit gave me this output: [paste]. Explain each item and which ones are worth fixing.</template></code-sample></div></a11y-collapse>\n<multiple-choice question=\"You want authors to put bold text and links in your card&#39;s description. What do you use?\" single-option randomize><input type=\"checkbox\" value=\"A slot\" data-correct=\"true\"><input type=\"checkbox\" value=\"A String property\"><input type=\"checkbox\" value=\"An id\"><input type=\"checkbox\" value=\"A media query\"></multiple-choice>\n<h2>You're done when</h2><bullet-check-list storage-id=\"onboard-port\" title=\"Port your card\" items=\"[{&quot;label&quot;:&quot;My card renders from my-card.js&quot;},{&quot;label&quot;:&quot;It has at least three properties&quot;},{&quot;label&quot;:&quot;The description is a slot&quot;},{&quot;label&quot;:&quot;fancy is reflected and changes the look&quot;},{&quot;label&quot;:&quot;index.html shows five cards using attributes only&quot;},{&quot;label&quot;:&quot;hax audit and Lighthouse accessibility issues are fixed or explained&quot;}]\"></bullet-check-list>\n<h2>Journal it</h2><p>Add a heading for this page to your dev journal (the public Gist you made in Start here) and answer in Markdown:</p><ul><li>Which property was hardest to wire up? Why?</li><li>Paste one audit finding and how you fixed it.</li><li>What does reflect: true do, in your words?</li></ul>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-github-and-vercel",
+          "title": "GitHub and Vercel",
+          "slug": "github-and-vercel",
+          "parent": "item-real-development",
+          "indent": 2,
+          "order": 14,
+          "content": "<p>Your card only exists on your computer. In this step it goes to GitHub, where your history and your portfolio live, and Vercel watches that repository and publishes a fresh build every time you push. That loop is called CI/CD: continuous integration and continuous delivery. It's how almost every professional team ships.</p>\n<stop-note status=\"info\" title=\"At a glance\"><div slot=\"message\"><ul>\n<li><strong>Read and watch:</strong> about 20 minutes</li>\n<li><strong>Do:</strong> about 1 hour</li>\n<li><strong>You make:</strong> a my-card repository on GitHub and a live my-card address on vercel.app</li>\n<li><strong>You need:</strong> GitHub Desktop or git, and your Vercel account</li>\n<li><strong>Support level:</strong> full, two ways</li>\n</ul></div></stop-note>\n<h2>Read and watch</h2>\n<ul>\n<li><a href=\"https://docs.github.com/en/get-started/start-your-journey/hello-world\" target=\"_blank\" rel=\"noopener noreferrer\">Hello World (GitHub)</a>: repositories, commits and branches in ten minutes.</li>\n<li><a href=\"https://vercel.com/docs/git\" target=\"_blank\" rel=\"noopener noreferrer\">Deploying Git repositories (Vercel)</a>: what happens when you push.</li>\n<li>Watch a problem go from idea to shipped, end to end:</li>\n</ul>\n<video-player source=\"https://www.youtube.com/watch?v=oc7sNh2Zisg\"></video-player>\n<h2>Do: get it on GitHub</h2>\n<a11y-tabs aria-label=\"Push your code to GitHub\">\n<a11y-tab label=\"GitHub Desktop\" icon=\"icons:cloud-upload\">\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"Add your folder\"><p>Open GitHub Desktop. Windows: <strong>File, Add local repository</strong>. macOS: <strong>File, Add Local Repository</strong>. Pick your <code>my-card</code> folder. hax already made it a git repository.</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Commit\"><p>The left side lists every changed file. Type a summary like <em>Port my card into a web component</em> and press <strong>Commit to main</strong>.</p></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"Publish\"><p>Press <strong>Publish repository</strong>. Untick <em>Keep this code private</em> so others can see and learn from it. Open it on github.com to check.</p></ddd-steps-list-item><ddd-steps-list-item step=\"4\" title=\"Every time after\"><p>Change code, come back to GitHub Desktop, write a summary, Commit, then <strong>Push origin</strong>.</p></ddd-steps-list-item></ddd-steps-list>\n</a11y-tab>\n<a11y-tab label=\"Command line\" icon=\"icons:code\">\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"Make an empty repository\"><p>On github.com press <strong>New repository</strong>, name it <code>my-card</code>, and don't add a README (your folder already has one).</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Commit and push\"><code-sample copy-clipboard-button type=\"bash\"><template preserve-content=\"preserve-content\"># inside your my-card folder\ngit status\ngit add .\ngit commit -m \"Port my card into a web component\"\n# create an EMPTY repo named my-card on github.com first, then:\ngit remote add origin https://github.com/<your-github-name>/my-card.git\ngit branch -M main\ngit push -u origin main</template></code-sample></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"Every time after\"><p><code>git add .</code>, <code>git commit -m \"what changed\"</code>, <code>git push</code>.</p></ddd-steps-list-item></ddd-steps-list>\n</a11y-tab>\n</a11y-tabs>\n<h2>Do: connect Vercel</h2>\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"Import the repository\"><p>On <a href=\"https://vercel.com/new\" target=\"_blank\" rel=\"noopener noreferrer\">vercel.com/new</a>, pick your <code>my-card</code> repository and press Import.</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Check the settings\"><p>Build command <code>npm run build</code>, output directory <code>public</code>. Vercel usually guesses; fix them if it doesn't. Press Deploy.</p></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"Watch it build\"><p>Read the build log as it runs. When it's done you get a <code>something.vercel.app</code> address. Open it on your phone.</p></ddd-steps-list-item><ddd-steps-list-item step=\"4\" title=\"Close the loop\"><p>Change your card, commit, push. Watch Vercel build again on its own. Your card now updates itself.</p></ddd-steps-list-item></ddd-steps-list>\n<h2>Stuck? Ask your study buddy</h2>\n<p>Use AI to explain, not to do the work for you. Paste your own code or error with the prompt, read the answer, then close the chat and type the fix yourself. If you can't explain the fix out loud, you don't own it yet.</p>\n<a11y-collapse heading=\"Prompts for this page\" heading-button><div slot=\"content\"><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">Vercel&#39;s build failed with this log: [paste the last 40 lines]. What&#39;s the actual error, and what should I check first?</template></code-sample><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">Explain the difference between commit and push using an analogy, then tell me what &#39;origin&#39; means.</template></code-sample><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">GitHub Desktop says my branch has diverged. What does that mean, and what&#39;s the safe way out?</template></code-sample></div></a11y-collapse>\n<multiple-choice question=\"You pushed a change, but your vercel.app site looks the same. What do you check first?\" single-option randomize><input type=\"checkbox\" value=\"The latest deployment&#39;s build log in Vercel\" data-correct=\"true\"><input type=\"checkbox\" value=\"Delete the repository\"><input type=\"checkbox\" value=\"Clear your GitHub profile\"><input type=\"checkbox\" value=\"Reinstall Node.js\"></multiple-choice>\n<h2>You're done when</h2><bullet-check-list storage-id=\"onboard-ship\" title=\"GitHub and Vercel\" items=\"[{&quot;label&quot;:&quot;my-card is a public repository on GitHub&quot;},{&quot;label&quot;:&quot;Vercel builds it and gives me a vercel.app address&quot;},{&quot;label&quot;:&quot;I pushed a change and watched it rebuild by itself&quot;},{&quot;label&quot;:&quot;I can explain commit vs push&quot;}]\"></bullet-check-list>\n<h2>Journal it</h2><p>Add a heading for this page to your dev journal (the public Gist you made in Start here) and answer in Markdown:</p><ul><li>Paste your GitHub repository link and your vercel.app link.</li><li>What did the build log say? Name one step you recognized.</li><li>Command line or GitHub Desktop: which did you use, and why?</li></ul>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-data-driven-cards",
+          "title": "5. Data-driven cards",
+          "slug": "data-driven-cards",
+          "parent": "item-onboarding",
+          "indent": 1,
+          "order": 15,
+          "content": "<p>Real cards don't have their content typed into HTML. YouTube's cards come from data. In this chapter your cards do too: you design the data, let AI help fill it in, fetch it, render it, and then, on your own, wire the buttons that change it.</p>\n<grid-plate layout=\"1-1\"><ddd-card slot=\"col-1\" title=\"Content modeling and JSON\" href=\"content-modeling-json\"><p>Design the shape of your data before you write it.</p></ddd-card><ddd-card slot=\"col-2\" title=\"Fetch and render, with AI\" href=\"fetch-and-render\"><p>Load your JSON and draw a card for each item.</p></ddd-card><ddd-card slot=\"col-1\" title=\"Card controls, without AI\" href=\"card-controls\"><p>Add, clone, change and delete cards, with limits.</p></ddd-card></grid-plate>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-content-modeling-json",
+          "title": "Content modeling and JSON",
+          "slug": "content-modeling-json",
+          "parent": "item-data-driven-cards",
+          "indent": 2,
+          "order": 16,
+          "content": "<p>Content modeling means deciding what your data looks like before you write any of it: which fields a card has, what type each one is, and which are required. Get this right and the code that follows is easy. Get it wrong and every card is a special case.</p>\n<stop-note status=\"info\" title=\"At a glance\"><div slot=\"message\"><ul>\n<li><strong>Read and watch:</strong> about 15 minutes</li>\n<li><strong>Do:</strong> about 1 hour</li>\n<li><strong>You make:</strong> a cards.json file with at least 12 cards</li>\n<li><strong>You need:</strong> your properties list from Project 1 and a JSON viewer</li>\n<li><strong>Support level:</strong> medium; AI encouraged for filling in data</li>\n</ul></div></stop-note>\n<h2>Read and look</h2>\n<ul>\n<li><a href=\"https://www.json.org/json-en.html\" target=\"_blank\" rel=\"noopener noreferrer\">json.org</a>: the whole format on one page. Note there are no comments in JSON.</li>\n<li><a href=\"https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/JSON\" target=\"_blank\" rel=\"noopener noreferrer\">Working with JSON (MDN)</a>.</li>\n<li>Real data, from HAX: open <a href=\"https://haxtheweb.org/site.json\" target=\"_blank\" rel=\"noopener noreferrer\">haxtheweb.org/site.json</a> in your browser. Every HAX site is described by one file like this. Find the <code>items</code> array and one item's <code>title</code> and <code>slug</code>.</li>\n</ul>\n<h2>Do</h2>\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"Write the model\"><p>From your properties list, write each field with its type (string, number, boolean, array) and whether it's required. Add an <code>id</code>: every item needs one so code can tell them apart.</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Write one card by hand\"><p>Create <code>cards.json</code> next to <code>my-card.js</code>. Write one complete card by hand so you know the model works.</p><code-sample copy-clipboard-button type=\"json\"><template preserve-content=\"preserve-content\">{\n  \"cards\": [\n    {\n      \"id\": \"c1\",\n      \"title\": \"Hockey highlights\",\n      \"image\": \"https://github.com/haxtheweb.png\",\n      \"channel\": \"Rink Rats\",\n      \"views\": 12000,\n      \"published\": \"2026-11-18\",\n      \"tags\": [\"sports\", \"hockey\"],\n      \"fancy\": true\n    }\n  ]\n}</template></code-sample></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"Let AI fill in the rest\"><p>Give AI your model and your one example, and ask for eleven more. Use the prompt below. Then read every card it makes: AI gets types wrong, invents fields and repeats itself.</p></ddd-steps-list-item><ddd-steps-list-item step=\"4\" title=\"Validate it\"><p>Paste the file into <a href=\"https://jsonlint.com\" target=\"_blank\" rel=\"noopener noreferrer\">a JSON validator</a> or just open it in your browser through your dev server. A single missing comma breaks the whole file.</p></ddd-steps-list-item></ddd-steps-list>\n<h2>Stuck? Ask your study buddy</h2>\n<p>Use AI to explain, not to do the work for you. Paste your own code or error with the prompt, read the answer, then close the chat and type the fix yourself. If you can't explain the fix out loud, you don't own it yet.</p>\n<a11y-collapse heading=\"Prompts for this page\" heading-button><div slot=\"content\"><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">Here is my content model for a video card: [paste fields and types]. Here is one example in JSON: [paste]. Generate 11 more cards in the same exact shape, inside the same &quot;cards&quot; array. Use realistic but made-up titles and channels. Don&#39;t add or rename fields. Use https://github.com/&lt;a GitHub username&gt;.png for images.</template></code-sample><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">Review my content model: [paste]. What fields am I missing that a real video card would need? What should be a number instead of a string?</template></code-sample><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">My JSON won&#39;t load. Find the syntax error and explain it: [paste].</template></code-sample></div></a11y-collapse>\n<multiple-choice question=\"Why does every card in your JSON need an id?\" single-option randomize><input type=\"checkbox\" value=\"So code can find, change or remove one specific card\" data-correct=\"true\"><input type=\"checkbox\" value=\"JSON requires it\"><input type=\"checkbox\" value=\"It makes the file smaller\"><input type=\"checkbox\" value=\"Vercel won&#39;t build without it\"></multiple-choice>\n<h2>You're done when</h2><bullet-check-list storage-id=\"onboard-model\" title=\"Content modeling\" items=\"[{&quot;label&quot;:&quot;I wrote a model with fields, types and required/optional&quot;},{&quot;label&quot;:&quot;I wrote one card by hand&quot;},{&quot;label&quot;:&quot;cards.json has at least 12 cards in the same shape&quot;},{&quot;label&quot;:&quot;I checked every AI-made card and fixed what was wrong&quot;},{&quot;label&quot;:&quot;The file validates&quot;}]\"></bullet-check-list>\n<h2>Journal it</h2><p>Add a heading for this page to your dev journal (the public Gist you made in Start here) and answer in Markdown:</p><ul><li>Paste your model.</li><li>What did the AI get wrong, and how did you notice?</li></ul>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-fetch-and-render",
+          "title": "Fetch and render, with AI",
+          "slug": "fetch-and-render",
+          "parent": "item-data-driven-cards",
+          "indent": 2,
+          "order": 17,
+          "content": "<p>Your element will now load <code>cards.json</code> itself and draw a card for every item. You'll use AI as a pair programmer for this one: it writes a first draft, you read it, run it and make it yours.</p>\n<stop-note status=\"info\" title=\"At a glance\"><div slot=\"message\"><ul>\n<li><strong>Read and watch:</strong> about 15 minutes</li>\n<li><strong>Do:</strong> about 1 to 2 hours</li>\n<li><strong>You make:</strong> a card-list element that renders cards from JSON, live on Vercel</li>\n<li><strong>You need:</strong> cards.json and your my-card project</li>\n<li><strong>Support level:</strong> medium; AI as pair programmer</li>\n</ul></div></stop-note>\n<h2>Read and play</h2>\n<ul>\n<li><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch\" target=\"_blank\" rel=\"noopener noreferrer\">Using fetch (MDN)</a>.</li>\n<li><a href=\"https://lit.dev/docs/components/rendering/#rendering-lists\" target=\"_blank\" rel=\"noopener noreferrer\">Rendering lists (Lit)</a>: <code>.map()</code> inside a template.</li>\n<li><a href=\"https://codepen.io/btopro/pen/LEGdLyo?editors=1010\" target=\"_blank\" rel=\"noopener noreferrer\">A commented pen</a> that fetches from a website and walks through the JSON.</li>\n</ul>\n<h2>Do</h2>\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"Add a second element\"><p>Run <code>hax webcomponent wc:element</code> (or copy <code>my-card.js</code>) to make <code>card-list.js</code> in the same project. It owns the data. <code>my-card</code> stays dumb: it just shows what it's given.</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Ask for a first draft\"><p>Use the first prompt below with your real files. Read the answer before you paste anything. Every line it writes, you should be able to explain.</p></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"Fetch the file\"><p>Your draft should do roughly this. <code>import.meta.url</code> makes the path work both on your computer and on Vercel:</p><code-sample copy-clipboard-button type=\"javascript\"><template preserve-content=\"preserve-content\">// in your element: load the JSON that sits next to this file\nasync firstUpdated() {\n  const url = new URL(\"./cards.json\", import.meta.url).href;\n  const response = await fetch(url);\n  const data = await response.json();\n  this.items = data.cards;\n}</template></code-sample></ddd-steps-list-item><ddd-steps-list-item step=\"4\" title=\"Render the list\"><p>Map over the items and hand each one to <code>my-card</code>:</p><code-sample copy-clipboard-button type=\"javascript\"><template preserve-content=\"preserve-content\">render() {\n  return html`\n    <div class=\"list\">\n      ${this.items.map((item) => html`\n        <my-card title=\"${item.title}\" image=\"${item.image}\" ?fancy=\"${item.fancy}\"></my-card>\n      `)}\n    </div>\n  `;\n}</template></code-sample></ddd-steps-list-item><ddd-steps-list-item step=\"5\" title=\"Ship it\"><p>Commit, push and check your vercel.app address. Open the Network tab and find the request for <code>cards.json</code>. You did on day one what you just built.</p></ddd-steps-list-item></ddd-steps-list>\n<h2>Stuck? Ask your study buddy</h2>\n<p>Use AI to explain, not to do the work for you. Paste your own code or error with the prompt, read the answer, then close the chat and type the fix yourself. If you can't explain the fix out loud, you don't own it yet.</p>\n<a11y-collapse heading=\"Prompts for this page\" heading-button><div slot=\"content\"><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">I&#39;m building a Lit web component called card-list that should fetch cards.json (sitting next to the JS file) and render a &lt;my-card&gt; for each item. Here is my-card.js: [paste]. Here is cards.json: [paste first two items]. Write card-list.js with comments on every block, use import.meta.url for the path, and explain anything a beginner wouldn&#39;t know.</template></code-sample><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">Nothing renders and the console says: [paste]. Here&#39;s my code: [paste]. What&#39;s wrong?</template></code-sample><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">Explain async and await using my fetch code as the example.</template></code-sample></div></a11y-collapse>\n<multiple-choice question=\"Why do you build the JSON path with new URL(&#39;./cards.json&#39;, import.meta.url)?\" single-option randomize><input type=\"checkbox\" value=\"So the file is found relative to the code, both locally and on Vercel\" data-correct=\"true\"><input type=\"checkbox\" value=\"fetch only accepts URL objects\"><input type=\"checkbox\" value=\"It makes the JSON load faster\"><input type=\"checkbox\" value=\"It&#39;s required by JSON\"></multiple-choice>\n<h2>You're done when</h2><bullet-check-list storage-id=\"onboard-fetch\" title=\"Fetch and render\" items=\"[{&quot;label&quot;:&quot;card-list fetches cards.json&quot;},{&quot;label&quot;:&quot;Every item renders as a my-card&quot;},{&quot;label&quot;:&quot;I can explain every line AI wrote&quot;},{&quot;label&quot;:&quot;It works on my vercel.app address&quot;},{&quot;label&quot;:&quot;I found the cards.json request in the Network tab&quot;}]\"></bullet-check-list>\n<h2>Journal it</h2><p>Add a heading for this page to your dev journal (the public Gist you made in Start here) and answer in Markdown:</p><ul><li>What did AI write that you didn't understand at first? What is it doing?</li><li>What did you have to change to make its draft work?</li></ul>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-card-controls",
+          "title": "Card controls, without AI",
+          "slug": "card-controls",
+          "parent": "item-data-driven-cards",
+          "indent": 2,
+          "order": 18,
+          "content": "<p>Close the AI tab. This page is yours alone, because this is the skill everything else depends on: find an element, listen for a user, check a rule, change the page. You'll do it in plain JavaScript in CodePen first, then bring it into your component.</p>\n<stop-note status=\"info\" title=\"At a glance\"><div slot=\"message\"><ul>\n<li><strong>Read and watch:</strong> about 15 minutes</li>\n<li><strong>Do:</strong> about 1 to 2 hours</li>\n<li><strong>You make:</strong> buttons that add, clone, change and remove cards, with limits</li>\n<li><strong>You need:</strong> your Project 1b pen, MDN, and no AI</li>\n<li><strong>Support level:</strong> light: requirements, not steps</li>\n</ul></div></stop-note>\n<h2>Read and watch</h2>\n<ul>\n<li><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector\" target=\"_blank\" rel=\"noopener noreferrer\">querySelector (MDN)</a> and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener\" target=\"_blank\" rel=\"noopener noreferrer\">addEventListener (MDN)</a>.</li>\n<li><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/classList\" target=\"_blank\" rel=\"noopener noreferrer\">classList (MDN)</a>: how to toggle a state without touching styles.</li>\n<li>Follow along with a past class doing exactly this, with <a href=\"https://codepen.io/btopro/pen/PoLJXVj\" target=\"_blank\" rel=\"noopener noreferrer\">this starting pen</a>:</li>\n</ul>\n<video-player source=\"https://www.youtube.com/watch?v=LGZHodz7dLo\"></video-player>\n<h2>Requirements</h2>\n<p>Fork your Project 1b pen. Add a row of buttons. Each one needs to:</p>\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"Add a card\"><p>Adds a new card at the end. There can never be more than 10.</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Clone a card\"><p>Copies the first card, content and all, with <code>cloneNode(true)</code>.</p></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"Change a setting\"><p>Toggles a <code>fancy</code> class on <strong>every</strong> card, on and off. Test the class with <code>classList.contains</code>, not the style.</p></ddd-steps-list-item><ddd-steps-list-item step=\"4\" title=\"Change content\"><p>Changes the title of the last card, and its image.</p></ddd-steps-list-item><ddd-steps-list-item step=\"5\" title=\"Remove a card\"><p>Removes the last card. Never removes the only one left.</p></ddd-steps-list-item><ddd-steps-list-item step=\"6\" title=\"Show the rules\"><p>Disable Add at 10 and Remove at 1, so the user can see the limit instead of guessing.</p></ddd-steps-list-item></ddd-steps-list>\n<p>Here's the shape of one button. The comments are the recipe for the other five:</p>\n<code-sample copy-clipboard-button type=\"html\"><template preserve-content=\"preserve-content\"><div class=\"controls\">\n  <button class=\"add\">Add card</button>\n  <button class=\"clone\">Clone first card</button>\n  <button class=\"fancy\">Toggle fancy</button>\n  <button class=\"remove\">Remove last card</button>\n</div>\n<div class=\"list\"></div></template></code-sample>\n<code-sample copy-clipboard-button type=\"javascript\"><template preserve-content=\"preserve-content\">// 1. find the things you need (classes, not ids)\nconst list = document.querySelector('.list');\nconst addBtn = document.querySelector('.add');\n// 2. listen for the user\naddBtn.addEventListener('click', () => {\n  // 3. check the rule BEFORE changing anything\n  if (list.children.length >= 10) {\n    return;\n  }\n  // 4. make the change\n  const card = document.createElement('my-card');\n  card.setAttribute('title', 'New card');\n  list.appendChild(card);\n});</template></code-sample>\n<h2>When it works, bring it home</h2>\n<p>Move the same behavior into <code>card-list</code>: keep the cards in an <code>items</code> array property, change the array, and let Lit re-render. Notice you no longer touch the page directly. That shift, from changing the page to changing the data, is the step from scripts to components.</p>\n<h2>Stuck? Search, don't ask</h2>\n<p>Search the small thing: \"javascript remove last child of element\", \"disable button javascript\". Read the MDN result, try it, inspect it. If you're still stuck after 20 minutes, ask a person, and show them what you tried.</p>\n<multiple-choice question=\"The Remove button is clicked when only one card is left. What should your code do first?\" single-option randomize><input type=\"checkbox\" value=\"Check the count and stop before removing\" data-correct=\"true\"><input type=\"checkbox\" value=\"Remove it, then add one back\"><input type=\"checkbox\" value=\"Throw an error\"><input type=\"checkbox\" value=\"Reload the page\"></multiple-choice>\n<multiple-choice question=\"You want every card to look fancy. Which is better?\" single-option randomize><input type=\"checkbox\" value=\"card.classList.toggle(&#39;fancy&#39;)\" data-correct=\"true\"><input type=\"checkbox\" value=\"card.style.backgroundColor = &#39;gold&#39;\"><input type=\"checkbox\" value=\"card.id = &#39;fancy&#39;\"><input type=\"checkbox\" value=\"document.write(&#39;fancy&#39;)\"></multiple-choice>\n<h2>You're done when</h2><bullet-check-list storage-id=\"onboard-controls\" title=\"Card controls\" items=\"[{&quot;label&quot;:&quot;Add stops at 10&quot;},{&quot;label&quot;:&quot;Clone copies the first card&quot;},{&quot;label&quot;:&quot;Fancy toggles on every card using a class&quot;},{&quot;label&quot;:&quot;I can change the last card&#39;s title and image&quot;},{&quot;label&quot;:&quot;Remove never deletes the last card&quot;},{&quot;label&quot;:&quot;Buttons disable at their limits&quot;},{&quot;label&quot;:&quot;I wrote it without AI&quot;}]\"></bullet-check-list>\n<h2>Journal it</h2><p>Add a heading for this page to your dev journal (the public Gist you made in Start here) and answer in Markdown:</p><ul><li>Which requirement took longest, and what finally made it click?</li><li>What did you search for? List the searches that worked.</li><li>Paste your pen link.</li></ul>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-into-hax",
+          "title": "6. Into HAX",
+          "slug": "into-hax",
+          "parent": "item-onboarding",
+          "indent": 1,
+          "order": 19,
+          "content": "<p>You can now do what new HAX contributors do in their first weeks: read code, build an element, ship it, and change data with confidence. This chapter shows you how HAX fits together, where the work is, and has you publish a HAX site of your own.</p>\n<grid-plate layout=\"1-1\"><ddd-card slot=\"col-1\" title=\"What HAX is and how it works\" href=\"what-is-hax\"><p>Sites as folders of files, elements as blocks, and why that matters.</p></ddd-card><ddd-card slot=\"col-2\" title=\"Hack this course\" href=\"hack-this-course\"><p>Fork this site, add HAX blocks, publish your copy and send a fix back.</p></ddd-card><ddd-card slot=\"col-1\" title=\"Find your first issue\" href=\"first-issue\"><p>How the issue queue works and how to pick something you can finish.</p></ddd-card><ddd-card slot=\"col-2\" title=\"Capstone: your own HAX site\" href=\"capstone\"><p>Make it in the browser, edit it on your computer, publish it from GitHub.</p></ddd-card><ddd-card slot=\"col-1\" title=\"Next: join HAX Lab\" href=\"next-steps\"><p>Where contributors go from here.</p></ddd-card></grid-plate>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-what-is-hax",
+          "title": "What HAX is and how it works",
+          "slug": "what-is-hax",
+          "parent": "item-into-hax",
+          "indent": 2,
+          "order": 20,
+          "content": "<p>HAX is a way to make websites without thinking about it, in a format that keeps working. A HAX site is a folder: one <code>site.json</code> that lists every page, one HTML file per page, and the files you uploaded. Pages are made of web components, the same kind you just built. No database, nothing to upgrade, copy the folder and the site comes with it.</p>\n<stop-note status=\"info\" title=\"At a glance\"><div slot=\"message\"><ul>\n<li><strong>Read and watch:</strong> about 20 minutes</li>\n<li><strong>Do:</strong> about 45 minutes</li>\n<li><strong>You make:</strong> a map of one real HAX site's files</li>\n<li><strong>You need:</strong> a JSON viewer</li>\n<li><strong>Support level:</strong> medium</li>\n</ul></div></stop-note>\n<h2>Read and look</h2>\n<ul>\n<li><a href=\"https://haxtheweb.org\" target=\"_blank\" rel=\"noopener noreferrer\">haxtheweb.org</a>: what HAX is for and who uses it.</li>\n<li><a href=\"https://www.hax.cloud\" target=\"_blank\" rel=\"noopener noreferrer\">hax.cloud</a>: the stories and decisions behind the project, if you want the why.</li>\n<li><a href=\"https://webcomponents.hax.cloud\" target=\"_blank\" rel=\"noopener noreferrer\">The web components gallery</a>: every element HAX ships, with demos. Find one that's a card.</li>\n</ul>\n<h2>How the pieces fit</h2>\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"site.json\"><p>Lists every page: title, slug, order, parent and where its HTML lives. It follows <a href=\"https://github.com/haxtheweb/json-outline-schema\" target=\"_blank\" rel=\"noopener noreferrer\">JSON Outline Schema</a>, the same idea as the cards.json you modeled.</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"pages/\"><p>One <code>index.html</code> per page. Plain HTML plus custom elements like <code>video-player</code> and <code>multiple-choice</code>.</p></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"Themes and design systems\"><p>The theme draws the menu, header and layout around the pages. Swap the theme and the content stays put. Design systems swap underneath, as you saw in chapter 3.</p></ddd-steps-list-item><ddd-steps-list-item step=\"4\" title=\"The editor\"><p>HAX's editor reads each element's <code>haxProperties</code> to know what it can do. That's the file <code>hax webcomponent</code> made for your card. Fill it in, and your element can be dragged into any HAX page.</p></ddd-steps-list-item></ddd-steps-list>\n<h2>Do</h2>\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"Read a site\"><p>Open the <code>site.json</code> of the site you're reading right now, in <a href=\"https://github.com/haxtheweb/hax-lab/blob/master/site.json\" target=\"_blank\" rel=\"noopener noreferrer\">the hax-lab repository</a>. Find this page's item by its title. Note its <code>slug</code>, its <code>parent</code> and its <code>location</code>, then open the file it points to under <code>pages/</code>.</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Read a page\"><p>On that page, right click and Inspect. Find three custom elements. Look each one up in the gallery.</p></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"Read some code\"><p>Open the <a href=\"https://github.com/haxtheweb/webcomponents\" target=\"_blank\" rel=\"noopener noreferrer\">webcomponents repository</a>. Find one element's folder under <code>elements/</code> and open its main <code>.js</code> file. You'll recognize <code>static get properties()</code>, <code>render()</code> and DDD tokens.</p></ddd-steps-list-item></ddd-steps-list>\n<h2>Stuck? Ask your study buddy</h2>\n<p>Use AI to explain, not to do the work for you. Paste your own code or error with the prompt, read the answer, then close the chat and type the fix yourself. If you can't explain the fix out loud, you don't own it yet.</p>\n<a11y-collapse heading=\"Prompts for this page\" heading-button><div slot=\"content\"><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">Here&#39;s an item from a HAX site.json: [paste]. Explain each field and how a site uses it to build a page.</template></code-sample><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">Here&#39;s a HAX element&#39;s source: [paste]. Walk me through its properties and render method. What patterns from my my-card element do you see?</template></code-sample></div></a11y-collapse>\n<multiple-choice question=\"Your HAX site is a folder. What happens if you copy it to another computer?\" single-option randomize><input type=\"checkbox\" value=\"The whole site comes with it, pages, files and all\" data-correct=\"true\"><input type=\"checkbox\" value=\"You also need to export the database\"><input type=\"checkbox\" value=\"Only the theme comes\"><input type=\"checkbox\" value=\"It stops working without the original server\"></multiple-choice>\n<h2>You're done when</h2><bullet-check-list storage-id=\"onboard-hax\" title=\"What HAX is\" items=\"[{&quot;label&quot;:&quot;I found a page from its slug in site.json&quot;},{&quot;label&quot;:&quot;I found three custom elements on a HAX page&quot;},{&quot;label&quot;:&quot;I read one element&#39;s source and recognized its parts&quot;},{&quot;label&quot;:&quot;I can explain what haxProperties is for&quot;}]\"></bullet-check-list>\n<h2>Journal it</h2><p>Add a heading for this page to your dev journal (the public Gist you made in Start here) and answer in Markdown:</p><ul><li>Which element did you read, and what did you recognize?</li><li>What would it take to make your my-card show up in the HAX editor?</li></ul>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-hack-this-course",
+          "title": "Hack this course",
+          "slug": "hack-this-course",
+          "parent": "item-into-hax",
+          "indent": 2,
+          "order": 21,
+          "content": "<p>The site you're reading is a folder of files in a public GitHub repository. In this page you fork it, run it on your computer, change it with real HAX blocks, publish your copy, and send one improvement back. You'll learn the HAX blocks by using them on a site you already know inside out.</p>\n<stop-note status=\"info\" title=\"At a glance\"><div slot=\"message\"><ul>\n<li><strong>Read and watch:</strong> about 10 minutes</li>\n<li><strong>Do:</strong> about 1 to 2 hours</li>\n<li><strong>You make:</strong> your own published copy of this course and a pull request back to it</li>\n<li><strong>You need:</strong> git or GitHub Desktop, and the hax command</li>\n<li><strong>Support level:</strong> medium: the goal and the main steps</li>\n</ul></div></stop-note>\n<h2>Read</h2>\n<ul>\n<li><a href=\"https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo\" target=\"_blank\" rel=\"noopener noreferrer\">Fork a repo (GitHub)</a>: what a fork is and how it stays linked to the original.</li>\n<li><a href=\"https://learn.hax.cloud\" target=\"_blank\" rel=\"noopener noreferrer\">Learn HAX</a>: the block reference shows every block you can add, with examples.</li>\n</ul>\n<h2>Do</h2>\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"Fork it\"><p>Open <a href=\"https://github.com/haxtheweb/hax-lab\" target=\"_blank\" rel=\"noopener noreferrer\">github.com/haxtheweb/hax-lab</a> and press <strong>Fork</strong>. You now own a copy at <code>github.com/your-github-name/hax-lab</code>.</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Clone it and run it\"><p>Clone your fork with GitHub Desktop (<strong>File, Clone repository</strong>) or <code>git clone</code> into your code folder. Then, inside the folder:</p><code-sample copy-clipboard-button type=\"bash\"><template preserve-content=\"preserve-content\"># inside your clone of your fork\ncd ~/Documents/git/hax-lab\nhax serve</template></code-sample></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"Make it yours with blocks\"><p>Edit your copy in the HAX editor that <code>hax serve</code> opens. Add a page called <em>My journal</em> and move your Gist entries into it. Use at least four different blocks: a video, a code sample, a self check and a collapse. Look at how this course uses them, then do it your way.</p></ddd-steps-list-item><ddd-steps-list-item step=\"4\" title=\"Read what the editor wrote\"><p>Open your new page's <code>index.html</code> in VS Code. Every block is a custom element with attributes, just like your card. Change one attribute by hand, save, and reload.</p></ddd-steps-list-item><ddd-steps-list-item step=\"5\" title=\"Publish your copy\"><p>Commit and push. Then turn on publishing with <code>hax site setup:github-actions</code>, push again, and in your fork's <strong>Settings, Pages</strong> pick GitHub Actions as the source. Your copy goes live at <code>your-github-name.github.io/hax-lab</code>.</p></ddd-steps-list-item><ddd-steps-list-item step=\"6\" title=\"Send one fix back\"><p>Find one thing in this course that confused you, a typo, a dead link, a step that skipped something. Fix it on a new branch in your fork and open a pull request to <code>haxtheweb/hax-lab</code>. Say what tripped you up and what you changed. Keep your journal page out of it: one fix per pull request.</p></ddd-steps-list-item></ddd-steps-list>\n<h2>Stuck? Ask your study buddy</h2>\n<p>Use AI to explain, not to do the work for you. Paste your own code or error with the prompt, read the answer, then close the chat and type the fix yourself. If you can't explain the fix out loud, you don't own it yet.</p>\n<a11y-collapse heading=\"Prompts for this page\" heading-button><div slot=\"content\"><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">I forked a HAX site and ran `hax serve`, and got this: [paste]. What&#39;s wrong?</template></code-sample><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">Here&#39;s the HTML the HAX editor saved for my page: [paste]. Explain what each custom element and attribute does.</template></code-sample><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">I want to open a pull request with only one change, but my branch has my journal page too. How do I make a clean branch with just the fix?</template></code-sample></div></a11y-collapse>\n<multiple-choice question=\"Why does your pull request leave out your journal page?\" single-option randomize><input type=\"checkbox\" value=\"A pull request should hold one change the original project wants\" data-correct=\"true\"><input type=\"checkbox\" value=\"Journal pages can&#39;t be committed\"><input type=\"checkbox\" value=\"GitHub limits pull requests to one file\"><input type=\"checkbox\" value=\"The editor deletes journal pages\"></multiple-choice>\n<h2>You're done when</h2><bullet-check-list storage-id=\"onboard-fork\" title=\"Hack this course\" items=\"[{&quot;label&quot;:&quot;I forked haxtheweb/hax-lab&quot;},{&quot;label&quot;:&quot;My fork runs locally with hax serve&quot;},{&quot;label&quot;:&quot;I added a My journal page with four different blocks&quot;},{&quot;label&quot;:&quot;I edited a block&#39;s attribute by hand&quot;},{&quot;label&quot;:&quot;My copy is published on GitHub Pages&quot;},{&quot;label&quot;:&quot;I opened a pull request with one fix&quot;}]\"></bullet-check-list>\n<h2>Journal it</h2><p>Add a heading for this page to your dev journal (the public Gist you made in Start here) and answer in Markdown:</p><ul><li>Link your published copy and your pull request.</li><li>Which block was most useful, and which was hardest to get right?</li><li>What did the HTML of a block teach you about how HAX works?</li></ul>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-first-issue",
+          "title": "Find your first issue",
+          "slug": "first-issue",
+          "parent": "item-into-hax",
+          "indent": 2,
+          "order": 22,
+          "content": "<p>Every bug, idea and task for every HAX repository lives in one place: the <a href=\"https://github.com/haxtheweb/issues\" target=\"_blank\" rel=\"noopener noreferrer\">unified issue queue</a>. Contributing starts with reading it, not with writing code. A good first issue is one you understand, can reproduce, and can finish.</p>\n<stop-note status=\"info\" title=\"At a glance\"><div slot=\"message\"><ul>\n<li><strong>Read and watch:</strong> about 20 minutes</li>\n<li><strong>Do:</strong> about 1 hour</li>\n<li><strong>You make:</strong> a shortlist of three issues and one comment</li>\n<li><strong>You need:</strong> your GitHub account</li>\n<li><strong>Support level:</strong> light</li>\n</ul></div></stop-note>\n<h2>Read</h2>\n<ul>\n<li><a href=\"https://github.com/haxtheweb/issues/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22Good%20first%20issue%22\" target=\"_blank\" rel=\"noopener noreferrer\">Open issues labeled Good first issue</a>.</li>\n<li><a href=\"https://github.com/haxtheweb/issues/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22Help%20Wanted%22\" target=\"_blank\" rel=\"noopener noreferrer\">Help Wanted</a> and <a href=\"https://github.com/haxtheweb/issues/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22Design%20Challenge%22\" target=\"_blank\" rel=\"noopener noreferrer\">Design Challenge</a> for when you want more.</li>\n<li><a href=\"https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project\" target=\"_blank\" rel=\"noopener noreferrer\">Contributing to a project (GitHub)</a>: forks and pull requests.</li>\n</ul>\n<h2>Do</h2>\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"Read ten issues\"><p>Don't pick yet. For each one, can you say in one sentence what's wrong or wanted? Which repository and element does it touch?</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Shortlist three\"><p>Pick three you could explain to a friend. Prefer ones with screenshots, steps to reproduce, or a plan already written in the comments (look for the Plan Created label).</p></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"Reproduce one\"><p>Make the bug happen yourself, or find the place in the code where the feature would go. If you can't reproduce it, that's useful information too.</p></ddd-steps-list-item><ddd-steps-list-item step=\"4\" title=\"Say hello\"><p>Comment on that issue: what you found, what you think the fix is, and that you'd like to try. Be specific and brief. Someone will answer.</p></ddd-steps-list-item></ddd-steps-list>\n<h2>Stuck? Ask your study buddy</h2>\n<p>Use AI to explain, not to do the work for you. Paste your own code or error with the prompt, read the answer, then close the chat and type the fix yourself. If you can't explain the fix out loud, you don't own it yet.</p>\n<a11y-collapse heading=\"Prompts for this page\" heading-button><div slot=\"content\"><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">Here&#39;s a GitHub issue from an open source project: [paste]. Explain what&#39;s being asked in plain words. Which skills from building a Lit web component would I need?</template></code-sample><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">I want to comment on an issue to say I&#39;d like to work on it. Here&#39;s the issue and what I found: [paste]. Help me make my comment clear and short. Don&#39;t make it sound like AI wrote it.</template></code-sample></div></a11y-collapse>\n<multiple-choice question=\"What makes an issue a good first issue for you?\" single-option randomize><input type=\"checkbox\" value=\"You understand it, can reproduce it, and can finish it\" data-correct=\"true\"><input type=\"checkbox\" value=\"It&#39;s the newest one\"><input type=\"checkbox\" value=\"It has the most comments\"><input type=\"checkbox\" value=\"It touches the most files\"></multiple-choice>\n<h2>You're done when</h2><bullet-check-list storage-id=\"onboard-issue\" title=\"First issue\" items=\"[{&quot;label&quot;:&quot;I read ten issues&quot;},{&quot;label&quot;:&quot;I have a shortlist of three&quot;},{&quot;label&quot;:&quot;I reproduced or located one&quot;},{&quot;label&quot;:&quot;I left a clear comment on it&quot;}]\"></bullet-check-list>\n<h2>Journal it</h2><p>Add a heading for this page to your dev journal (the public Gist you made in Start here) and answer in Markdown:</p><ul><li>Link your three issues and say why you picked each.</li><li>Paste the comment you left.</li></ul>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-capstone",
+          "title": "Capstone: your own HAX site",
+          "slug": "capstone",
+          "parent": "item-into-hax",
+          "indent": 2,
+          "order": 23,
+          "content": "<p>No steps this time, just the goal and the checkpoints. Make a HAX site in your browser, bind it to a folder on your computer, change it with the hax command line, put it in GitHub and publish it. Then change it again and watch it republish. When you can do that, you have the whole loop HAX contributors work in every day.</p>\n<stop-note status=\"info\" title=\"At a glance\"><div slot=\"message\"><ul>\n<li><strong>Read and watch:</strong> about 10 minutes</li>\n<li><strong>Do:</strong> about 2 to 3 hours</li>\n<li><strong>You make:</strong> a published HAX site you built and edited in two different ways</li>\n<li><strong>You need:</strong> Chrome or Edge (Firefox can't bind a local folder yet), and everything from chapters 1 to 5</li>\n<li><strong>Support level:</strong> none: goal and checkpoints only</li>\n</ul></div></stop-note>\n<h2>The goal</h2>\n<p>Build a small site about something you care about. It must include your card. Not as a screenshot: as a link to your vercel.app element and a page that explains how you built it, using HAX blocks like video, code and self checks, the way this site does.</p>\n<h2>Checkpoints</h2>\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"Make it in the browser\"><p>On <a href=\"https://browser.hax.cloud\" target=\"_blank\" rel=\"noopener noreferrer\">browser.hax.cloud</a>, create a site and bind it to a new, empty folder in your code folder. Add at least four pages. Everything saves into that folder on your computer.</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Open it locally\"><p>Open that folder in VS Code. Find <code>site.json</code> and a page's <code>index.html</code>. Run <code>hax serve</code> in the folder. Change a page in the file, save, and see it change.</p></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"Change it with the CLI\"><p>Run <code>hax site --help</code> and use it to add a page from the command line. Check the page shows up in <code>site.json</code> and in the browser.</p></ddd-steps-list-item><ddd-steps-list-item step=\"4\" title=\"Put it on GitHub and publish\"><p>Commit the folder and push it to a new public repository. Then publish it, for example with GitHub Pages using the workflow the CLI sets up:</p><code-sample copy-clipboard-button type=\"bash\"><template preserve-content=\"preserve-content\"># in the folder you bound on browser.hax.cloud (the one with site.json in it)\ncd ~/Documents/git/my-hax-site\nhax serve\n# edit a page in pages/, save, watch the browser update\ngit init\ngit add .\ngit commit -m \"My first HAX site\"\n# make an empty repo on github.com, then\ngit remote add origin https://github.com/<your-github-name>/my-hax-site.git\ngit push -u origin main\n# publish with GitHub Pages using the CLI's workflow\nhax site setup:github-actions</template></code-sample></ddd-steps-list-item><ddd-steps-list-item step=\"5\" title=\"Republish\"><p>Change something, commit, push. Watch it publish again on its own. Share the address in your journal.</p></ddd-steps-list-item></ddd-steps-list>\n<h2>Stuck? Ask your study buddy</h2>\n<p>Use AI to explain, not to do the work for you. Paste your own code or error with the prompt, read the answer, then close the chat and type the fix yourself. If you can't explain the fix out loud, you don't own it yet.</p>\n<a11y-collapse heading=\"Prompts for this page\" heading-button><div slot=\"content\"><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">I&#39;m publishing a HAX site from GitHub. Here&#39;s what happened: [paste the error or Actions log]. What should I check?</template></code-sample><code-sample copy-clipboard-button type=\"markdown\"><template preserve-content=\"preserve-content\">Here&#39;s my HAX site&#39;s site.json: [paste]. Is the page order and nesting what I meant? Explain how parent and order work.</template></code-sample></div></a11y-collapse>\n<h2>Check yourself</h2>\n<self-check title=\"Can you teach it?\"><p slot=\"question\">Explain to someone else the path a change takes from your keyboard to your published HAX site. Say it out loud, then open this to compare.</p><p>You edit a file in the folder (in the browser editor or VS Code). git records the change in a commit. You push it to GitHub. A workflow there builds and publishes the site, and the new version appears at your address.</p></self-check>\n<h2>You're done when</h2><bullet-check-list storage-id=\"onboard-capstone\" title=\"Capstone\" items=\"[{&quot;label&quot;:&quot;I made a site on browser.hax.cloud bound to a folder&quot;},{&quot;label&quot;:&quot;I edited a page locally and saw it change with hax serve&quot;},{&quot;label&quot;:&quot;I added a page with the hax CLI&quot;},{&quot;label&quot;:&quot;The site is a public GitHub repository&quot;},{&quot;label&quot;:&quot;It&#39;s published and republishes when I push&quot;},{&quot;label&quot;:&quot;It links to my card on Vercel&quot;}]\"></bullet-check-list>\n<h2>Journal it</h2><p>Add a heading for this page to your dev journal (the public Gist you made in Start here) and answer in Markdown:</p><ul><li>Link your published site and its repository.</li><li>What was harder: the browser, the CLI, or publishing?</li><li>What would you add to HAX after building this?</li></ul>",
+          "metadata": {
+            "published": true
+          }
+        },
+        {
+          "id": "item-next-steps",
+          "title": "Next: join HAX Lab",
+          "slug": "next-steps",
+          "parent": "item-into-hax",
+          "indent": 2,
+          "order": 24,
+          "content": "<p>You're onboarded. You know how a request works, how to build and ship a web component, how to drive it with data, and how a HAX site goes from your keyboard to the world. That's the same starting point every HAX contributor has had.</p>\n<h2>Where people go from here</h2>\n<p>HAX Lab is where students keep going: real issues, real reviews, real releases, with people who started where you are. Former HAX Lab students and contributors now work at places like Red Hat, Adobe, IBM, Ford and PennDOT.</p>\n<p>See who came before you on <a href=\"graduates\" target=\"_blank\" rel=\"noopener noreferrer\">Graduates</a> and what they built on <a href=\"outcomes\" target=\"_blank\" rel=\"noopener noreferrer\">Outcomes</a>. To talk about joining, see <a href=\"how-hax-lab-works\" target=\"_blank\" rel=\"noopener noreferrer\">How HAX Lab works</a>.</p>\n<ddd-steps-list><ddd-steps-list-item step=\"1\" title=\"Pick up your issue\"><p>Go back to the issue you commented on. Fork the repository, make the change on a branch, and open a pull request that links the issue. Expect feedback; that's the point.</p></ddd-steps-list-item><ddd-steps-list-item step=\"2\" title=\"Browse HAX Lab work\"><p>See what's tagged for the lab in the <a href=\"https://github.com/haxtheweb/issues/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22HAX%20Lab%20%E2%99%8E%2B%F0%9F%83%8F%2B%F0%9F%94%A5%20%3E%20%F0%9F%92%B8%22\" target=\"_blank\" rel=\"noopener noreferrer\">HAX Lab label</a>.</p></ddd-steps-list-item><ddd-steps-list-item step=\"3\" title=\"Run the community command\"><p>Run <code>hax party</code> in your terminal to find the community and ways to get involved.</p></ddd-steps-list-item><ddd-steps-list-item step=\"4\" title=\"Teach the next person\"><p>Keep sending fixes to this course. Every pull request to <code>haxtheweb/hax-lab</code> makes the path easier for the next person, and that's how SIIP works: the work you do comes back into the project.</p></ddd-steps-list-item></ddd-steps-list>\n<h2>You're done when</h2><bullet-check-list storage-id=\"onboard-next\" title=\"Next steps\" items=\"[{&quot;label&quot;:&quot;I opened (or started) a pull request for my issue&quot;},{&quot;label&quot;:&quot;I looked at what&#39;s tagged HAX Lab&quot;},{&quot;label&quot;:&quot;I ran hax party&quot;},{&quot;label&quot;:&quot;I sent (or planned) another fix to this course&quot;}]\"></bullet-check-list>",
+          "metadata": {
+            "published": true
+          }
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "item-home",
+      "indent": 0,
+      "location": "pages/item-home/index.html",
+      "slug": "home",
+      "order": 0,
+      "parent": null,
+      "title": "HAX Lab",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456219,
+        "updated": 1795456219
+      }
+    },
+    {
+      "id": "item-how-this-course-works",
+      "indent": 1,
+      "location": "pages/item-how-this-course-works/index.html",
+      "slug": "how-this-course-works",
+      "order": 0,
+      "parent": "item-onboarding",
+      "title": "How this course works",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456219,
+        "updated": 1795456219
+      }
+    },
+    {
+      "id": "item-how-hax-lab-works",
+      "indent": 0,
+      "location": "pages/item-how-hax-lab-works/index.html",
+      "slug": "how-hax-lab-works",
+      "order": 1,
+      "parent": null,
+      "title": "How HAX Lab works",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456219,
+        "updated": 1795456219
+      }
+    },
+    {
+      "id": "item-how-the-web-works",
+      "indent": 1,
+      "location": "pages/item-how-the-web-works/index.html",
+      "slug": "how-the-web-works",
+      "order": 1,
+      "parent": "item-onboarding",
+      "title": "1. How the web works",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456220,
+        "updated": 1795456220
+      }
+    },
+    {
+      "id": "item-what-happens-when-you-load-a-page",
+      "indent": 2,
+      "location": "pages/item-what-happens-when-you-load-a-page/index.html",
+      "slug": "what-happens-when-you-load-a-page",
+      "order": 2,
+      "parent": "item-how-the-web-works",
+      "title": "What happens when you load a page",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456220,
+        "updated": 1795456220
+      }
+    },
+    {
+      "id": "item-onboarding",
+      "indent": 0,
+      "location": "pages/item-onboarding/index.html",
+      "slug": "onboarding",
+      "order": 2,
+      "parent": null,
+      "title": "Onboarding",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456219,
+        "updated": 1795456219
+      }
+    },
+    {
+      "id": "item-accounts",
+      "indent": 2,
+      "location": "pages/item-accounts/index.html",
+      "slug": "accounts",
+      "order": 3,
+      "parent": "item-how-the-web-works",
+      "title": "Accounts you'll need",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456220,
+        "updated": 1795456220
+      }
+    },
+    {
+      "id": "item-siip",
+      "indent": 0,
+      "location": "pages/item-siip/index.html",
+      "slug": "siip",
+      "order": 3,
+      "parent": null,
+      "title": "SIIP: how a course becomes a pipeline",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456219,
+        "updated": 1795456219
+      }
+    },
+    {
+      "id": "item-install-your-tools",
+      "indent": 2,
+      "location": "pages/item-install-your-tools/index.html",
+      "slug": "install-your-tools",
+      "order": 4,
+      "parent": "item-how-the-web-works",
+      "title": "Install your tools",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456220,
+        "updated": 1795456220
+      }
+    },
+    {
+      "id": "item-graduates",
+      "indent": 0,
+      "location": "pages/item-graduates/index.html",
+      "slug": "graduates",
+      "order": 4,
+      "parent": null,
+      "title": "Graduates",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456219,
+        "updated": 1795456219
+      }
+    },
+    {
+      "id": "item-web-components",
+      "indent": 1,
+      "location": "pages/item-web-components/index.html",
+      "slug": "web-components",
+      "order": 5,
+      "parent": "item-onboarding",
+      "title": "2. Web components",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456220,
+        "updated": 1795456220
+      }
+    },
+    {
+      "id": "item-faculty-and-funding",
+      "indent": 0,
+      "location": "pages/item-faculty-and-funding/index.html",
+      "slug": "faculty-and-funding",
+      "order": 5,
+      "parent": null,
+      "title": "Faculty and funding",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456219,
+        "updated": 1795456219
+      }
+    },
+    {
+      "id": "item-what-are-web-components",
+      "indent": 2,
+      "location": "pages/item-what-are-web-components/index.html",
+      "slug": "what-are-web-components",
+      "order": 6,
+      "parent": "item-web-components",
+      "title": "What are web components",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456220,
+        "updated": 1795456220
+      }
+    },
+    {
+      "id": "item-outcomes",
+      "indent": 0,
+      "location": "pages/item-outcomes/index.html",
+      "slug": "outcomes",
+      "order": 6,
+      "parent": null,
+      "title": "Outcomes",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456219,
+        "updated": 1795456219
+      }
+    },
+    {
+      "id": "item-codepen-card",
+      "indent": 2,
+      "location": "pages/item-codepen-card/index.html",
+      "slug": "codepen-card",
+      "order": 7,
+      "parent": "item-web-components",
+      "title": "Project 1: a card in CodePen",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456220,
+        "updated": 1795456220
+      }
+    },
+    {
+      "id": "item-second-card",
+      "indent": 2,
+      "location": "pages/item-second-card/index.html",
+      "slug": "second-card",
+      "order": 8,
+      "parent": "item-web-components",
+      "title": "Project 1b: a second card",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456220,
+        "updated": 1795456220
+      }
+    },
+    {
+      "id": "item-design-systems",
+      "indent": 1,
+      "location": "pages/item-design-systems/index.html",
+      "slug": "design-systems",
+      "order": 9,
+      "parent": "item-onboarding",
+      "title": "3. Design systems",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456220,
+        "updated": 1795456220
+      }
+    },
+    {
+      "id": "item-design-systems-and-ddd",
+      "indent": 2,
+      "location": "pages/item-design-systems-and-ddd/index.html",
+      "slug": "design-systems-and-ddd",
+      "order": 10,
+      "parent": "item-design-systems",
+      "title": "Design systems and DDD",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456220,
+        "updated": 1795456220
+      }
+    },
+    {
+      "id": "item-real-development",
+      "indent": 1,
+      "location": "pages/item-real-development/index.html",
+      "slug": "real-development",
+      "order": 11,
+      "parent": "item-onboarding",
+      "title": "4. Real development",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456220,
+        "updated": 1795456220
+      }
+    },
+    {
+      "id": "item-npm-and-hax-webcomponent",
+      "indent": 2,
+      "location": "pages/item-npm-and-hax-webcomponent/index.html",
+      "slug": "npm-and-hax-webcomponent",
+      "order": 12,
+      "parent": "item-real-development",
+      "title": "npm and hax webcomponent",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456220,
+        "updated": 1795456220
+      }
+    },
+    {
+      "id": "item-port-your-card",
+      "indent": 2,
+      "location": "pages/item-port-your-card/index.html",
+      "slug": "port-your-card",
+      "order": 13,
+      "parent": "item-real-development",
+      "title": "Port your card",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456220,
+        "updated": 1795456220
+      }
+    },
+    {
+      "id": "item-github-and-vercel",
+      "indent": 2,
+      "location": "pages/item-github-and-vercel/index.html",
+      "slug": "github-and-vercel",
+      "order": 14,
+      "parent": "item-real-development",
+      "title": "GitHub and Vercel",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456220,
+        "updated": 1795456220
+      }
+    },
+    {
+      "id": "item-data-driven-cards",
+      "indent": 1,
+      "location": "pages/item-data-driven-cards/index.html",
+      "slug": "data-driven-cards",
+      "order": 15,
+      "parent": "item-onboarding",
+      "title": "5. Data-driven cards",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456221,
+        "updated": 1795456221
+      }
+    },
+    {
+      "id": "item-content-modeling-json",
+      "indent": 2,
+      "location": "pages/item-content-modeling-json/index.html",
+      "slug": "content-modeling-json",
+      "order": 16,
+      "parent": "item-data-driven-cards",
+      "title": "Content modeling and JSON",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456221,
+        "updated": 1795456221
+      }
+    },
+    {
+      "id": "item-fetch-and-render",
+      "indent": 2,
+      "location": "pages/item-fetch-and-render/index.html",
+      "slug": "fetch-and-render",
+      "order": 17,
+      "parent": "item-data-driven-cards",
+      "title": "Fetch and render, with AI",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456221,
+        "updated": 1795456221
+      }
+    },
+    {
+      "id": "item-card-controls",
+      "indent": 2,
+      "location": "pages/item-card-controls/index.html",
+      "slug": "card-controls",
+      "order": 18,
+      "parent": "item-data-driven-cards",
+      "title": "Card controls, without AI",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456221,
+        "updated": 1795456221
+      }
+    },
+    {
+      "id": "item-into-hax",
+      "indent": 1,
+      "location": "pages/item-into-hax/index.html",
+      "slug": "into-hax",
+      "order": 19,
+      "parent": "item-onboarding",
+      "title": "6. Into HAX",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456221,
+        "updated": 1795456221
+      }
+    },
+    {
+      "id": "item-what-is-hax",
+      "indent": 2,
+      "location": "pages/item-what-is-hax/index.html",
+      "slug": "what-is-hax",
+      "order": 20,
+      "parent": "item-into-hax",
+      "title": "What HAX is and how it works",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456221,
+        "updated": 1795456221
+      }
+    },
+    {
+      "id": "item-hack-this-course",
+      "indent": 2,
+      "location": "pages/item-hack-this-course/index.html",
+      "slug": "hack-this-course",
+      "order": 21,
+      "parent": "item-into-hax",
+      "title": "Hack this course",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456221,
+        "updated": 1795456221
+      }
+    },
+    {
+      "id": "item-first-issue",
+      "indent": 2,
+      "location": "pages/item-first-issue/index.html",
+      "slug": "first-issue",
+      "order": 22,
+      "parent": "item-into-hax",
+      "title": "Find your first issue",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456221,
+        "updated": 1795456221
+      }
+    },
+    {
+      "id": "item-capstone",
+      "indent": 2,
+      "location": "pages/item-capstone/index.html",
+      "slug": "capstone",
+      "order": 23,
+      "parent": "item-into-hax",
+      "title": "Capstone: your own HAX site",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456221,
+        "updated": 1795456221
+      }
+    },
+    {
+      "id": "item-next-steps",
+      "indent": 2,
+      "location": "pages/item-next-steps/index.html",
+      "slug": "next-steps",
+      "order": 24,
+      "parent": "item-into-hax",
+      "title": "Next: join HAX Lab",
+      "description": "",
+      "metadata": {
+        "published": true,
+        "created": 1795456221,
+        "updated": 1795456221
+      }
+    }
+  ],
+  "location": "/_sites/hax-lab/index.html"
+}
