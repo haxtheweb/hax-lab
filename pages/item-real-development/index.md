@@ -1,0 +1,3 @@
+CodePen was training wheels. Now your card becomes a real web component in a real project folder on your computer, styled with DDD, checked with audit tools, saved in GitHub and published by Vercel every time you push.
+
+<grid-plate layout="1-1"><ddd-card slot="col-1" title="npm and hax webcomponent" href="npm-and-hax-webcomponent"><p>Package managers, and scaffolding a component in one command.</p></ddd-card><ddd-card slot="col-2" title="Port your card" href="port-your-card"><p>Properties, slots, DDD and audits.</p></ddd-card><ddd-card slot="col-1" title="GitHub and Vercel" href="github-and-vercel"><p>Version control and a publishing pipeline that runs on every push.</p></ddd-card></grid-plate>

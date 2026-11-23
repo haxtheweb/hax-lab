@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item>
+<id>item-data-driven-cards</id>
+<indent>1</indent>
+<location>pages/item-data-driven-cards/index.xml</location>
+<slug>data-driven-cards</slug>
+<order>15</order>
+<parent>item-onboarding</parent>
+<title>5. Data-driven cards</title>
+<description></description>
+<metadata>
+<published>true</published>
+<created>1795456221</created>
+<updated>1795456221</updated>
+</metadata>
+<content><![CDATA[<p>Real cards don't have their content typed into HTML. YouTube's cards come from data. In this chapter your cards do too: you design the data, let AI help fill it in, fetch it, render it, and then, on your own, wire the buttons that change it.</p>
+<grid-plate layout="1-1"><ddd-card slot="col-1" title="Content modeling and JSON" href="content-modeling-json"><p>Design the shape of your data before you write it.</p></ddd-card><ddd-card slot="col-2" title="Fetch and render, with AI" href="fetch-and-render"><p>Load your JSON and draw a card for each item.</p></ddd-card><ddd-card slot="col-1" title="Card controls, without AI" href="card-controls"><p>Add, clone, change and delete cards, with limits.</p></ddd-card></grid-plate>]]></content>
+</item>

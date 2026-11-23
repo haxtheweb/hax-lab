@@ -1,0 +1,146 @@
+id: item-siip
+indent: 0
+location: pages/item-siip/index.yaml
+slug: siip
+order: 3
+parent: null
+title: 'SIIP: how a course becomes a pipeline'
+description: ''
+metadata:
+  published: true
+  created: 1795456219
+  updated: 1795456219
+content: >-
+  <p>SIIP, the Sustainable Impact and Innovation Pipeline, turns a course into a
+  contributor pipeline for an open source project without turning the course
+  into "the project class". Students learn the discipline. The project supplies
+  real problems. It's how HAX kept shipping with one full-time developer, and it
+  works at other schools and for other projects.</p>
+
+  <h2>Why it exists</h2>
+
+  <p>HAX went from a note card in 2015 to four full-time people at its peak,
+  then lost developers to industry after the pandemic until one remained in
+  2023. Feature output still climbed sharply from 2024, because the classroom
+  became a contributor pipeline. HAX 26 shipped the day before the talk that
+  introduced SIIP.</p>
+
+  <p><hax-story-link story="stories/6ec1599d" about="one maintainer, more
+  rockets" named="" compact=""></hax-story-link></p>
+
+  <h2>How a term is shaped</h2>
+
+  <p>A SIIP course spends its time in four parts. The onboarding on this site
+  follows the same shape.</p>
+
+  <editable-table bordered="" striped="" condensed=""><table>
+
+  <caption>The SIIP term and where onboarding matches it</caption>
+
+  <thead><tr><th scope="col">Share</th><th scope="col">What students do</th><th
+  scope="col">In onboarding</th></tr></thead>
+
+  <tbody>
+
+  <tr><td>About 40%</td><td>Skill up to contributor level, with heavy
+  scaffolding and live demos on the real codebase</td><td>Chapters 1 to
+  5</td></tr>
+
+  <tr><td>About 20%</td><td>A simple project that isn't for the community, to
+  practice the whole workflow safely</td><td>Your card, from CodePen to
+  Vercel</td></tr>
+
+  <tr><td>About 20%</td><td>A larger project tied to the project's needs, with
+  less scaffolding</td><td>Hack this course</td></tr>
+
+  <tr><td>About 20%</td><td>An unscaffolded, internship-like
+  contribution</td><td>Your first issue and the capstone</td></tr>
+
+  </tbody></table></editable-table>
+
+  <h2>Make thinking visible</h2>
+
+  <p>The teaching method is cognitive apprenticeship: the way a trade is
+  learned, adapted for work you can't see someone doing.</p>
+
+  <ddd-steps-list><ddd-steps-list-item step="1" title="Model"><p>The instructor
+  works on the real codebase out loud, narrating decisions and not only
+  steps.</p></ddd-steps-list-item><ddd-steps-list-item step="2"
+  title="Scaffold"><p>Students do the same work with support: starter code,
+  checklists, recorded
+  walkthroughs.</p></ddd-steps-list-item><ddd-steps-list-item step="3"
+  title="Fade"><p>Support drops away as skill grows, until students work from an
+  issue alone.</p></ddd-steps-list-item><ddd-steps-list-item step="4"
+  title="Coach"><p>Task choice, hints, feedback and rising challenge, in class
+  and in code review.</p></ddd-steps-list-item></ddd-steps-list>
+
+  <h2>What it has taught us</h2>
+
+  <ul>
+
+  <li>The biggest gains come six to twelve months after students take the
+  class.</li>
+
+  <li>The top 5 to 10% of a class often choose to go further.</li>
+
+  <li>HAX is the backdrop, not the subject. A gap in the docs becomes a
+  contribution, so fixing docs is part of onboarding.</li>
+
+  <li>Visible credit matters. Students' work is posted publicly, with their
+  permission.</li>
+
+  <li>Never make contributing to one project a grade students can't opt out of.
+  Offer another path.</li>
+
+  </ul>
+
+  <h2>The pipeline over time</h2>
+
+  <editable-table bordered="" striped="" condensed=""><table>
+
+  <caption>HAX by year (2021 and 2022 site counts are estimates; 2025 class
+  counts are projections)</caption>
+
+  <thead><tr><th scope="col">Year</th><th scope="col">Web components</th><th
+  scope="col">Sites</th><th scope="col">Full-time staff</th><th
+  scope="col">Student interns</th><th scope="col">Students in
+  classes</th></tr></thead>
+
+  <tbody>
+
+  <tr><td>2017</td><td>1</td><td></td><td>3.5</td><td>1</td><td></td></tr>
+
+  <tr><td>2019</td><td>198</td><td>1</td><td>3.5</td><td></td><td>39</td></tr>
+
+  <tr><td>2020</td><td>582</td><td>11</td><td>3.5</td><td>2</td><td>79</td></tr>
+
+  <tr><td>2021</td><td>664</td><td>106</td><td>3.5</td><td>3</td><td>78</td></tr>
+
+  <tr><td>2022</td><td>829</td><td>154</td><td>2.5</td><td>8</td><td>36</td></tr>
+
+  <tr><td>2023</td><td>844</td><td>202</td><td>2.5</td><td>1</td><td>112</td></tr>
+
+  <tr><td>2024</td><td>657</td><td>213</td><td>2.5</td><td>8</td><td>114</td></tr>
+
+  <tr><td>2025</td><td>675</td><td>247</td><td>2</td><td>5</td><td>109</td></tr>
+
+  </tbody></table></editable-table>
+
+  <h2>Watch and use it</h2>
+
+  <video-player source="https://www.youtube.com/watch?v=TNF0uzYi9Kk"
+  media-title="The SIIP talk, Apereo microconference, May 2026"></video-player>
+
+  <ul>
+
+  <li><a
+  href="https://btopro.com/hax/sustainable-impact-and-innovation-pipeline"
+  rel="noopener noreferrer">Sustainable Impact and Innovation Pipeline</a>: the
+  write-up.</li>
+
+  <li><a
+  href="https://github.com/haxtheweb/praw/tree/main/skills/siip-course-alignment"
+  rel="noopener noreferrer">The SIIP course alignment skill</a>: give an AI
+  agent your course and an open source project, and get a SIIP plan back.</li>
+
+  </ul>
