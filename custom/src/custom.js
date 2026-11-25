@@ -10,3 +10,4 @@ import "./hax-lab-bar.js";
 import "./web-request-sim.js";
 // hax-stat and hax-stat-strip are not in wc-registry.json, so the autoloader can't find them
 import("@haxtheweb/hax-marketing-theme/lib/hax-marketing-blocks.js").catch(() => {});
+import "./lab-ask-lens.js";
