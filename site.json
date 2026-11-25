@@ -17,12 +17,16 @@
         "pathauto": true
       },
       "created": 1795456222,
-      "updated": 1795456222,
+      "updated": 1795618277,
       "git": {
         "vendor": "github",
         "branch": "gh-pages"
       },
-      "domain": "https://lab.hax.cloud/"
+      "domain": "https://lab.hax.cloud/",
+      "sameAs": [
+        "https://github.com/haxtheweb",
+        "https://github.com/haxtheweb/lab"
+      ]
     },
     "theme": {
       "element": "clean-two",
@@ -921,6 +925,63 @@
         "published": true,
         "created": 1795456221,
         "updated": 1795456221
+      }
+    },
+    {
+      "id": "item-962104ee-d156-4595-8a92-ae14d56a198f",
+      "indent": 0,
+      "location": "pages/item-962104ee-d156-4595-8a92-ae14d56a198f/index.html",
+      "slug": "about",
+      "order": 7,
+      "parent": null,
+      "title": "About",
+      "description": "What this site is and who makes it.",
+      "metadata": {
+        "created": 1795618274,
+        "updated": 1795618274,
+        "images": [],
+        "videos": [],
+        "published": true,
+        "files": [],
+        "hideInMenu": false
+      }
+    },
+    {
+      "id": "item-0480f9b7-9ee4-4919-b30e-7df5b6461ff0",
+      "indent": 0,
+      "location": "pages/item-0480f9b7-9ee4-4919-b30e-7df5b6461ff0/index.html",
+      "slug": "contact",
+      "order": 8,
+      "parent": null,
+      "title": "Contact",
+      "description": "How to reach the people who make HAX.",
+      "metadata": {
+        "created": 1795618275,
+        "updated": 1795618275,
+        "images": [],
+        "videos": [],
+        "published": true,
+        "files": [],
+        "hideInMenu": false
+      }
+    },
+    {
+      "id": "item-c6455cec-0754-4387-a35b-1249ee572f82",
+      "indent": 0,
+      "location": "pages/item-c6455cec-0754-4387-a35b-1249ee572f82/index.html",
+      "slug": "privacy",
+      "order": 9,
+      "parent": null,
+      "title": "Privacy",
+      "description": "What this site keeps about you, in plain words.",
+      "metadata": {
+        "created": 1795618277,
+        "updated": 1795618277,
+        "images": [],
+        "videos": [],
+        "published": true,
+        "files": [],
+        "hideInMenu": true
       }
     }
   ],

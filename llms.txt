@@ -47,6 +47,8 @@ Managed files (feeds, search indexes, manifests, and this `llms.txt`) are genera
 - [Graduates](https://lab.hax.cloud/pages/item-graduates/index.md): Everyone the HAX Lab roster credits, newest first, each drawn as the character HAX would give them.
 - [Faculty and funding](https://lab.hax.cloud/pages/item-faculty-and-funding/index.md): Faculty fund student work that solves their own problems, and HAX gains the capability for everyone.
 - [Outcomes](https://lab.hax.cloud/pages/item-outcomes/index.md): Lab work counts twice: once in what HAX can do for everyone, and again in what the students can do next.
+- [About](https://lab.hax.cloud/pages/item-962104ee-d156-4595-8a92-ae14d56a198f/index.md): What this site is and who makes it.
+- [Contact](https://lab.hax.cloud/pages/item-0480f9b7-9ee4-4919-b30e-7df5b6461ff0/index.md): How to reach the people who make HAX.
 
 ## Optional
 - [Search index](https://lab.hax.cloud/lunrSearchIndex.json): Lunr corpus for quick full-text retrieval.
