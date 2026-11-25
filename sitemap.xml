@@ -1,193 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://localhost/_sites/hax-lab/home</loc>
+    <loc>https://lab.hax.cloud/home</loc>
     <lastmod>2026-11-23T17:50:19.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://localhost/_sites/hax-lab/how-this-course-works</loc>
+    <loc>https://lab.hax.cloud/how-this-course-works</loc>
     <lastmod>2026-11-23T17:50:19.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://localhost/_sites/hax-lab/how-hax-lab-works</loc>
-    <lastmod>2026-11-23T17:50:19.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://localhost/_sites/hax-lab/onboarding</loc>
+    <loc>https://lab.hax.cloud/how-hax-lab-works</loc>
     <lastmod>2026-11-23T17:50:19.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://localhost/_sites/hax-lab/siip</loc>
+    <loc>https://lab.hax.cloud/onboarding</loc>
     <lastmod>2026-11-23T17:50:19.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://localhost/_sites/hax-lab/graduates</loc>
+    <loc>https://lab.hax.cloud/siip</loc>
     <lastmod>2026-11-23T17:50:19.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://localhost/_sites/hax-lab/faculty-and-funding</loc>
+    <loc>https://lab.hax.cloud/graduates</loc>
     <lastmod>2026-11-23T17:50:19.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://localhost/_sites/hax-lab/outcomes</loc>
+    <loc>https://lab.hax.cloud/faculty-and-funding</loc>
     <lastmod>2026-11-23T17:50:19.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://localhost/_sites/hax-lab/how-the-web-works</loc>
+    <loc>https://lab.hax.cloud/outcomes</loc>
+    <lastmod>2026-11-23T17:50:19.000Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://lab.hax.cloud/how-the-web-works</loc>
     <lastmod>2026-11-23T17:50:20.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://localhost/_sites/hax-lab/what-happens-when-you-load-a-page</loc>
+    <loc>https://lab.hax.cloud/what-happens-when-you-load-a-page</loc>
     <lastmod>2026-11-23T17:50:20.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://localhost/_sites/hax-lab/accounts</loc>
+    <loc>https://lab.hax.cloud/accounts</loc>
     <lastmod>2026-11-23T17:50:20.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://localhost/_sites/hax-lab/install-your-tools</loc>
+    <loc>https://lab.hax.cloud/install-your-tools</loc>
     <lastmod>2026-11-23T17:50:20.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://localhost/_sites/hax-lab/web-components</loc>
-    <lastmod>2026-11-23T17:50:20.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost/_sites/hax-lab/what-are-web-components</loc>
-    <lastmod>2026-11-23T17:50:20.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://localhost/_sites/hax-lab/codepen-card</loc>
-    <lastmod>2026-11-23T17:50:20.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://localhost/_sites/hax-lab/second-card</loc>
-    <lastmod>2026-11-23T17:50:20.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://localhost/_sites/hax-lab/design-systems</loc>
+    <loc>https://lab.hax.cloud/web-components</loc>
     <lastmod>2026-11-23T17:50:20.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://localhost/_sites/hax-lab/design-systems-and-ddd</loc>
+    <loc>https://lab.hax.cloud/what-are-web-components</loc>
     <lastmod>2026-11-23T17:50:20.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://localhost/_sites/hax-lab/real-development</loc>
+    <loc>https://lab.hax.cloud/codepen-card</loc>
+    <lastmod>2026-11-23T17:50:20.000Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lab.hax.cloud/second-card</loc>
+    <lastmod>2026-11-23T17:50:20.000Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lab.hax.cloud/design-systems</loc>
     <lastmod>2026-11-23T17:50:20.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://localhost/_sites/hax-lab/npm-and-hax-webcomponent</loc>
+    <loc>https://lab.hax.cloud/design-systems-and-ddd</loc>
     <lastmod>2026-11-23T17:50:20.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://localhost/_sites/hax-lab/port-your-card</loc>
+    <loc>https://lab.hax.cloud/real-development</loc>
+    <lastmod>2026-11-23T17:50:20.000Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://lab.hax.cloud/npm-and-hax-webcomponent</loc>
     <lastmod>2026-11-23T17:50:20.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://localhost/_sites/hax-lab/github-and-vercel</loc>
+    <loc>https://lab.hax.cloud/port-your-card</loc>
     <lastmod>2026-11-23T17:50:20.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://localhost/_sites/hax-lab/data-driven-cards</loc>
+    <loc>https://lab.hax.cloud/github-and-vercel</loc>
+    <lastmod>2026-11-23T17:50:20.000Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lab.hax.cloud/data-driven-cards</loc>
     <lastmod>2026-11-23T17:50:21.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://localhost/_sites/hax-lab/content-modeling-json</loc>
+    <loc>https://lab.hax.cloud/content-modeling-json</loc>
     <lastmod>2026-11-23T17:50:21.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://localhost/_sites/hax-lab/fetch-and-render</loc>
+    <loc>https://lab.hax.cloud/fetch-and-render</loc>
     <lastmod>2026-11-23T17:50:21.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://localhost/_sites/hax-lab/card-controls</loc>
+    <loc>https://lab.hax.cloud/card-controls</loc>
     <lastmod>2026-11-23T17:50:21.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://localhost/_sites/hax-lab/into-hax</loc>
+    <loc>https://lab.hax.cloud/into-hax</loc>
     <lastmod>2026-11-23T17:50:21.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://localhost/_sites/hax-lab/what-is-hax</loc>
+    <loc>https://lab.hax.cloud/what-is-hax</loc>
     <lastmod>2026-11-23T17:50:21.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://localhost/_sites/hax-lab/hack-this-course</loc>
+    <loc>https://lab.hax.cloud/hack-this-course</loc>
     <lastmod>2026-11-23T17:50:21.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://localhost/_sites/hax-lab/first-issue</loc>
+    <loc>https://lab.hax.cloud/first-issue</loc>
     <lastmod>2026-11-23T17:50:21.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://localhost/_sites/hax-lab/capstone</loc>
+    <loc>https://lab.hax.cloud/capstone</loc>
     <lastmod>2026-11-23T17:50:21.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://localhost/_sites/hax-lab/next-steps</loc>
+    <loc>https://lab.hax.cloud/next-steps</loc>
     <lastmod>2026-11-23T17:50:21.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>

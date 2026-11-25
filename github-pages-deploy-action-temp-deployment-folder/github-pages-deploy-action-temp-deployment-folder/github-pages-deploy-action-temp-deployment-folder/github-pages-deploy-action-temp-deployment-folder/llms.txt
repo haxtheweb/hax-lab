@@ -1,0 +1,51 @@
+# hax-lab
+
+HAXcms is a file-based CMS: authored pages and metadata are stored as portable files, not locked into a database-only workflow.
+The canonical site structure is `site.json`, represented in JSON Outline Schema (`id`, `parent`, `order`, `slug`, `location`, and `metadata`).
+Use HAX CLI and ecosystem tooling to maintain human-authored content while keeping machine-readable outputs synchronized.
+Managed files (feeds, search indexes, manifests, and this `llms.txt`) are generated artifacts and should be rebuilt by tooling.
+
+## Core resources
+- [site.json](https://localhost/_sites/hax-lab/site.json): Canonical site manifest and navigation tree in JSON Outline Schema format.
+- [llms.txt](https://localhost/_sites/hax-lab/llms.txt): LLM-oriented guide to this site and its machine-readable resources.
+
+## Pages
+- [HAX Lab](https://localhost/_sites/hax-lab/pages/item-home/index.md)
+- [How this course works](https://localhost/_sites/hax-lab/pages/item-how-this-course-works/index.md)
+- [How HAX Lab works](https://localhost/_sites/hax-lab/pages/item-how-hax-lab-works/index.md)
+- [1. How the web works](https://localhost/_sites/hax-lab/pages/item-how-the-web-works/index.md)
+- [What happens when you load a page](https://localhost/_sites/hax-lab/pages/item-what-happens-when-you-load-a-page/index.md)
+- [Accounts you'll need](https://localhost/_sites/hax-lab/pages/item-accounts/index.md)
+- [Install your tools](https://localhost/_sites/hax-lab/pages/item-install-your-tools/index.md)
+- [Onboarding](https://localhost/_sites/hax-lab/pages/item-onboarding/index.md)
+- [2. Web components](https://localhost/_sites/hax-lab/pages/item-web-components/index.md)
+- [What are web components](https://localhost/_sites/hax-lab/pages/item-what-are-web-components/index.md)
+- [Project 1: a card in CodePen](https://localhost/_sites/hax-lab/pages/item-codepen-card/index.md)
+- [Project 1b: a second card](https://localhost/_sites/hax-lab/pages/item-second-card/index.md)
+- [3. Design systems](https://localhost/_sites/hax-lab/pages/item-design-systems/index.md)
+- [Design systems and DDD](https://localhost/_sites/hax-lab/pages/item-design-systems-and-ddd/index.md)
+- [4. Real development](https://localhost/_sites/hax-lab/pages/item-real-development/index.md)
+- [npm and hax webcomponent](https://localhost/_sites/hax-lab/pages/item-npm-and-hax-webcomponent/index.md)
+- [Port your card](https://localhost/_sites/hax-lab/pages/item-port-your-card/index.md)
+- [GitHub and Vercel](https://localhost/_sites/hax-lab/pages/item-github-and-vercel/index.md)
+- [5. Data-driven cards](https://localhost/_sites/hax-lab/pages/item-data-driven-cards/index.md)
+- [Content modeling and JSON](https://localhost/_sites/hax-lab/pages/item-content-modeling-json/index.md)
+- [Fetch and render, with AI](https://localhost/_sites/hax-lab/pages/item-fetch-and-render/index.md)
+- [Card controls, without AI](https://localhost/_sites/hax-lab/pages/item-card-controls/index.md)
+- [6. Into HAX](https://localhost/_sites/hax-lab/pages/item-into-hax/index.md)
+- [What HAX is and how it works](https://localhost/_sites/hax-lab/pages/item-what-is-hax/index.md)
+- [Hack this course](https://localhost/_sites/hax-lab/pages/item-hack-this-course/index.md)
+- [Find your first issue](https://localhost/_sites/hax-lab/pages/item-first-issue/index.md)
+- [Capstone: your own HAX site](https://localhost/_sites/hax-lab/pages/item-capstone/index.md)
+- [Next: join HAX Lab](https://localhost/_sites/hax-lab/pages/item-next-steps/index.md)
+- [SIIP: how a course becomes a pipeline](https://localhost/_sites/hax-lab/pages/item-siip/index.md)
+- [Graduates](https://localhost/_sites/hax-lab/pages/item-graduates/index.md)
+- [Faculty and funding](https://localhost/_sites/hax-lab/pages/item-faculty-and-funding/index.md)
+- [Outcomes](https://localhost/_sites/hax-lab/pages/item-outcomes/index.md)
+
+## Optional
+- [Search index](https://localhost/_sites/hax-lab/lunrSearchIndex.json): Lunr corpus for quick full-text retrieval.
+- [RSS feed](https://localhost/_sites/hax-lab/rss.xml): Site updates in RSS format.
+- [Atom feed](https://localhost/_sites/hax-lab/atom.xml): Site updates in Atom format.
+- [Sitemap](https://localhost/_sites/hax-lab/sitemap.xml): URL-level discovery map for the published site.
+- [Agent skills](https://localhost/_sites/hax-lab/.well-known/agent-skills/index.json): Agent Skills discovery index (agentskills.io v0.2.0) listing skills that teach an agent how to read, author, audit, and remix this site.

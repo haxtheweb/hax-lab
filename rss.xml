@@ -2,186 +2,186 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>hax-lab</title>
-    <link>https://localhost/_sites/hax-lab/</link>
-    <description></description>
-    <copyright>Copyright (C) 2026 https://localhost/_sites/hax-lab</copyright>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 23 Nov 2026 17:50:21 GMT</lastBuildDate>
-    <generator>HAXcms NodeJS</generator>
-    <atom:link href="https://localhost/_sites/hax-lab/rss.xml" rel="self" type="application/rss+xml"/>
+    <link>https://lab.hax.cloud/</link>
+    <description>HAX Lab: learn web development by shipping real HAX work, from onboarding to your first contribution</description>
+    <copyright>Copyright (C) 2026 https://lab.hax.cloud</copyright>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 23 Nov 2026 17:50:22 GMT</lastBuildDate>
+    <generator>HAXcms</generator>
+    <atom:link href="https://lab.hax.cloud/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>HAX Lab</title>
-      <link>https://localhost/_sites/hax-lab/home</link>
+      <link>https://lab.hax.cloud/home</link>
       <description>HAX Lab is where students and junior developers learn web development by shipping real work in HAX, the open source web publishing platform built at Penn State. Interns spend a term in the College of Arts and Architecture, and each one owns one real project: a theme, the command line, the design system, the dashboard. What they build ships to everyone who uses HAX. Find your way in New to web development? Go from nothing to your first HAX contribution, one page at a time. Class, clubs, the la...</description>
-      <guid>https://localhost/_sites/hax-lab/home</guid>
+      <guid>https://lab.hax.cloud/home</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:19 GMT</pubDate>
     </item>
     <item>
       <title>How this course works</title>
-      <link>https://localhost/_sites/hax-lab/how-this-course-works</link>
+      <link>https://lab.hax.cloud/how-this-course-works</link>
       <description>Every topic is one page. Each page takes about 10 to 20 minutes of reading or watching, then about an hour of doing. Do one page per sitting. Stop when you finish the checklist, not when you run out of energy. Read and watch: about 15 minutes Do: about 30 minutes You make: a public dev journal on GitHub Gist You need: nothing yet (you&apos;ll make a GitHub account on the accounts page; come back for the journal) Support level: full: every step is spelled out Every page has the same shape Time, wha...</description>
-      <guid>https://localhost/_sites/hax-lab/how-this-course-works</guid>
+      <guid>https://lab.hax.cloud/how-this-course-works</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:19 GMT</pubDate>
     </item>
     <item>
       <title>How HAX Lab works</title>
-      <link>https://localhost/_sites/hax-lab/how-hax-lab-works</link>
+      <link>https://lab.hax.cloud/how-hax-lab-works</link>
       <description>HAX Lab is one part of a loop. A course teaches web development on real HAX problems, student clubs bring their own passions, the lab gives a few students a full term on one project, faculty fund work that solves their own problems, and graduates come back as mentors. Each part feeds the next. The loop IST 256 at Penn State teaches modern front-end development, using HAX as the backdrop rather than the subject. Class projects often become HAX blocks. In one term, 36 students filed 24 UX findi...</description>
-      <guid>https://localhost/_sites/hax-lab/how-hax-lab-works</guid>
+      <guid>https://lab.hax.cloud/how-hax-lab-works</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:19 GMT</pubDate>
     </item>
     <item>
       <title>Onboarding</title>
-      <link>https://localhost/_sites/hax-lab/onboarding</link>
+      <link>https://lab.hax.cloud/onboarding</link>
       <description>HAX Lab onboarding is for students and junior developers. It takes you from knowing nothing about how websites are built to opening your first contribution to HAX, an open source web publishing project used across Penn State and beyond. You don&apos;t need any experience. You need a computer you can install software on, about two hours per page, and the willingness to break things on purpose. What you&apos;ll be able to do at the end Explain what happens between typing an address and seeing a page. Bui...</description>
-      <guid>https://localhost/_sites/hax-lab/onboarding</guid>
+      <guid>https://lab.hax.cloud/onboarding</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:19 GMT</pubDate>
     </item>
     <item>
       <title>SIIP: how a course becomes a pipeline</title>
-      <link>https://localhost/_sites/hax-lab/siip</link>
+      <link>https://lab.hax.cloud/siip</link>
       <description>SIIP, the Sustainable Impact and Innovation Pipeline, turns a course into a contributor pipeline for an open source project without turning the course into &quot;the project class&quot;. Students learn the discipline. The project supplies real problems. It&apos;s how HAX kept shipping with one full-time developer, and it works at other schools and for other projects. Why it exists HAX went from a note card in 2015 to four full-time people at its peak, then lost developers to industry after the pandemic unti...</description>
-      <guid>https://localhost/_sites/hax-lab/siip</guid>
+      <guid>https://lab.hax.cloud/siip</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:19 GMT</pubDate>
     </item>
     <item>
       <title>Graduates</title>
-      <link>https://localhost/_sites/hax-lab/graduates</link>
+      <link>https://lab.hax.cloud/graduates</link>
       <description>Everyone the HAX Lab roster credits, newest first, each drawn as the character HAX would give them. Former lab students and contributors now work at places like Red Hat, Adobe, IBM, Ford and PennDOT. Where they landed In their words Jimmy Kane led the team that built the first HAX dashboard in 2022. He&apos;s now an iOS engineer at Ford Motor Credit, and says the mobile-first habits from the lab still apply in Swift. Winston White took the class in 2024, then built themes, much of the HAX command ...</description>
-      <guid>https://localhost/_sites/hax-lab/graduates</guid>
+      <guid>https://lab.hax.cloud/graduates</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:19 GMT</pubDate>
     </item>
     <item>
       <title>Faculty and funding</title>
-      <link>https://localhost/_sites/hax-lab/faculty-and-funding</link>
+      <link>https://lab.hax.cloud/faculty-and-funding</link>
       <description>Faculty fund student work that solves their own problems, and HAX gains the capability for everyone. The faculty get what they need, the students get real, funded work, and the result ships in HAX. Grant sizes aren&apos;t listed here on purpose: it isn&apos;t a competition, and this work doesn&apos;t need much money. Faculty who have secured funding for the lab Bryan Ollendyke, College of Information Sciences and Technology. HAX&apos;s project lead teaches the web development course the lab grew out of, and has ...</description>
-      <guid>https://localhost/_sites/hax-lab/faculty-and-funding</guid>
+      <guid>https://lab.hax.cloud/faculty-and-funding</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:19 GMT</pubDate>
     </item>
     <item>
       <title>Outcomes</title>
-      <link>https://localhost/_sites/hax-lab/outcomes</link>
+      <link>https://lab.hax.cloud/outcomes</link>
       <description>Lab work counts twice: once in what HAX can do for everyone, and again in what the students can do next. For HAX The DDD design system. Keith Charlton Jr turned a class exercise in cloning Penn State designs into DDD and applied it across 60+ elements. Zach Dodson then added a DDD compliance audit to the HAX command line on his own time, and it was part of the class within weeks. The site dashboard, three times. Jimmy Kane&apos;s team of four built the first one in one semester in 2022; the 8-bit ...</description>
-      <guid>https://localhost/_sites/hax-lab/outcomes</guid>
+      <guid>https://lab.hax.cloud/outcomes</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:19 GMT</pubDate>
     </item>
     <item>
       <title>1. How the web works</title>
-      <link>https://localhost/_sites/hax-lab/how-the-web-works</link>
+      <link>https://lab.hax.cloud/how-the-web-works</link>
       <description>Before you write any code, you&apos;ll see what the web is doing when you click a link, and set up the accounts and tools every other page assumes. Browser, network, server, database. Play with a tiny web app and break it. GitHub, CodePen, Vercel and an AI study buddy. Node.js, git, VS Code and the HAX command line, for Windows, macOS and Linux.</description>
-      <guid>https://localhost/_sites/hax-lab/how-the-web-works</guid>
+      <guid>https://lab.hax.cloud/how-the-web-works</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
     </item>
     <item>
       <title>What happens when you load a page</title>
-      <link>https://localhost/_sites/hax-lab/what-happens-when-you-load-a-page</link>
+      <link>https://lab.hax.cloud/what-happens-when-you-load-a-page</link>
       <description>A website is a conversation. Your browser asks for something, a server somewhere answers with text, and the browser turns that text into what you see. Everything else in this course sits on top of that one idea. Read and watch: about 15 minutes Do: about 1 hour You make: notes on a request you watched and a page you &quot;hacked&quot; You need: Chrome, Edge or Firefox Support level: full Read and watch How the web works (MDN) : clients, servers, DNS, packets. Ten minutes. An overview of HTTP (MDN) : sk...</description>
-      <guid>https://localhost/_sites/hax-lab/what-happens-when-you-load-a-page</guid>
+      <guid>https://lab.hax.cloud/what-happens-when-you-load-a-page</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
     </item>
     <item>
       <title>Accounts you&apos;ll need</title>
-      <link>https://localhost/_sites/hax-lab/accounts</link>
+      <link>https://lab.hax.cloud/accounts</link>
       <description>Professional web developers live in a handful of free services. Make these accounts now so nothing stops you later. Use the same email and, where you can, sign in with GitHub so everything connects. Read and watch: about 10 minutes Do: about 45 minutes You make: five accounts, connected You need: an email address you&apos;ll keep (a school address can expire when you graduate) Support level: full Read Your GitHub profile is your portfolio. Employers read it. Pick a username you&apos;d put on a resume, ...</description>
-      <guid>https://localhost/_sites/hax-lab/accounts</guid>
+      <guid>https://lab.hax.cloud/accounts</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
     </item>
     <item>
       <title>Install your tools</title>
-      <link>https://localhost/_sites/hax-lab/install-your-tools</link>
+      <link>https://lab.hax.cloud/install-your-tools</link>
       <description>This is the page where most people get stuck, so go slowly. You&apos;ll install the same tools working developers use: a runtime for JavaScript, version control, an editor, and the HAX command line. Pick your operating system tab and follow it top to bottom. Read and watch: about 15 minutes Do: about 1 hour (installs take time; let them run) You make: a working terminal that prints version numbers You need: a computer where you have admin rights (Chromebooks and locked lab machines won&apos;t work) Sup...</description>
-      <guid>https://localhost/_sites/hax-lab/install-your-tools</guid>
+      <guid>https://lab.hax.cloud/install-your-tools</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
     </item>
     <item>
       <title>2. Web components</title>
-      <link>https://localhost/_sites/hax-lab/web-components</link>
+      <link>https://lab.hax.cloud/web-components</link>
       <description>Web components let you invent your own HTML tags. They&apos;re built into every modern browser, so code you write today keeps working long after the framework of the year is gone. This chapter covers where they came from, then has you build the card you&apos;ll carry through the rest of the course. A short history, the four browser features they&apos;re made of, and HTML, CSS and JS basics. Rebuild a video card you see on YouTube. Make a card that shares the first one&apos;s DNA.</description>
-      <guid>https://localhost/_sites/hax-lab/web-components</guid>
+      <guid>https://lab.hax.cloud/web-components</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
     </item>
     <item>
       <title>What are web components</title>
-      <link>https://localhost/_sites/hax-lab/what-are-web-components</link>
+      <link>https://lab.hax.cloud/what-are-web-components</link>
       <description>For years every web framework invented its own idea of a &quot;component&quot;, and every one of them only worked inside that framework. Web components are the browser&apos;s answer: a standard way to make your own tags that work anywhere HTML works, with or without a framework. Read and watch: about 20 minutes Do: about 1 hour You make: a list of the web components hiding on sites you use You need: the HTML and CSS basics below if they&apos;re new to you Support level: full Read and watch These are the slide de...</description>
-      <guid>https://localhost/_sites/hax-lab/what-are-web-components</guid>
+      <guid>https://lab.hax.cloud/what-are-web-components</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
     </item>
     <item>
       <title>Project 1: a card in CodePen</title>
-      <link>https://localhost/_sites/hax-lab/codepen-card</link>
+      <link>https://lab.hax.cloud/codepen-card</link>
       <description>Your first project is small on purpose: rebuild one video card from YouTube in plain HTML and CSS. A card is the perfect first thing to build. It has an image, a title, some details and a layout, and you&apos;ll find it on nearly every website. Read and watch: about 15 minutes Do: about 1 to 2 hours You make: a responsive video card in a public CodePen You need: your CodePen account Support level: full, with an example to model Read and watch The box model (web.dev) : margin, border, padding. You&apos;...</description>
-      <guid>https://localhost/_sites/hax-lab/codepen-card</guid>
+      <guid>https://lab.hax.cloud/codepen-card</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
     </item>
     <item>
       <title>Project 1b: a second card</title>
-      <link>https://localhost/_sites/hax-lab/second-card</link>
+      <link>https://lab.hax.cloud/second-card</link>
       <description>Now make a different card that shares the first one&apos;s DNA. Maybe it&apos;s the channel card that sits next to videos, or a playlist card. Same corners, same spacing, same type, different content and shape. Doing this by copy and paste shows you why the next chapter, design systems, exists. Read and watch: about 10 minutes Do: about 1 hour You make: two related cards side by side in one pen You need: your Project 1 pen Support level: medium: fewer steps, same tools Read CSS custom properties (MDN) ...</description>
-      <guid>https://localhost/_sites/hax-lab/second-card</guid>
+      <guid>https://lab.hax.cloud/second-card</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
     </item>
     <item>
       <title>3. Design systems</title>
-      <link>https://localhost/_sites/hax-lab/design-systems</link>
+      <link>https://lab.hax.cloud/design-systems</link>
       <description>A design system is a set of decisions made once, so nobody has to make them again: colors, spacing, type, corner radius, how a button looks when you hover it. You built a tiny one with three CSS variables. HAX runs on a big one called DDD, and it can wear other systems too. Tokens, DDD, and the same page in three systems.</description>
-      <guid>https://localhost/_sites/hax-lab/design-systems</guid>
+      <guid>https://lab.hax.cloud/design-systems</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
     </item>
     <item>
       <title>Design systems and DDD</title>
-      <link>https://localhost/_sites/hax-lab/design-systems-and-ddd</link>
+      <link>https://lab.hax.cloud/design-systems-and-ddd</link>
       <description>Every color, gap and font size in HAX comes from a token : a named CSS variable like --ddd-spacing-4 . Change what a token means and every element that uses it changes with it, the same trick as your --card-radius , at the scale of thousands of elements. Read and watch: about 20 minutes Do: about 1 hour You make: your second card restyled with DDD tokens You need: your Project 1b pen Support level: medium Read and look DDD documentation : open the color, spacing and typography sections and sk...</description>
-      <guid>https://localhost/_sites/hax-lab/design-systems-and-ddd</guid>
+      <guid>https://lab.hax.cloud/design-systems-and-ddd</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
     </item>
     <item>
       <title>4. Real development</title>
-      <link>https://localhost/_sites/hax-lab/real-development</link>
+      <link>https://lab.hax.cloud/real-development</link>
       <description>CodePen was training wheels. Now your card becomes a real web component in a real project folder on your computer, styled with DDD, checked with audit tools, saved in GitHub and published by Vercel every time you push. Package managers, and scaffolding a component in one command. Properties, slots, DDD and audits. Version control and a publishing pipeline that runs on every push.</description>
-      <guid>https://localhost/_sites/hax-lab/real-development</guid>
+      <guid>https://lab.hax.cloud/real-development</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
     </item>
     <item>
       <title>npm and hax webcomponent</title>
-      <link>https://localhost/_sites/hax-lab/npm-and-hax-webcomponent</link>
+      <link>https://lab.hax.cloud/npm-and-hax-webcomponent</link>
       <description>Nobody writes everything from scratch. Modern JavaScript projects are built from packages: small pieces of other people&apos;s code, downloaded and kept up to date by a package manager. npm is the one that comes with Node.js, and it&apos;s how you&apos;ll get Lit, DDD and every HAX element. Read and watch: about 20 minutes Do: about 1 hour You make: a my-card project running on your computer You need: Node.js, VS Code and the hax command working Support level: full Read and watch About npm and package.json ...</description>
-      <guid>https://localhost/_sites/hax-lab/npm-and-hax-webcomponent</guid>
+      <guid>https://lab.hax.cloud/npm-and-hax-webcomponent</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
     </item>
     <item>
       <title>Port your card</title>
-      <link>https://localhost/_sites/hax-lab/port-your-card</link>
+      <link>https://lab.hax.cloud/port-your-card</link>
       <description>Move your CodePen card into my-card.js . The parts that changed from card to card become properties. The description becomes a slot so it can hold real HTML. Your colors and spacing become DDD tokens. Then you let tools check your work before a human does. Read and watch: about 20 minutes Do: about 1 to 2 hours You make: a my-card element used five different ways in index.html You need: your Project 1 pen and the my-card project Support level: medium Read and watch Lit cheat sheet : propertie...</description>
-      <guid>https://localhost/_sites/hax-lab/port-your-card</guid>
+      <guid>https://lab.hax.cloud/port-your-card</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
     </item>
     <item>
       <title>GitHub and Vercel</title>
-      <link>https://localhost/_sites/hax-lab/github-and-vercel</link>
+      <link>https://lab.hax.cloud/github-and-vercel</link>
       <description>Your card only exists on your computer. In this step it goes to GitHub, where your history and your portfolio live, and Vercel watches that repository and publishes a fresh build every time you push. That loop is called CI/CD: continuous integration and continuous delivery. It&apos;s how almost every professional team ships. Read and watch: about 20 minutes Do: about 1 hour You make: a my-card repository on GitHub and a live my-card address on vercel.app You need: GitHub Desktop or git, and your V...</description>
-      <guid>https://localhost/_sites/hax-lab/github-and-vercel</guid>
+      <guid>https://lab.hax.cloud/github-and-vercel</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
     </item>
     <item>
       <title>5. Data-driven cards</title>
-      <link>https://localhost/_sites/hax-lab/data-driven-cards</link>
+      <link>https://lab.hax.cloud/data-driven-cards</link>
       <description>Real cards don&apos;t have their content typed into HTML. YouTube&apos;s cards come from data. In this chapter your cards do too: you design the data, let AI help fill it in, fetch it, render it, and then, on your own, wire the buttons that change it. Design the shape of your data before you write it. Load your JSON and draw a card for each item. Add, clone, change and delete cards, with limits.</description>
-      <guid>https://localhost/_sites/hax-lab/data-driven-cards</guid>
+      <guid>https://lab.hax.cloud/data-driven-cards</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:21 GMT</pubDate>
     </item>
     <item>
       <title>Content modeling and JSON</title>
-      <link>https://localhost/_sites/hax-lab/content-modeling-json</link>
+      <link>https://lab.hax.cloud/content-modeling-json</link>
       <description>Content modeling means deciding what your data looks like before you write any of it: which fields a card has, what type each one is, and which are required. Get this right and the code that follows is easy. Get it wrong and every card is a special case. Read and watch: about 15 minutes Do: about 1 hour You make: a cards.json file with at least 12 cards You need: your properties list from Project 1 and a JSON viewer Support level: medium; AI encouraged for filling in data Read and look json.o...</description>
-      <guid>https://localhost/_sites/hax-lab/content-modeling-json</guid>
+      <guid>https://lab.hax.cloud/content-modeling-json</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:21 GMT</pubDate>
     </item>
     <item>
       <title>Fetch and render, with AI</title>
-      <link>https://localhost/_sites/hax-lab/fetch-and-render</link>
+      <link>https://lab.hax.cloud/fetch-and-render</link>
       <description>Your element will now load cards.json itself and draw a card for every item. You&apos;ll use AI as a pair programmer for this one: it writes a first draft, you read it, run it and make it yours. Read and watch: about 15 minutes Do: about 1 to 2 hours You make: a card-list element that renders cards from JSON, live on Vercel You need: cards.json and your my-card project Support level: medium; AI as pair programmer Read and play Using fetch (MDN) . Rendering lists (Lit) : .map() inside a template. A...</description>
-      <guid>https://localhost/_sites/hax-lab/fetch-and-render</guid>
+      <guid>https://lab.hax.cloud/fetch-and-render</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:21 GMT</pubDate>
     </item>
   </channel>

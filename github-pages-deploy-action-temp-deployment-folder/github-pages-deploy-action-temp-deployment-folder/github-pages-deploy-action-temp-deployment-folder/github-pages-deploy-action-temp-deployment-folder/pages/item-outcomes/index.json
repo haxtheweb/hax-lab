@@ -1,0 +1,16 @@
+{
+  "id": "item-outcomes",
+  "indent": 0,
+  "location": "pages/item-outcomes/index.json",
+  "slug": "outcomes",
+  "order": 6,
+  "parent": null,
+  "title": "Outcomes",
+  "description": "",
+  "metadata": {
+    "published": true,
+    "created": 1795456219,
+    "updated": 1795456219
+  },
+  "content": "<p>Lab work counts twice: once in what HAX can do for everyone, and again in what the students can do next.</p>\n<h2>For HAX</h2>\n<hax-stat-strip>\n<hax-stat end=\"60\" suffix=\"+\" label=\"elements restyled with DDD, the design system a student built\" story=\"stories/e927ca96\"></hax-stat>\n<hax-stat end=\"3\" label=\"generations of the site dashboard, each built by students\" story=\"stories/6f003362\"></hax-stat>\n<hax-stat end=\"30\" label=\"security vulnerabilities found and fixed with the cyber security club\" story=\"stories/5f55a05d\"></hax-stat>\n</hax-stat-strip>\n<ul>\n<li><strong>The DDD design system.</strong> Keith Charlton Jr turned a class exercise in cloning Penn State designs into DDD and applied it across 60+ elements. Zach Dodson then added a DDD compliance audit to the HAX command line on his own time, and it was part of the class within weeks.</li>\n<li><strong>The site dashboard, three times.</strong> Jimmy Kane's team of four built the first one in one semester in 2022; the 8-bit characters HAX still uses came from it. Ashley Santana prototyped the second, Skyler Koba and Isabella Masso built it for HAX 25, and Chloe Martin, Alyssa Foran and Winston White built the third.</li>\n<li><strong>The HAX command line and skeletons.</strong> Winston White built much of the CLI and the skeleton templating system, one semester each.</li>\n<li><strong>Security.</strong> The cyber security club ran two long audits over two years and helped fix 30 vulnerabilities.</li>\n<li><strong>Themes and portfolio work</strong>, from the Bootstrap theme in 2021 to portfolio themes in 2025. The full list is on <a href=\"graduates\" rel=\"noopener noreferrer\">Graduates</a>.</li>\n</ul>\n<h2>For students</h2>\n<ul>\n<li><strong>Jobs where the skills are used daily</strong>, at places including Red Hat, Adobe, IBM, Ford and PennDOT.</li>\n<li><strong>Confidence.</strong> Ashley Santana came in with almost no coding experience and described herself as drowning on day one. She left able to turn her own designs into code.</li>\n<li><strong>Mentors, not just contributors.</strong> Winston White went from student to teaching assistant to trainer, and saw his own tools change how the next students started.</li>\n<li><strong>A portfolio of shipped work</strong> with public credit, instead of a grade on an assignment nobody else sees.</li>\n</ul>\n<p><hax-story-link story=\"stories/07be0f04\" about=\"from HAX Lab to industry\" named=\"\" compact=\"\"></hax-story-link> <hax-story-link story=\"stories/b5f8b52b\" about=\"from student to trainer\" named=\"\" compact=\"\"></hax-story-link> <hax-story-link story=\"stories/02c0ccfc\" about=\"the wins\" named=\"\" compact=\"\"></hax-story-link></p>"
+}

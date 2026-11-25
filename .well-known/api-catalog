@@ -1,24 +1,29 @@
 {
   "linkset": [
     {
-      "anchor": "https://localhost/_sites/hax-lab/",
+      "anchor": "https://lab.hax.cloud/",
       "item": [
         {
-          "href": "https://localhost/_sites/hax-lab/x/api",
+          "href": "https://lab.hax.cloud/x/api",
           "rel": "service"
         }
       ],
       "service-desc": [
         {
-          "href": "https://localhost/_sites/hax-lab/x/api/openapi",
+          "href": "https://lab.hax.cloud/x/api/openapi.json?profile=public",
+          "type": "application/json",
+          "title": "Public profile: operations that work without logging in"
+        },
+        {
+          "href": "https://lab.hax.cloud/x/api/openapi",
           "type": "application/json"
         },
         {
-          "href": "https://localhost/_sites/hax-lab/x/api/openapi.json",
+          "href": "https://lab.hax.cloud/x/api/openapi.json",
           "type": "application/json"
         },
         {
-          "href": "https://localhost/_sites/hax-lab/x/api/openapi.yaml",
+          "href": "https://lab.hax.cloud/x/api/openapi.yaml",
           "type": "application/yaml"
         }
       ]

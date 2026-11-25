@@ -1,11 +1,8 @@
 {
   "name": "hax-lab",
-  "version": "26.8.0",
-  "description": "",
+  "version": "26.11.0",
+  "description": "HAX Lab: learn web development by shipping real HAX work, from onboarding to your first contribution",
   "main": "index.html",
-  "author": {
-    "name": "btopro"
-  },
   "license": "Apache-2.0",
   "private": false,
   "publishConfig": {

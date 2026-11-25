@@ -1,0 +1,58 @@
+This is the page where most people get stuck, so go slowly. You'll install the same tools working developers use: a runtime for JavaScript, version control, an editor, and the HAX command line. Pick your operating system tab and follow it top to bottom.
+
+<stop-note status="info" title="At a glance"><div slot="message"><ul><li><strong>Read and watch:</strong> about 15 minutes</li><li><strong>Do:</strong> about 1 hour (installs take time; let them run)</li><li><strong>You make:</strong> a working terminal that prints version numbers</li><li><strong>You need:</strong> a computer where you have admin rights (Chromebooks and locked lab machines won't work)</li><li><strong>Support level:</strong> full</li></ul></div></stop-note>
+
+Read and watch
+--------------
+
+*   Watch this terminal primer first. You'll type commands on every page from now on.
+
+*   [Node.js and HAX setup guide](https://github.com/haxtheweb/edtechjoker/blob/master/nodejs-haxtheweb-setup.md): the long version of this page, by operating system.
+*   [Common issues](https://github.com/haxtheweb/edtechjoker/blob/master/common-issues.md): read it once now. It answers most problems before you have them.
+
+Do: install, in this order
+--------------------------
+
+<a11y-tabs aria-label="Install steps by operating system"><a11y-tab label="Windows" icon="hardware:desktop-windows"><ddd-steps-list><ddd-steps-list-item step="1" title="Git for Windows"><p>Install <a href="https://git-scm.com/downloads/win" rel="noopener noreferrer">Git for Windows</a>. Keep the defaults. It gives you <strong>Git Bash</strong>, the terminal to use for this course (PowerShell behaves differently from every example you'll find).</p></ddd-steps-list-item><ddd-steps-list-item step="2" title="Node.js LTS"><p>Download the <strong>LTS</strong> installer from <a href="https://nodejs.org/en/download" rel="noopener noreferrer">nodejs.org</a> and run it. Tick the box to install the extra tools if it asks.</p></ddd-steps-list-item><ddd-steps-list-item step="3" title="VS Code"><p>Install <a href="https://code.visualstudio.com" rel="noopener noreferrer">VS Code</a>. Open Extensions (the four squares on the left) and install <strong>lit-plugin</strong> and <strong>lit-html</strong>. They color the HTML and CSS inside your JavaScript.</p></ddd-steps-list-item><ddd-steps-list-item step="4" title="GitHub Desktop"><p>Install <a href="https://desktop.github.com" rel="noopener noreferrer">GitHub Desktop</a> and sign in. If git is new to you, use it: it shows what changed before you commit.</p></ddd-steps-list-item><ddd-steps-list-item step="5" title="Check it"><p>Close every terminal, open Git Bash, and run:</p><code-sample copy-clipboard-button="" type="bash"><template># In Git Bash, after installing Git for Windows and Node.js LTS
+node --version
+npm --version
+git --version
+npm install --global @haxtheweb/create
+hax --version</template></code-sample><p>Every line should print a version number. <code>command not found</code> usually means you need to close and reopen the terminal, or restart.</p></ddd-steps-list-item></ddd-steps-list></a11y-tab><a11y-tab label="macOS" icon="hardware:laptop-mac"><ddd-steps-list><ddd-steps-list-item step="1" title="Terminal and git"><p>Open Terminal (press Command and Space, type Terminal). The first command below installs Apple's command line tools, which include git.</p></ddd-steps-list-item><ddd-steps-list-item step="2" title="Node.js LTS"><p>Download the <strong>LTS</strong> installer from <a href="https://nodejs.org/en/download" rel="noopener noreferrer">nodejs.org</a>. If you already use Homebrew, <code>brew install node</code> works too.</p></ddd-steps-list-item><ddd-steps-list-item step="3" title="VS Code"><p>Install <a href="https://code.visualstudio.com" rel="noopener noreferrer">VS Code</a> and drag it into Applications. Open Extensions and install <strong>lit-plugin</strong> and <strong>lit-html</strong>.</p></ddd-steps-list-item><ddd-steps-list-item step="4" title="GitHub Desktop"><p>Install <a href="https://desktop.github.com" rel="noopener noreferrer">GitHub Desktop</a> and sign in.</p></ddd-steps-list-item><ddd-steps-list-item step="5" title="Check it"><code-sample copy-clipboard-button="" type="bash"><template># 1. Command line tools (git comes with them)
+xcode-select --install
+# 2. After installing Node.js LTS from nodejs.org, check it
+node --version
+npm --version
+git --version
+# 3. The HAX command line
+npm install --global @haxtheweb/create
+hax --version</template></code-sample><p>If <code>npm install --global</code> says <code>EACCES</code>, see the permissions fix in the setup guide above instead of using sudo.</p></ddd-steps-list-item></ddd-steps-list></a11y-tab><a11y-tab label="Linux" icon="hardware:computer"><ddd-steps-list><ddd-steps-list-item step="1" title="git"><p>Install git with your package manager.</p></ddd-steps-list-item><ddd-steps-list-item step="2" title="Node.js LTS"><p>Follow the Linux instructions on <a href="https://nodejs.org/en/download" rel="noopener noreferrer">nodejs.org</a>. Using nvm keeps global installs out of system folders.</p></ddd-steps-list-item><ddd-steps-list-item step="3" title="VS Code"><p>Install <a href="https://code.visualstudio.com" rel="noopener noreferrer">VS Code</a> plus <strong>lit-plugin</strong> and <strong>lit-html</strong>. GitHub Desktop isn't official on Linux; the git command line is fine.</p></ddd-steps-list-item><ddd-steps-list-item step="4" title="Check it"><code-sample copy-clipboard-button="" type="bash"><template># Ubuntu / Debian. Other distributions: use your package manager or nvm
+sudo apt-get install -y git
+# Node.js LTS: follow the "Linux" instructions on nodejs.org/en/download (nvm works well)
+node --version
+npm --version
+npm install --global @haxtheweb/create
+hax --version</template></code-sample></ddd-steps-list-item></ddd-steps-list></a11y-tab></a11y-tabs>
+
+Do: browser add-ons
+-------------------
+
+<ddd-steps-list><ddd-steps-list-item step="1" title="A JSON viewer"><p>Chrome and Edge: install <a href="https://chromewebstore.google.com/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa" rel="noopener noreferrer">JSON Formatter</a>. Firefox has one built in. Test it: open <a href="https://haxtheweb.org/site.json" rel="noopener noreferrer">haxtheweb.org/site.json</a>. You should see folding, colored data, not a wall of text. You'll read a lot of JSON in chapter 5.</p></ddd-steps-list-item><ddd-steps-list-item step="2" title="Your study buddy"><p>Keep <a href="https://claude.ai" rel="noopener noreferrer">claude.ai</a> pinned as a tab, or add <a href="https://claude.com/chrome" rel="noopener noreferrer">Claude in Chrome</a> if you're on a paid plan.</p></ddd-steps-list-item></ddd-steps-list>
+
+Stuck? Ask your study buddy
+---------------------------
+
+Use AI to explain, not to do the work for you. Paste your own code or error with the prompt, read the answer, then close the chat and type the fix yourself. If you can't explain the fix out loud, you don't own it yet.
+
+<multiple-choice question="You installed Node.js but the terminal says 'node: command not found'. What do you try first?" single-option="" randomize=""><input type="checkbox" value="Close the terminal and open a new one" data-correct="true"><input type="checkbox" value="Reinstall your operating system"><input type="checkbox" value="Install a different editor"><input type="checkbox" value="Run the command with sudo"></multiple-choice>
+
+You're done when
+----------------
+
+Journal it
+----------
+
+Add a heading for this page to your dev journal (the public Gist you made in Start here) and answer in Markdown:
+
+*   What broke during install, and how did you fix it? (Future you will thank you.)
+*   Paste the version numbers you got.

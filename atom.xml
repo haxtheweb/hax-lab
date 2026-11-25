@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>hax-lab</title>
-  <link href="https://localhost/_sites/hax-lab/" rel="self" />
-  <subtitle></subtitle>
-  <updated>2026-11-23T17:50:21.000Z</updated>
+  <link href="https://lab.hax.cloud/" rel="self" />
+  <subtitle>HAX Lab: learn web development by shipping real HAX work, from onboarding to your first contribution</subtitle>
+  <updated>2026-11-23T17:50:22.000Z</updated>
   <author>
       <name></name>
   </author>
-  <id>https://localhost/_sites/hax-lab/</id>
-  
+  <id>https://lab.hax.cloud/</id>
   <entry>
     <title>HAX Lab</title>
     <id>item-home</id>
     <updated>2026-11-23T17:50:19.000Z</updated>
     <published>2026-11-23T17:50:19.000Z</published>
     <summary></summary>
-    <link href="https://localhost/_sites/hax-lab/home"/>
+    <link href="https://lab.hax.cloud/home"/>
     
     <content type="html">
       <![CDATA[ <p>HAX Lab is where students and junior developers learn web development by shipping real work in HAX, the open source web publishing platform built at Penn State. Interns spend a term in the College of Arts and Architecture, and each one owns one real project: a theme, the command line, the design system, the dashboard. What they build ships to everyone who uses HAX.</p>
@@ -48,7 +47,7 @@
     <updated>2026-11-23T17:50:19.000Z</updated>
     <published>2026-11-23T17:50:19.000Z</published>
     <summary></summary>
-    <link href="https://localhost/_sites/hax-lab/how-this-course-works"/>
+    <link href="https://lab.hax.cloud/how-this-course-works"/>
     
     <content type="html">
       <![CDATA[ <p>Every topic is one page. Each page takes about 10 to 20 minutes of reading or watching, then about an hour of doing. Do one page per sitting. Stop when you finish the checklist, not when you run out of energy.</p>
@@ -77,7 +76,7 @@
     <updated>2026-11-23T17:50:19.000Z</updated>
     <published>2026-11-23T17:50:19.000Z</published>
     <summary></summary>
-    <link href="https://localhost/_sites/hax-lab/how-hax-lab-works"/>
+    <link href="https://lab.hax.cloud/how-hax-lab-works"/>
     
     <content type="html">
       <![CDATA[ <p>HAX Lab is one part of a loop. A course teaches web development on real HAX problems, student clubs bring their own passions, the lab gives a few students a full term on one project, faculty fund work that solves their own problems, and graduates come back as mentors. Each part feeds the next.</p>
@@ -101,7 +100,7 @@
     <updated>2026-11-23T17:50:19.000Z</updated>
     <published>2026-11-23T17:50:19.000Z</published>
     <summary></summary>
-    <link href="https://localhost/_sites/hax-lab/onboarding"/>
+    <link href="https://lab.hax.cloud/onboarding"/>
     
     <content type="html">
       <![CDATA[ <p>HAX Lab onboarding is for students and junior developers. It takes you from knowing nothing about how websites are built to opening your first contribution to HAX, an open source web publishing project used across Penn State and beyond. You don't need any experience. You need a computer you can install software on, about two hours per page, and the willingness to break things on purpose.</p>
@@ -127,7 +126,7 @@
     <updated>2026-11-23T17:50:19.000Z</updated>
     <published>2026-11-23T17:50:19.000Z</published>
     <summary></summary>
-    <link href="https://localhost/_sites/hax-lab/siip"/>
+    <link href="https://lab.hax.cloud/siip"/>
     
     <content type="html">
       <![CDATA[ <p>SIIP, the Sustainable Impact and Innovation Pipeline, turns a course into a contributor pipeline for an open source project without turning the course into "the project class". Students learn the discipline. The project supplies real problems. It's how HAX kept shipping with one full-time developer, and it works at other schools and for other projects.</p>
@@ -184,7 +183,7 @@
     <updated>2026-11-23T17:50:19.000Z</updated>
     <published>2026-11-23T17:50:19.000Z</published>
     <summary></summary>
-    <link href="https://localhost/_sites/hax-lab/graduates"/>
+    <link href="https://lab.hax.cloud/graduates"/>
     
     <content type="html">
       <![CDATA[ <p>Everyone the HAX Lab roster credits, newest first, each drawn as the character HAX would give them. Former lab students and contributors now work at places like Red Hat, Adobe, IBM, Ford and PennDOT.</p>
@@ -209,7 +208,7 @@
     <updated>2026-11-23T17:50:19.000Z</updated>
     <published>2026-11-23T17:50:19.000Z</published>
     <summary></summary>
-    <link href="https://localhost/_sites/hax-lab/faculty-and-funding"/>
+    <link href="https://lab.hax.cloud/faculty-and-funding"/>
     
     <content type="html">
       <![CDATA[ <p>Faculty fund student work that solves their own problems, and HAX gains the capability for everyone. The faculty get what they need, the students get real, funded work, and the result ships in HAX. Grant sizes aren't listed here on purpose: it isn't a competition, and this work doesn't need much money.</p>
@@ -231,7 +230,7 @@
     <updated>2026-11-23T17:50:19.000Z</updated>
     <published>2026-11-23T17:50:19.000Z</published>
     <summary></summary>
-    <link href="https://localhost/_sites/hax-lab/outcomes"/>
+    <link href="https://lab.hax.cloud/outcomes"/>
     
     <content type="html">
       <![CDATA[ <p>Lab work counts twice: once in what HAX can do for everyone, and again in what the students can do next.</p>
@@ -264,7 +263,7 @@
     <updated>2026-11-23T17:50:20.000Z</updated>
     <published>2026-11-23T17:50:20.000Z</published>
     <summary></summary>
-    <link href="https://localhost/_sites/hax-lab/how-the-web-works"/>
+    <link href="https://lab.hax.cloud/how-the-web-works"/>
     
     <content type="html">
       <![CDATA[ <p>Before you write any code, you'll see what the web is doing when you click a link, and set up the accounts and tools every other page assumes.</p>
@@ -277,7 +276,7 @@
     <updated>2026-11-23T17:50:20.000Z</updated>
     <published>2026-11-23T17:50:20.000Z</published>
     <summary></summary>
-    <link href="https://localhost/_sites/hax-lab/what-happens-when-you-load-a-page"/>
+    <link href="https://lab.hax.cloud/what-happens-when-you-load-a-page"/>
     
     <content type="html">
       <![CDATA[ <p>A website is a conversation. Your browser asks for something, a server somewhere answers with text, and the browser turns that text into what you see. Everything else in this course sits on top of that one idea.</p>
@@ -323,7 +322,7 @@ document.body.style.filter = 'invert(1)';</template></code-sample></ddd-steps-li
     <updated>2026-11-23T17:50:20.000Z</updated>
     <published>2026-11-23T17:50:20.000Z</published>
     <summary></summary>
-    <link href="https://localhost/_sites/hax-lab/accounts"/>
+    <link href="https://lab.hax.cloud/accounts"/>
     
     <content type="html">
       <![CDATA[ <p>Professional web developers live in a handful of free services. Make these accounts now so nothing stops you later. Use the same email and, where you can, sign in with GitHub so everything connects.</p>
@@ -351,7 +350,7 @@ document.body.style.filter = 'invert(1)';</template></code-sample></ddd-steps-li
     <updated>2026-11-23T17:50:20.000Z</updated>
     <published>2026-11-23T17:50:20.000Z</published>
     <summary></summary>
-    <link href="https://localhost/_sites/hax-lab/install-your-tools"/>
+    <link href="https://lab.hax.cloud/install-your-tools"/>
     
     <content type="html">
       <![CDATA[ <p>This is the page where most people get stuck, so go slowly. You'll install the same tools working developers use: a runtime for JavaScript, version control, an editor, and the HAX command line. Pick your operating system tab and follow it top to bottom.</p>
@@ -418,7 +417,7 @@ hax --version</template></code-sample></ddd-steps-list-item></ddd-steps-list>
     <updated>2026-11-23T17:50:20.000Z</updated>
     <published>2026-11-23T17:50:20.000Z</published>
     <summary></summary>
-    <link href="https://localhost/_sites/hax-lab/web-components"/>
+    <link href="https://lab.hax.cloud/web-components"/>
     
     <content type="html">
       <![CDATA[ <p>Web components let you invent your own HTML tags. They're built into every modern browser, so code you write today keeps working long after the framework of the year is gone. This chapter covers where they came from, then has you build the card you'll carry through the rest of the course.</p>
@@ -431,7 +430,7 @@ hax --version</template></code-sample></ddd-steps-list-item></ddd-steps-list>
     <updated>2026-11-23T17:50:20.000Z</updated>
     <published>2026-11-23T17:50:20.000Z</published>
     <summary></summary>
-    <link href="https://localhost/_sites/hax-lab/what-are-web-components"/>
+    <link href="https://lab.hax.cloud/what-are-web-components"/>
     
     <content type="html">
       <![CDATA[ <p>For years every web framework invented its own idea of a "component", and every one of them only worked inside that framework. Web components are the browser's answer: a standard way to make your own tags that work anywhere HTML works, with or without a framework.</p>
@@ -487,7 +486,7 @@ hax --version</template></code-sample></ddd-steps-list-item></ddd-steps-list>
     <updated>2026-11-23T17:50:20.000Z</updated>
     <published>2026-11-23T17:50:20.000Z</published>
     <summary></summary>
-    <link href="https://localhost/_sites/hax-lab/codepen-card"/>
+    <link href="https://lab.hax.cloud/codepen-card"/>
     
     <content type="html">
       <![CDATA[ <p>Your first project is small on purpose: rebuild one video card from YouTube in plain HTML and CSS. A card is the perfect first thing to build. It has an image, a title, some details and a layout, and you'll find it on nearly every website.</p>
@@ -549,7 +548,7 @@ hax --version</template></code-sample></ddd-steps-list-item></ddd-steps-list>
     <updated>2026-11-23T17:50:20.000Z</updated>
     <published>2026-11-23T17:50:20.000Z</published>
     <summary></summary>
-    <link href="https://localhost/_sites/hax-lab/second-card"/>
+    <link href="https://lab.hax.cloud/second-card"/>
     
     <content type="html">
       <![CDATA[ <p>Now make a different card that shares the first one's DNA. Maybe it's the channel card that sits next to videos, or a playlist card. Same corners, same spacing, same type, different content and shape. Doing this by copy and paste shows you why the next chapter, design systems, exists.</p>
@@ -597,7 +596,7 @@ hax --version</template></code-sample></ddd-steps-list-item></ddd-steps-list>
     <updated>2026-11-23T17:50:20.000Z</updated>
     <published>2026-11-23T17:50:20.000Z</published>
     <summary></summary>
-    <link href="https://localhost/_sites/hax-lab/design-systems"/>
+    <link href="https://lab.hax.cloud/design-systems"/>
     
     <content type="html">
       <![CDATA[ <p>A design system is a set of decisions made once, so nobody has to make them again: colors, spacing, type, corner radius, how a button looks when you hover it. You built a tiny one with three CSS variables. HAX runs on a big one called DDD, and it can wear other systems too.</p>
@@ -610,7 +609,7 @@ hax --version</template></code-sample></ddd-steps-list-item></ddd-steps-list>
     <updated>2026-11-23T17:50:20.000Z</updated>
     <published>2026-11-23T17:50:20.000Z</published>
     <summary></summary>
-    <link href="https://localhost/_sites/hax-lab/design-systems-and-ddd"/>
+    <link href="https://lab.hax.cloud/design-systems-and-ddd"/>
     
     <content type="html">
       <![CDATA[ <p>Every color, gap and font size in HAX comes from a <strong>token</strong>: a named CSS variable like <code>--ddd-spacing-4</code>. Change what a token means and every element that uses it changes with it, the same trick as your <code>--card-radius</code>, at the scale of thousands of elements.</p>
@@ -653,7 +652,7 @@ hax --version</template></code-sample></ddd-steps-list-item></ddd-steps-list>
     <updated>2026-11-23T17:50:20.000Z</updated>
     <published>2026-11-23T17:50:20.000Z</published>
     <summary></summary>
-    <link href="https://localhost/_sites/hax-lab/real-development"/>
+    <link href="https://lab.hax.cloud/real-development"/>
     
     <content type="html">
       <![CDATA[ <p>CodePen was training wheels. Now your card becomes a real web component in a real project folder on your computer, styled with DDD, checked with audit tools, saved in GitHub and published by Vercel every time you push.</p>
@@ -666,7 +665,7 @@ hax --version</template></code-sample></ddd-steps-list-item></ddd-steps-list>
     <updated>2026-11-23T17:50:20.000Z</updated>
     <published>2026-11-23T17:50:20.000Z</published>
     <summary></summary>
-    <link href="https://localhost/_sites/hax-lab/npm-and-hax-webcomponent"/>
+    <link href="https://lab.hax.cloud/npm-and-hax-webcomponent"/>
     
     <content type="html">
       <![CDATA[ <p>Nobody writes everything from scratch. Modern JavaScript projects are built from packages: small pieces of other people's code, downloaded and kept up to date by a package manager. npm is the one that comes with Node.js, and it's how you'll get Lit, DDD and every HAX element.</p>
@@ -704,7 +703,7 @@ npm start&lt;/your-github-name&gt;</template></code-sample><p>Answer the questio
     <updated>2026-11-23T17:50:20.000Z</updated>
     <published>2026-11-23T17:50:20.000Z</published>
     <summary></summary>
-    <link href="https://localhost/_sites/hax-lab/port-your-card"/>
+    <link href="https://lab.hax.cloud/port-your-card"/>
     
     <content type="html">
       <![CDATA[ <p>Move your CodePen card into <code>my-card.js</code>. The parts that changed from card to card become properties. The description becomes a slot so it can hold real HTML. Your colors and spacing become DDD tokens. Then you let tools check your work before a human does.</p>
@@ -793,7 +792,7 @@ globalThis.customElements.define(MyCard.tag, MyCard);</template></code-sample></
     <updated>2026-11-23T17:50:20.000Z</updated>
     <published>2026-11-23T17:50:20.000Z</published>
     <summary></summary>
-    <link href="https://localhost/_sites/hax-lab/github-and-vercel"/>
+    <link href="https://lab.hax.cloud/github-and-vercel"/>
     
     <content type="html">
       <![CDATA[ <p>Your card only exists on your computer. In this step it goes to GitHub, where your history and your portfolio live, and Vercel watches that repository and publishes a fresh build every time you push. That loop is called CI/CD: continuous integration and continuous delivery. It's how almost every professional team ships.</p>
@@ -843,7 +842,7 @@ git push -u origin main&lt;/your-github-name&gt;</template></code-sample></ddd-s
     <updated>2026-11-23T17:50:21.000Z</updated>
     <published>2026-11-23T17:50:21.000Z</published>
     <summary></summary>
-    <link href="https://localhost/_sites/hax-lab/data-driven-cards"/>
+    <link href="https://lab.hax.cloud/data-driven-cards"/>
     
     <content type="html">
       <![CDATA[ <p>Real cards don't have their content typed into HTML. YouTube's cards come from data. In this chapter your cards do too: you design the data, let AI help fill it in, fetch it, render it, and then, on your own, wire the buttons that change it.</p>
@@ -856,7 +855,7 @@ git push -u origin main&lt;/your-github-name&gt;</template></code-sample></ddd-s
     <updated>2026-11-23T17:50:21.000Z</updated>
     <published>2026-11-23T17:50:21.000Z</published>
     <summary></summary>
-    <link href="https://localhost/_sites/hax-lab/content-modeling-json"/>
+    <link href="https://lab.hax.cloud/content-modeling-json"/>
     
     <content type="html">
       <![CDATA[ <p>Content modeling means deciding what your data looks like before you write any of it: which fields a card has, what type each one is, and which are required. Get this right and the code that follows is easy. Get it wrong and every card is a special case.</p>
@@ -902,7 +901,7 @@ git push -u origin main&lt;/your-github-name&gt;</template></code-sample></ddd-s
     <updated>2026-11-23T17:50:21.000Z</updated>
     <published>2026-11-23T17:50:21.000Z</published>
     <summary></summary>
-    <link href="https://localhost/_sites/hax-lab/fetch-and-render"/>
+    <link href="https://lab.hax.cloud/fetch-and-render"/>
     
     <content type="html">
       <![CDATA[ <p>Your element will now load <code>cards.json</code> itself and draw a card for every item. You'll use AI as a pair programmer for this one: it writes a first draft, you read it, run it and make it yours.</p>

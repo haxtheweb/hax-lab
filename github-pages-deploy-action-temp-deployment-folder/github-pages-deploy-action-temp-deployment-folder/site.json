@@ -21,7 +21,8 @@
       "git": {
         "vendor": "github",
         "branch": "gh-pages"
-      }
+      },
+      "domain": "https://lab.hax.cloud/"
     },
     "theme": {
       "element": "clean-two",
@@ -51,7 +52,6 @@
       "allowedBlocks": []
     },
     "build": {
-      "version": "26.8.0",
       "structure": "from-skeleton",
       "type": "skeleton",
       "items": [
