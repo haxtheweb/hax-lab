@@ -52,7 +52,6 @@
       "allowedBlocks": []
     },
     "build": {
-      "version": "26.8.0",
       "structure": "from-skeleton",
       "type": "skeleton",
       "items": [

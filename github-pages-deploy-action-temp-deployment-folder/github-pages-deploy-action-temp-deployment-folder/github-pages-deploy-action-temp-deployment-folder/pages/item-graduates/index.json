@@ -1,0 +1,16 @@
+{
+  "id": "item-graduates",
+  "indent": 0,
+  "location": "pages/item-graduates/index.json",
+  "slug": "graduates",
+  "order": 4,
+  "parent": null,
+  "title": "Graduates",
+  "description": "",
+  "metadata": {
+    "published": true,
+    "created": 1795456219,
+    "updated": 1795456219
+  },
+  "content": "<p>Everyone the HAX Lab roster credits, newest first, each drawn as the character HAX would give them. Former lab students and contributors now work at places like Red Hat, Adobe, IBM, Ford and PennDOT.</p>\n<h2>Where they landed</h2>\n<hax-contributors show=\"landed\"></hax-contributors>\n<p><hax-story-link story=\"stories/07be0f04\" about=\"from HAX Lab to industry\" named=\"\" compact=\"\"></hax-story-link> <hax-story-link story=\"stories/325e6281\" about=\"Winston White\" named=\"\" compact=\"\"></hax-story-link> <hax-story-link story=\"stories/ee450a19\" about=\"Jimmy Kane\" named=\"\" compact=\"\"></hax-story-link></p>\n<h2>In their words</h2>\n<ul>\n<li><strong>Jimmy Kane</strong> led the team that built the first HAX dashboard in 2022. He's now an iOS engineer at Ford Motor Credit, and says the mobile-first habits from the lab still apply in Swift.</li>\n<li><strong>Winston White</strong> took the class in 2024, then built themes, much of the HAX command line and the skeleton system, and came back as a teaching assistant. He interned at Comcast and NASA before a site reliability role at IBM, and calls HAX \"one of the single most impactful things for my career.\"</li>\n</ul>\n<h2>The roster</h2>\n<hax-contributors show=\"lab\"></hax-contributors>\n<h2>Everyone with a commit</h2>\n<a11y-collapse heading=\"Everyone with code in the HAX web components\" heading-button=\"\"><div slot=\"content\"><hax-contributors show=\"code\"></hax-contributors></div></a11y-collapse>\n<p>The roster is kept in this site's own repository, <a href=\"https://github.com/haxtheweb/hax-lab\" rel=\"noopener noreferrer\">haxtheweb/hax-lab</a>. When you finish lab work, you're added to it.</p>"
+}

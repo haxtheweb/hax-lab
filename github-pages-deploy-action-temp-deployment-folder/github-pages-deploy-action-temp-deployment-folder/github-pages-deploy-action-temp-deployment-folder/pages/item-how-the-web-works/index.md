@@ -1,0 +1,3 @@
+Before you write any code, you'll see what the web is doing when you click a link, and set up the accounts and tools every other page assumes.
+
+<grid-plate layout="1-1"><ddd-card slot="col-1" title="What happens when you load a page" href="what-happens-when-you-load-a-page"><p>Browser, network, server, database. Play with a tiny web app and break it.</p></ddd-card><ddd-card slot="col-2" title="Accounts you'll need" href="accounts"><p>GitHub, CodePen, Vercel and an AI study buddy.</p></ddd-card><ddd-card slot="col-1" title="Install your tools" href="install-your-tools"><p>Node.js, git, VS Code and the HAX command line, for Windows, macOS and Linux.</p></ddd-card></grid-plate>
