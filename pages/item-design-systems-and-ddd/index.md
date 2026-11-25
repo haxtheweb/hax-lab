@@ -5,7 +5,7 @@ Every color, gap and font size in HAX comes from a **token**: a named CSS variab
 Read and look
 -------------
 
-*   [DDD documentation](https://haxtheweb.org/documentation/ddd): open the color, spacing and typography sections and skim. DDD stands for Design, Develop, Deliver. It began as a student independent study and now styles all of HAX.
+*   [DDD documentation](https://webcomponents.hax.cloud/elements/d-d-d/demo/index.html): open the color, spacing and typography sections and skim. DDD stands for Design, Develop, Deliver. It began as a student independent study and now styles all of HAX.
 *   [Design tokens (Material Design)](https://m3.material.io/foundations/design-tokens/overview): another big system explaining the same idea.
 
 One page, three systems
