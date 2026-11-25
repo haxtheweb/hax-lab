@@ -49,16 +49,34 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://lab.hax.cloud/how-the-web-works</loc>
-    <lastmod>2026-11-23T17:50:20.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://lab.hax.cloud/what-happens-when-you-load-a-page</loc>
     <lastmod>2026-11-23T17:50:20.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lab.hax.cloud/what-are-web-components</loc>
+    <lastmod>2026-11-23T17:50:20.000Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lab.hax.cloud/design-systems-and-ddd</loc>
+    <lastmod>2026-11-23T17:50:20.000Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lab.hax.cloud/npm-and-hax-webcomponent</loc>
+    <lastmod>2026-11-23T17:50:20.000Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lab.hax.cloud/how-the-web-works</loc>
+    <lastmod>2026-11-23T17:50:20.000Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://lab.hax.cloud/accounts</loc>
@@ -73,22 +91,22 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lab.hax.cloud/web-components</loc>
-    <lastmod>2026-11-23T17:50:20.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://lab.hax.cloud/what-are-web-components</loc>
-    <lastmod>2026-11-23T17:50:20.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://lab.hax.cloud/codepen-card</loc>
     <lastmod>2026-11-23T17:50:20.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lab.hax.cloud/port-your-card</loc>
+    <lastmod>2026-11-23T17:50:20.000Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lab.hax.cloud/web-components</loc>
+    <lastmod>2026-11-23T17:50:20.000Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://lab.hax.cloud/second-card</loc>
@@ -103,28 +121,10 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://lab.hax.cloud/design-systems-and-ddd</loc>
-    <lastmod>2026-11-23T17:50:20.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://lab.hax.cloud/real-development</loc>
     <lastmod>2026-11-23T17:50:20.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://lab.hax.cloud/npm-and-hax-webcomponent</loc>
-    <lastmod>2026-11-23T17:50:20.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lab.hax.cloud/port-your-card</loc>
-    <lastmod>2026-11-23T17:50:20.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://lab.hax.cloud/github-and-vercel</loc>
@@ -133,13 +133,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lab.hax.cloud/data-driven-cards</loc>
+    <loc>https://lab.hax.cloud/content-modeling-json</loc>
     <lastmod>2026-11-23T17:50:21.000Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.5</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lab.hax.cloud/content-modeling-json</loc>
+    <loc>https://lab.hax.cloud/what-is-hax</loc>
     <lastmod>2026-11-23T17:50:21.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -149,6 +149,18 @@
     <lastmod>2026-11-23T17:50:21.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lab.hax.cloud/hack-this-course</loc>
+    <lastmod>2026-11-23T17:50:21.000Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lab.hax.cloud/data-driven-cards</loc>
+    <lastmod>2026-11-23T17:50:21.000Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://lab.hax.cloud/card-controls</loc>
@@ -161,18 +173,6 @@
     <lastmod>2026-11-23T17:50:21.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://lab.hax.cloud/what-is-hax</loc>
-    <lastmod>2026-11-23T17:50:21.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lab.hax.cloud/hack-this-course</loc>
-    <lastmod>2026-11-23T17:50:21.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://lab.hax.cloud/first-issue</loc>
