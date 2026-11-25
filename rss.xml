@@ -66,17 +66,38 @@
       <pubDate>Mon, 23 Nov 2026 17:50:19 GMT</pubDate>
     </item>
     <item>
-      <title>1. How the web works</title>
-      <link>https://lab.hax.cloud/how-the-web-works</link>
-      <description>Before you write any code, you&apos;ll see what the web is doing when you click a link, and set up the accounts and tools every other page assumes. Browser, network, server, database. Play with a tiny web app and break it. GitHub, CodePen, Vercel and an AI study buddy. Node.js, git, VS Code and the HAX command line, for Windows, macOS and Linux.</description>
-      <guid>https://lab.hax.cloud/how-the-web-works</guid>
-      <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
-    </item>
-    <item>
       <title>What happens when you load a page</title>
       <link>https://lab.hax.cloud/what-happens-when-you-load-a-page</link>
       <description>A website is a conversation. Your browser asks for something, a server somewhere answers with text, and the browser turns that text into what you see. Everything else in this course sits on top of that one idea. Read and watch: about 15 minutes Do: about 1 hour You make: notes on a request you watched and a page you &quot;hacked&quot; You need: Chrome, Edge or Firefox Support level: full Read and watch How the web works (MDN) : clients, servers, DNS, packets. Ten minutes. An overview of HTTP (MDN) : sk...</description>
       <guid>https://lab.hax.cloud/what-happens-when-you-load-a-page</guid>
+      <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>What are web components</title>
+      <link>https://lab.hax.cloud/what-are-web-components</link>
+      <description>For years every web framework invented its own idea of a &quot;component&quot;, and every one of them only worked inside that framework. Web components are the browser&apos;s answer: a standard way to make your own tags that work anywhere HTML works, with or without a framework. Read and watch: about 20 minutes Do: about 1 hour You make: a list of the web components hiding on sites you use You need: the HTML and CSS basics below if they&apos;re new to you Support level: full Read and watch These are the slide de...</description>
+      <guid>https://lab.hax.cloud/what-are-web-components</guid>
+      <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Design systems and DDD</title>
+      <link>https://lab.hax.cloud/design-systems-and-ddd</link>
+      <description>Every color, gap and font size in HAX comes from a token : a named CSS variable like --ddd-spacing-4 . Change what a token means and every element that uses it changes with it, the same trick as your --card-radius , at the scale of thousands of elements. Read and watch: about 20 minutes Do: about 1 hour You make: your second card restyled with DDD tokens You need: your Project 1b pen Support level: medium Read and look DDD documentation : open the color, spacing and typography sections and sk...</description>
+      <guid>https://lab.hax.cloud/design-systems-and-ddd</guid>
+      <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>npm and hax webcomponent</title>
+      <link>https://lab.hax.cloud/npm-and-hax-webcomponent</link>
+      <description>Nobody writes everything from scratch. Modern JavaScript projects are built from packages: small pieces of other people&apos;s code, downloaded and kept up to date by a package manager. npm is the one that comes with Node.js, and it&apos;s how you&apos;ll get Lit, DDD and every HAX element. Read and watch: about 20 minutes Do: about 1 hour You make: a my-card project running on your computer You need: Node.js, VS Code and the hax command working Support level: full Read and watch About npm and package.json ...</description>
+      <guid>https://lab.hax.cloud/npm-and-hax-webcomponent</guid>
+      <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>1. How the web works</title>
+      <link>https://lab.hax.cloud/how-the-web-works</link>
+      <description>Before you write any code, you&apos;ll see what the web is doing when you click a link, and set up the accounts and tools every other page assumes. Browser, network, server, database. Play with a tiny web app and break it. GitHub, CodePen, Vercel and an AI study buddy. Node.js, git, VS Code and the HAX command line, for Windows, macOS and Linux.</description>
+      <guid>https://lab.hax.cloud/how-the-web-works</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
     </item>
     <item>
@@ -94,24 +115,24 @@
       <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
     </item>
     <item>
-      <title>2. Web components</title>
-      <link>https://lab.hax.cloud/web-components</link>
-      <description>Web components let you invent your own HTML tags. They&apos;re built into every modern browser, so code you write today keeps working long after the framework of the year is gone. This chapter covers where they came from, then has you build the card you&apos;ll carry through the rest of the course. A short history, the four browser features they&apos;re made of, and HTML, CSS and JS basics. Rebuild a video card you see on YouTube. Make a card that shares the first one&apos;s DNA.</description>
-      <guid>https://lab.hax.cloud/web-components</guid>
-      <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>What are web components</title>
-      <link>https://lab.hax.cloud/what-are-web-components</link>
-      <description>For years every web framework invented its own idea of a &quot;component&quot;, and every one of them only worked inside that framework. Web components are the browser&apos;s answer: a standard way to make your own tags that work anywhere HTML works, with or without a framework. Read and watch: about 20 minutes Do: about 1 hour You make: a list of the web components hiding on sites you use You need: the HTML and CSS basics below if they&apos;re new to you Support level: full Read and watch These are the slide de...</description>
-      <guid>https://lab.hax.cloud/what-are-web-components</guid>
-      <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
-    </item>
-    <item>
       <title>Project 1: a card in CodePen</title>
       <link>https://lab.hax.cloud/codepen-card</link>
       <description>Your first project is small on purpose: rebuild one video card from YouTube in plain HTML and CSS. A card is the perfect first thing to build. It has an image, a title, some details and a layout, and you&apos;ll find it on nearly every website. Read and watch: about 15 minutes Do: about 1 to 2 hours You make: a responsive video card in a public CodePen You need: your CodePen account Support level: full, with an example to model Read and watch The box model (web.dev) : margin, border, padding. You&apos;...</description>
       <guid>https://lab.hax.cloud/codepen-card</guid>
+      <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Port your card</title>
+      <link>https://lab.hax.cloud/port-your-card</link>
+      <description>Move your CodePen card into my-card.js . The parts that changed from card to card become properties. The description becomes a slot so it can hold real HTML. Your colors and spacing become DDD tokens. Then you let tools check your work before a human does. Read and watch: about 20 minutes Do: about 1 to 2 hours You make: a my-card element used five different ways in index.html You need: your Project 1 pen and the my-card project Support level: medium Read and watch Lit cheat sheet : propertie...</description>
+      <guid>https://lab.hax.cloud/port-your-card</guid>
+      <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>2. Web components</title>
+      <link>https://lab.hax.cloud/web-components</link>
+      <description>Web components let you invent your own HTML tags. They&apos;re built into every modern browser, so code you write today keeps working long after the framework of the year is gone. This chapter covers where they came from, then has you build the card you&apos;ll carry through the rest of the course. A short history, the four browser features they&apos;re made of, and HTML, CSS and JS basics. Rebuild a video card you see on YouTube. Make a card that shares the first one&apos;s DNA.</description>
+      <guid>https://lab.hax.cloud/web-components</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
     </item>
     <item>
@@ -129,31 +150,10 @@
       <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
     </item>
     <item>
-      <title>Design systems and DDD</title>
-      <link>https://lab.hax.cloud/design-systems-and-ddd</link>
-      <description>Every color, gap and font size in HAX comes from a token : a named CSS variable like --ddd-spacing-4 . Change what a token means and every element that uses it changes with it, the same trick as your --card-radius , at the scale of thousands of elements. Read and watch: about 20 minutes Do: about 1 hour You make: your second card restyled with DDD tokens You need: your Project 1b pen Support level: medium Read and look DDD documentation : open the color, spacing and typography sections and sk...</description>
-      <guid>https://lab.hax.cloud/design-systems-and-ddd</guid>
-      <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
-    </item>
-    <item>
       <title>4. Real development</title>
       <link>https://lab.hax.cloud/real-development</link>
       <description>CodePen was training wheels. Now your card becomes a real web component in a real project folder on your computer, styled with DDD, checked with audit tools, saved in GitHub and published by Vercel every time you push. Package managers, and scaffolding a component in one command. Properties, slots, DDD and audits. Version control and a publishing pipeline that runs on every push.</description>
       <guid>https://lab.hax.cloud/real-development</guid>
-      <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>npm and hax webcomponent</title>
-      <link>https://lab.hax.cloud/npm-and-hax-webcomponent</link>
-      <description>Nobody writes everything from scratch. Modern JavaScript projects are built from packages: small pieces of other people&apos;s code, downloaded and kept up to date by a package manager. npm is the one that comes with Node.js, and it&apos;s how you&apos;ll get Lit, DDD and every HAX element. Read and watch: about 20 minutes Do: about 1 hour You make: a my-card project running on your computer You need: Node.js, VS Code and the hax command working Support level: full Read and watch About npm and package.json ...</description>
-      <guid>https://lab.hax.cloud/npm-and-hax-webcomponent</guid>
-      <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>Port your card</title>
-      <link>https://lab.hax.cloud/port-your-card</link>
-      <description>Move your CodePen card into my-card.js . The parts that changed from card to card become properties. The description becomes a slot so it can hold real HTML. Your colors and spacing become DDD tokens. Then you let tools check your work before a human does. Read and watch: about 20 minutes Do: about 1 to 2 hours You make: a my-card element used five different ways in index.html You need: your Project 1 pen and the my-card project Support level: medium Read and watch Lit cheat sheet : propertie...</description>
-      <guid>https://lab.hax.cloud/port-your-card</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
     </item>
     <item>
@@ -164,17 +164,17 @@
       <pubDate>Mon, 23 Nov 2026 17:50:20 GMT</pubDate>
     </item>
     <item>
-      <title>5. Data-driven cards</title>
-      <link>https://lab.hax.cloud/data-driven-cards</link>
-      <description>Real cards don&apos;t have their content typed into HTML. YouTube&apos;s cards come from data. In this chapter your cards do too: you design the data, let AI help fill it in, fetch it, render it, and then, on your own, wire the buttons that change it. Design the shape of your data before you write it. Load your JSON and draw a card for each item. Add, clone, change and delete cards, with limits.</description>
-      <guid>https://lab.hax.cloud/data-driven-cards</guid>
-      <pubDate>Mon, 23 Nov 2026 17:50:21 GMT</pubDate>
-    </item>
-    <item>
       <title>Content modeling and JSON</title>
       <link>https://lab.hax.cloud/content-modeling-json</link>
       <description>Content modeling means deciding what your data looks like before you write any of it: which fields a card has, what type each one is, and which are required. Get this right and the code that follows is easy. Get it wrong and every card is a special case. Read and watch: about 15 minutes Do: about 1 hour You make: a cards.json file with at least 12 cards You need: your properties list from Project 1 and a JSON viewer Support level: medium; AI encouraged for filling in data Read and look json.o...</description>
       <guid>https://lab.hax.cloud/content-modeling-json</guid>
+      <pubDate>Mon, 23 Nov 2026 17:50:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>What HAX is and how it works</title>
+      <link>https://lab.hax.cloud/what-is-hax</link>
+      <description>HAX is a way to make websites without thinking about it, in a format that keeps working. A HAX site is a folder: one site.json that lists every page, one HTML file per page, and the files you uploaded. Pages are made of web components, the same kind you just built. No database, nothing to upgrade, copy the folder and the site comes with it. Read and watch: about 20 minutes Do: about 45 minutes You make: a map of one real HAX site&apos;s files You need: a JSON viewer Support level: medium Read and ...</description>
+      <guid>https://lab.hax.cloud/what-is-hax</guid>
       <pubDate>Mon, 23 Nov 2026 17:50:21 GMT</pubDate>
     </item>
     <item>
