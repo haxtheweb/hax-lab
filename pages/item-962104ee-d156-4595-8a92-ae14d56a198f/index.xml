@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item>
+<id>item-962104ee-d156-4595-8a92-ae14d56a198f</id>
+<indent>0</indent>
+<location>pages/item-962104ee-d156-4595-8a92-ae14d56a198f/index.xml</location>
+<slug>about</slug>
+<order>7</order>
+<parent></parent>
+<title>About</title>
+<description>What this site is and who makes it.</description>
+<metadata>
+<created>1795618274</created>
+<updated>1795618274</updated>
+<images>
+</images>
+<videos>
+</videos>
+</metadata>
+<content><![CDATA[<p>HAX Lab is where students learn web development by shipping real HAX work, from onboarding to a first contribution. This site explains how the lab works, how to start, and where its graduates have gone.</p><p>It is made by the HAX project (HAXTheWeb), an open-source effort to let anyone author, remix and publish on the web without needing to learn how the web works. This site is itself a HAX site; <a href="https://github.com/haxtheweb/lab">its source is on GitHub</a>. Its content is shared under the Creative Commons Attribution-ShareAlike (CC BY-SA) license.</p><p>To see how every part of HAX connects, visit <a href="https://hax.cloud/">hax.cloud</a>. To get in touch, use the <a href="contact">Contact</a> page.</p>]]></content>
+</item>
