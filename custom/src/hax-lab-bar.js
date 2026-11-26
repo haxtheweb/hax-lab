@@ -38,20 +38,23 @@ function addLab(net) {
   }
 }
 
-function addBar() {
-  if (globalThis.document.querySelector("hax-network-bar")) {
-    return;
+// The bar is 65px tall at every width (64px plus its 1px border). It goes
+// in at the top of the page as soon as this file runs, holding that space,
+// and becomes the bar once its modules load. Added only then, it pushed the
+// whole site down 65px after the theme had painted: a layout shift every
+// visitor saw (haxtheweb/issues#3428).
+const BAR_HEIGHT = "65px";
+
+function placeBar() {
+  const existing = globalThis.document.querySelector("hax-network-bar");
+  if (existing) {
+    return existing.__labPlaced ? existing : null;
   }
   const bar = globalThis.document.createElement("hax-network-bar");
+  bar.__labPlaced = true;
   bar.setAttribute("current", "lab");
   bar.style.display = "block";
-  bar.t = {
-    ...(bar.t || {}),
-    lab: (bar.t && bar.t.lab) || "Lab",
-    labAbout:
-      (bar.t && bar.t.labAbout) ||
-      "HAX Lab: where students and junior developers learn by shipping real HAX work.",
-  };
+  bar.style.minHeight = BAR_HEIGHT;
   globalThis.document.body.insertBefore(bar, globalThis.document.body.firstChild);
   // clean-two scrolls its own container and the body doesn't scroll, but the
   // theme's scrollIntoView on page load still nudges the document and hides
@@ -68,20 +71,55 @@ function addBar() {
     },
     { passive: true },
   );
+  return bar;
 }
+
+function finishBar(bar) {
+  bar.t = {
+    ...(bar.t || {}),
+    lab: (bar.t && bar.t.lab) || "Lab",
+    labAbout:
+      (bar.t && bar.t.labAbout) ||
+      "HAX Lab: where students and junior developers learn by shipping real HAX work.",
+  };
+  // the bar holds its own height now
+  bar.style.minHeight = "";
+}
+
+function whenBody(callback) {
+  if (globalThis.document.body) {
+    callback();
+  } else {
+    globalThis.addEventListener("DOMContentLoaded", callback, { once: true });
+  }
+}
+
+let placed = null;
+whenBody(() => {
+  placed = placeBar();
+});
 
 import("@haxtheweb/hax-network-bar/lib/hax-network.js")
   .then((net) => {
+    // Lab joins the network record before the bar is defined (and so
+    // before the placed element upgrades and renders)
     addLab(net);
     return import("@haxtheweb/hax-network-bar/hax-network-bar.js");
   })
   .then(() => {
-    if (globalThis.document.body) {
-      addBar();
-    } else {
-      globalThis.addEventListener("DOMContentLoaded", addBar);
-    }
+    whenBody(() => {
+      if (placed) {
+        finishBar(placed);
+      }
+    });
   })
   .catch(() => {
-    // the bar isn't published where this site loads from yet; the site works without it
+    // the bar isn't published where this site loads from yet; the site works
+    // without it, so give the space back
+    whenBody(() => {
+      if (placed) {
+        placed.remove();
+        placed = null;
+      }
+    });
   });
